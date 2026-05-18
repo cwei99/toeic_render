@@ -673,7 +673,7 @@ attach,v. 附上,初級,Please attach the file to your email.,請將文件作為
 automatic,adj. 自動的,中級,The doors open automatically when someone approaches.,有人靠近時，門會自動打開。
 automotive,adj. 汽車的,中級,He works in the automotive industry.,他在汽車業工作。
 available,adj. 可使用的；可購買的；有空的,中級,1. Is this meeting room available this afternoon? 2. These products are available online. 3. The manager is not available right now.,1. 這間會議室今天下午有空嗎？ 2. 這些產品可以在網路上購買。 3. 經理現在不在。
-backup,n. 備份；支援,中級,Always keep a backup of important files.,務必備份重要文件。
+backup,n. 備份；支援；備用方案 adj. 備用的；支援的 v. 備份,中級,1. Always keep a backup of important files. 2. I made a backup of my files. 3. We need a backup plan in case of failure.,1. 務必備份重要文件。 2. 我已經備份了我的文件。 3. 我們需要一個備用方案以防萬一。
 bank,n. 銀行 v. 暫存,初級,1. I went to the bank to deposit some money. 2. She banks her salary every month.,1. 我去銀行存了些錢。 2. 她每個月都把薪水存到銀行。
 beam,n. 光束,初級,A beam of light came through the window.,一束光線透過窗戶射了進來。
 benchmark,n. 標竿；標準,高級,This product sets a new benchmark in the industry.,該產品為業界樹立了新的標竿。
@@ -1242,3 +1242,252 @@ passage,n. 通道；走廊；段落；文章節選；通過；經過,中級,1. T
 amenity,n. 便利設施；生活配套設備（如健身房、Wi-Fi等）；舒適；便利；宜人條件,中級,1. The hotel offers many modern amenities. 2. The apartment lacks basic amenities.,1. 這家飯店提供許多現代化設施。 2. 這間公寓缺乏基本設施。
 facilitate,v. 促進；使容易；協助進行,中級,1. Technology can facilitate communication. 2. The manager facilitated the discussion between teams.,1. 科技可以促進溝通。 2. 經理促進了團隊之間的討論。
 accommodate,v. 容納；提供住宿；迎合；配合；適應；為…提供方便,中級,1. The hotel can accommodate up to 200 guests. 2. We will try to accommodate your request.,1. 飯店最多可容納200位客人。 2. 我們會盡力滿足您的要求。
+operating,adj. 運作中的；營運的；操作的,中級,1. The company reduced its operating costs. 2. The machine is operating normally.,1. 公司降低了營運成本。 2. 機器運轉正常。
+referral,n. 轉介；推薦；被轉介的人或案件,中級,1. Most of our clients come through referrals. 2. The doctor gave me a referral to a specialist.,1. 我們的客戶大多是透過推薦來的。 2. 醫生給我開了轉診單，要我去看專科醫生。
+deduction,n. 扣除；扣減額；推論；演繹推理,中級,1. There was a tax deduction on my paycheck. 2. He reached that conclusion by logical deduction.,1. 我的薪資單上有一筆稅金扣除。 2. 他透過邏輯推理得出了這個結論。
+subtraction,n. 減法；減少；扣除,初級,1. Children learn addition and subtraction in school. 2. The subtraction of costs reduced the profit.,1. 孩子在學校學習加減法。 2. 扣除成本後，利潤減少了。
+deduct,v. 扣除；減去；推論出 ,中級,1. The company will deduct taxes from your salary. 2. We can deduct the answer from the data.,1. 公司會從你的薪水中扣除稅金。 2. 我們可以從數據中推導出答案。
+commensurate,adj. 相稱的；成比例的；與…相當的,高級,1. Salary should be commensurate with experience. 2. The rewards were commensurate with the effort involved.,1. 薪資應與經驗相符。 2. 所付出的努力與所獲得的回報相稱。
+proportionate,adj. 成比例的；相稱的；均衡的,高級,1. The punishment should be proportionate to the crime. 2. Costs increased in proportionate amounts.,1. 懲罰應與犯罪程度相稱。 2. 費用應按比例增加。
+equivalent,adj. 相等的；等值的；相當於的 n. 對等物；等同的人或事物,中級,1. This qualification is equivalent to a bachelor’s degree. 2. One dollar is roughly equivalent to thirty Taiwan dollars.,1. 此資格相當於學士學位。 2. 一美元約等於三十新台幣。
+contend,v. 主張；聲稱；奮力對抗；競爭；斗爭；應付困難,高級,1. Experts contend that climate change is accelerating. 2. The team will contend for the championship.,1. 專家認為氣候變遷正在加速。 2. 這支球隊將力爭奪冠。
+cooperate,v. 合作；配合；協力,初級,1. We need to cooperate to finish the project. 2. The company cooperates with several international partners.,1. 我們需要合作才能完成這個專案。 2. 該公司與多家國際合作夥伴合作。
+acceptance,n. 接受；承認；同意,中級,1. The acceptance of the offer was confirmed. 2. She gained acceptance into the program.,1. 她已確認接受該錄取通知。 2. 她被該計畫錄取了。
+approval,n. 批准；核准；贊同；認可,中級,1. The plan needs management approval. 2. She nodded in approval.,1. 該計劃需要管理層批准。 2. 她點頭表示同意。
+adoption,n. 採用；採納；領養；接受並使用,中級,1. The adoption of new technology improved efficiency. 2. They are considering the adoption of a child.,1. 新技術的應用提高了效率。 2. 他們正在考慮收養一個孩子。
+refusal,n. 拒絕；否決；回絕,中級,1. His refusal to cooperate caused delays. 2. The company received a refusal from the client.,1. 他拒絕合作，導致延誤。 2. 公司收到了客戶的拒絕信。
+additionally,adv. 此外；另外；再者,初級,"1. Additionally, we offer free shipping. 2. The course includes theory and, additionally, practical training.",1. 此外，我們也提供免費送貨服務。 2. 課程包括理論學習和實務訓練。
+moreover,adv. 此外；而且；再者,中級,"1. The product is affordable; moreover, it is high quality. 2. He is experienced; moreover, he is very reliable.",1. 該產品價格實惠，而且品質優良。 2. 他經驗豐富，而且非常可靠。
+furthermore,adv. 此外；而且；進一步地,中級,"1. The plan is cost-effective; furthermore, it is easy to implement. 2. She is highly qualified; furthermore, she has years of experience.",1. 該方案經濟高效，而且易於實施。 2. 她資歷深厚，而且經驗豐富。
+banner,n. 橫幅；旗幟；廣告橫幅,初級,1. A large banner was hung across the street. 2. The website displays a banner advertisement.,1. 街對面掛著一幅大型橫幅。 2. 網站上展示了一則橫幅廣告。
+poster,n. 海報；張貼畫,初級,1. We put a poster on the wall. 2. The movie poster attracted many people.,1. 我們在牆上貼了一張海報。 2. 這張電影海報吸引了許多人。
+sign,n. 標誌；符號；徵兆；招牌 v. 簽名；簽署；示意,初級,1. There is a stop sign at the corner. 2. Please sign your name here.,1. 路口有停車標誌。 2. 請在此處簽名。
+negotiation,n. 協商；談判；磋商,中級,1. The negotiation between the two companies lasted for hours. 2. Successful negotiation requires good communication skills.,1. 兩家公司之間的談判持續了數小時。 2. 成功的談判需要良好的溝通技巧。
+beginner,n. 初學者；新手,初級,1. This course is suitable for beginners. 2. I am just a beginner in programming.,1. 這門課程適合初學者。 2. 我只是個程式新手。
+novice,n. 新手；初學者；生手,中級,1. He is still a novice in trading. 2. The system is easy enough for novices to use.,1. 他還是個交易新手。 2. 這套系統操作簡單，新手也能輕鬆上手。
+starter,n. 初學者；入門者；前菜；開胃菜；啟動裝置 adj. 入門的；初級的,初級,1. This course is designed for starters. 2. We ordered a salad as a starter.,1. 這門課程是為初學者設計的。 2. 我們點了一份沙拉當開胃菜。
+vibrant,adj. 充滿活力的；生氣勃勃的；鮮豔的；鮮明的；強烈而有感染力的,中級,1. The city has a vibrant nightlife. 2. She wore a vibrant red dress.,1. 這座城市夜生活豐富多彩。 2. 她穿著一件鮮豔的紅色洋裝。
+bright,adj. 明亮的；光亮的；聰明的；有才智的；鮮豔的；清晰的,初級,1. The room is bright and spacious. 2. She is a bright student.,1. 房間明亮寬敞。 2. 她是一位優秀的學生。
+hygiene,n. 衛生；保健；衛生習慣,初級,1. Good hygiene is important for health. 2. The restaurant follows strict hygiene standards.,1. 良好的衛生習慣對健康很重要。 2. 這家餐廳遵循嚴格的衛生標準。
+neatness,n. 整潔；整齊；乾淨有序的狀態,初級,1. The teacher praised the neatness of his handwriting. 2. Neatness is important in the workplace.,1. 老師稱讚他字跡工整。 2. 在職場中，整潔很重要。
+dirtiness,n. 骯髒；不潔；污穢狀態,初級,1. The dirtiness of the room surprised us. 2. He complained about the dirtiness of the streets.,1. 房間的髒亂程度讓我們感到驚訝。 2. 他抱怨街道的髒亂。
+certified,adj. 已認證的；合格的,中級,1. She is a certified accountant. 2. The document is certified by the government.,1. 她是註冊會計師。 2. 這份文件已由政府認證。
+pamphlet,n. 小冊子；宣傳手冊；簡介手冊,初級,1. The pamphlet explains the new policy. 2. We received a travel pamphlet at the hotel.,1. 這本小冊子解釋了新政策。 2. 我們在飯店收到了一份旅遊小冊子。
+aesthetic,adj. 美學的；有美感的；審美的 n. 美感；審美觀；美學,高級,1. The design has a clean aesthetic. 2. The building combines function and aesthetic.,1. 設計風格簡潔美觀。 2. 該建築兼具功能性和美觀性。
+cooler,n. 冷卻器；冰桶；冷藏箱,初級,We put drinks in the cooler.,我們把飲料放進冷藏箱裡。
+definite,adj. 明確的；確定的；清楚的,中級,1. We need a definite answer by tomorrow. 2. There is no definite plan yet.,1. 我們需要在明天之前得到明確的答案。 2. 目前還沒有具體的計畫。
+vague,adj. 模糊的；不清楚的；含糊的,中級,1. His explanation was vague and confusing. 2. I have a vague idea of what happened.,1. 他的解釋含糊不清，令人困惑。 2. 我對發生的事情只有個模糊的概念。
+subsequently,adv. 隨後；接著；之後,中級,1. The company was founded in 2010 and subsequently expanded overseas. 2. He moved to Japan and subsequently started a new job.,1. 該公司成立於2010年，隨後拓展了海外業務。 2. 他搬到了日本，隨後開始了一份新工作。
+careless,adj. 粗心的；不小心的；馬虎的,初級,1. He made a careless mistake on the exam. 2. Careless driving can lead to accidents.,1. 他在考試中犯了一個粗心的錯誤。 2. 粗心駕駛會導致事故。
+sloppy,adj. 馬虎的；草率的；邋遢的；不整潔的,中級,1. He did a sloppy job on the report. 2. Her handwriting is sloppy and hard to read.,1. 他報告寫得很馬虎。 2. 她的字跡潦草，難以辨認。
+cautious,adj. 謹慎的；小心的；慎重的,中級,1. He is cautious about investing money. 2. Be cautious when driving in the rain.,1. 他投資理財很謹慎。 2. 雨天開車要小心。
+traffic,n. 交通；車流；流量（道路或網路）,初級,1. The traffic is heavy during rush hour. 2. There is a lot of traffic on the highway.,1. 尖峰時段交通擁擠。 2. 高速公路上車流量大。
+prioritize,v. 優先處理；優先考慮；按重要性排序,中級,1. You should prioritize urgent tasks. 2. The company prioritizes customer satisfaction.,1. 你應該優先處理緊急任務。 2. 公司將客戶滿意度放在第一位。
+fall through,phr. v. 失敗；落空；未能實現,中級,The deal fell through at the last minute.,交易在最後一刻告吹。
+collapse,v./n. 倒塌；崩潰；瓦解；衰竭,中級,1. The building collapsed after the earthquake. 2. He collapsed from exhaustion.,1. 地震後，建築物倒塌了。 2. 他因精疲力竭而倒下。
+salon,n. 美容院；髮廊；沙龍,初級,She went to the salon to get a haircut.,她去理髮店剪頭髮。
+revenue,n. 收入；營收；收益（特別指公司或政府的總收入）,中級,1. The company’s revenue increased this year. 2. Tax revenue is used for public services.,1. 該公司今年的營收有所成長。 2. 稅收收入用於公共服務。
+selling,n. 銷售（行為）adj. 暢銷的 ,初級,1. The selling of products increased last month. 2. This is the best-selling book of the year.,1. 上個月產品銷售量有所成長。 2. 這是年度最暢銷書籍。
+reform,v./n. 改革；改良；改造,中級,1. The government plans to reform the education system. 2. Economic reform is necessary for growth.,1. 政府計畫改革教育體系。 2. 經濟改革對經濟成長至關重要。
+guideline,n. 指導方針；準則；指引,中級,1. Follow the safety guidelines carefully. 2. The company issued new guidelines for employees.,1. 請嚴格遵守安全準則。 2. 公司發布了新的員工準則。
+inactive,adj. 不活躍的；未運作的；閒置的,初級,1. The account has been inactive for a long time. 2. The machine is currently inactive.,1. 該帳戶已長期處於非活動狀態。 2. 該設備目前處於非活動狀態。
+idle,adj. 閒置的；空閒的；無所事事的 v. 使閒置；空轉,中級,1. The machines have been idle for hours. 2. Don’t let the engine idle for too long.,1. 這些機器已經閒置好幾個小時了。 2. 不要讓引擎長時間怠速運轉。
+dormant,adj. 休眠的；潛伏的；暫時不活躍的 ,高級,1. The volcano has been dormant for centuries. 2. The project remained dormant for several years.,1. 這座火山已經休眠了幾個世紀。 2. 該專案停滯了數年。
+fasten,v. 扣緊；繫緊；固定；使附著；連接,初級,1. Please fasten your seatbelt. 2. He fastened the button on his coat.,1. 請係好安全帶。 2. 他扣上了外套的羈扣。
+compress,v. 壓縮；擠壓；縮小體積,中級,1. The machine compresses the air into a small tank. 2. You should compress the file before sending it.,1. 這台機器將空氣壓縮到一個小型儲氣罐中。 2. 在發送文件前，您應該先壓縮文件。
+designated,adj. 指定的；被指派的,中級,1. Smoking is allowed only in designated areas. 2. He was designated as team leader.,1. 僅允許在指定區域吸煙。 2. 他被任命為隊長。
+complaint,n. 抱怨；不滿；投訴；申訴,初級,The customer filed a complaint about the service.,顧客對服務提出了投訴。
+grievance,n. 不滿；委屈；抱怨事項,中級,1. The employee filed a grievance against the company. 2. He has a grievance about unfair treatment.,1. 該員工對公司提出了申訴。 2. 他認為自己受到了不公平待遇。
+criticism,n. 批評；評論；評價；指責；非難,中級,1. The plan received a lot of criticism. 2. She handled criticism very well.,1. 這項計劃受到了很多批評。 2. 她處理批評的方式很好。
+praise,n./v. 讚美；稱讚,初級,1. The teacher praised the students for their effort. 2. She received praise for her excellent performance.,1. 老師表揚了學生們的努力。 2. 她因出色的表現而受到表揚。
+compliment,n./v. 讚美；稱讚,初級,1. She received many compliments on her dress. 2. He complimented me on my presentation.,1. 她的裙子受到了很多讚美。 2. 他稱讚了我的演講。
+vacate,v. 搬離；空出；取消；撤銷,高級,1. You must vacate the room by noon. 2. The court vacated the previous ruling.,1. 你必須在中午之前騰空房間。 2. 法院撤銷了先前的判決。
+edge,n. 邊緣；刀刃；優勢 v. 緩慢移動；逐漸靠近,初級,1. Be careful near the edge of the cliff. 2. The company has a technological edge over its competitors.,1. 在懸崖邊要小心。 2. 該公司在技術上比競爭對手更有優勢。
+drawback,n. 缺點；不利條件；障礙,中級,1. The main drawback of the system is its high cost. 2. A major drawback is the lack of experience.,1. 該系統的主要缺點是成本高昂。 2. 另一個主要缺點是缺乏經驗。
+hospitality,n. 好客；殷勤款待；服務業,中級,1. We were impressed by their hospitality. 2. She works in the hospitality industry.,1. 他們的熱情好客給我們留下了深刻的印象。 2. 她在旅館業工作。
+durability,n. 耐久性；耐用性,中級,1. The durability of the material makes it ideal for outdoor use. 2. Customers value the durability of this product.,1. 該材料的耐用性使其成為戶外使用的理想選擇。 2. 顧客非常重視該產品的耐用性。
+sturdiness,n. 堅固；結實；牢固性,中級,1. The sturdiness of the table makes it suitable for heavy use. 2. We tested the sturdiness of the structure.,1. 這張桌子非常堅固，適合高強度使用。 2. 我們測試了桌子結構的穩固性。
+fragility,n. 脆弱；易碎性；虛弱,中級,1. The fragility of glass makes it easy to break. 2. The fragility of the economy worried investors.,1. 玻璃易碎。 2. 經濟的脆弱性令投資者擔憂。
+specify,v. 明確說明；詳細規定；指定,中級,1. Please specify your requirements. 2. The contract specifies the delivery date.,1. 請詳細說明您的需求。 2. 合約中會明文規定交貨日期。
+provider,n. 提供者；供應者；服務商,中級,1. The company is a leading internet service provider. 2. He is the main provider for his family.,1. 該公司是領先的網路服務供應商。 2. 他是家裡主要的經濟支柱。
+harmful,adj. 有害的；有損害的,初級,Smoking is harmful to your health.,吸煙有害健康。
+apparatus,n. 設備；器材；裝置,高級,1. The laboratory is equipped with advanced apparatus. 2. The apparatus for the experiment must be calibrated carefully.,1. 實驗室配備了先進的儀器設備。 2. 實驗所需的儀器設備必須經過仔細校正。
+scenic,adj. 風景優美的；景色宜人的；舞台背景的；場景的,初級,1. The hotel is located in a scenic area. 2. We took a scenic route along the coast.,1. 飯店位於風景優美的地區。 2. 我們選擇了一條沿海的風景優美的路線。
+picturesque,adj. 風景如畫的；優美的；別緻迷人的,中級,1. The village is very picturesque. 2. We stayed in a picturesque town by the lake.,1. 這個村莊風景如畫。 2. 我們住在湖邊一個風景如畫的小鎮。
+inspector,n. 檢查員；督察；視察員,中級,1. The inspector checked the factory for safety issues. 2. A building inspector approved the construction.,1. 檢查員檢查了工廠的安全狀況。 2. 建築檢查員批准了該建築工程。
+registration,n. 登記；註冊；報名；登記資料；註冊文件,初級,1. Online registration is required for the course. 2. Vehicle registration must be renewed annually.,1. 本課程需要線上註冊。 2. 車輛登記必須每年更新。
+enrollment,n. 註冊；登記；入學；（學生）註冊人數,初級,1. Enrollment for the course starts next week. 2. The school saw an increase in student enrollment.,1. 該課程下週開始報名。 2. 學校學生入學人數增加。
+consequence,n. 結果；後果,中級,"1. He faced the consequences of his actions. 2. As a consequence of the delay, the meeting was postponed.",1. 他承擔了自己行為的後果。 2. 由於延誤，會議被推遲了。
+liaison,n. 聯絡；聯繫；協調（人員或部門之間）；聯絡人；協調者,高級,1. She acts as a liaison between the two departments. 2. The manager maintains close liaison with clients.,1. 她負責協調兩個部門之間的溝通。 2. 經理與客戶保持密切聯繫。
+erase,v. 擦掉；抹去；刪除,初級,1. Please erase the whiteboard after class. 2. He erased the file from his computer.,1. 下課後請先擦掉白板上的內容。 2. 他從電腦裡刪除了那份檔案。
+mattress,n. 床墊；床褥,初級,I bought a new mattress for my bed.,我給我的床買了個新床墊。
+convince,v. 說服；使信服,初級,1. She convinced me to join the team. 2. It is hard to convince him of the truth.,1. 她說服我加入了團隊。 2. 很難讓他相信真相。
+persuade,v. 說服；勸說；使相信,初級,1. She persuaded him to change his mind. 2. I finally persuaded my boss to approve the plan.,1. 她勸他改變了主意。 2. 我最後說服了老闆批准這項計畫。
+assure,v. 向…保證；使確信,中級,1. I assure you that everything will be fine. 2. The manager assured the client of timely delivery.,1. 我向你保證一切都會順利的。 2. 經理向客戶保證會準時交貨。
+dissuade,v. 勸阻；說服某人不要做某事,高級,I tried to dissuade him from quitting his job.,我試著勸阻他不要辭職。
+surf,v. 衝浪；（網路）瀏覽 n. 海浪；衝浪運動,初級,1. He loves to surf every weekend. 2. I surfed the internet to find information.,1. 他喜歡每個週末都去衝浪。 2. 我上網找資訊。
+obligation,n. 義務；責任；約束,中級,1. You have an obligation to complete the task. 2. There is no legal obligation to attend the meeting.,1. 你有義務完成這項任務。 2. 你沒有法律義務參加會議。
+back up,phr. v. 備份；支援；後退 n. 備份；備用資料；支援人員,中級,1. You should back up your files regularly. 2. The police arrived as backup.,1. 你應該定期備份文件。 2. 警察以支援人員身分趕到現場。
+undermine,v. 削弱；破壞（信心、權威、基礎等）；暗中損害；逐步侵蝕,高級,1. The scandal undermined public trust in the government. 2. Poor communication can undermine teamwork.,1. 這起醜聞損害了公眾對政府的信任。 2. 溝通不良會破壞團隊合作。
+newsletter,n. 電子報；簡訊；通訊刊物（定期發送的資訊）,初級,1. I subscribe to the company newsletter. 2. The newsletter provides updates about new products.,1. 我訂閱了公司新聞簡報。 2. 新聞簡報提供新產品的最新資訊。
+orderly,adj. 有秩序的；整齊的；有條理的 n. 護理員；勤務人員（醫院或軍隊）,中級,1. The documents were arranged in an orderly manner. 2. The crowd left the stadium in an orderly way.,1. 文件擺放得井然有序。 2. 人群有序地離開了體育場。
+neatly,adv. 整齊地；俐落地；有條理地,初級,1. She neatly arranged the books on the shelf. 2. The report was neatly written.,1. 她把書整齊地擺放在書架上。 2. 這份報告寫得工整整潔。
+messy,adj. 凌亂的；髒亂的；難以整理的,初級,1. His room is always messy. 2. The project turned into a messy situation.,1. 他的房間總是很亂。 2. 這個專案最後變成了一團糟。
+destination,n. 目的地；終點；目標地,中級,Our destination is Taipei.,我們的目的地是台北。
+exceptional,adj. 非凡的；傑出的；卓越的；例外的；特殊的,中級,1. She has exceptional talent in music. 2. The service at the hotel was exceptional.,1. 她在音樂方面極具​​天賦。 2. 這家飯店的服務非常出色。
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
