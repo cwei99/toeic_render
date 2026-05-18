@@ -821,6 +821,8 @@ function checkAns() {
   updateDotRow(q.word);
   showBtn('next');
   setTimeout(() => card.classList.remove('fade-up'), 250);
+  // 自動捲到結果卡
+  setTimeout(() => card.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
 }
 
 function showBtn(which) {
