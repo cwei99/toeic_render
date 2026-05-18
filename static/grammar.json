@@ -1,0 +1,1209 @@
+{
+  "total": 100,
+  "categories": {
+    "tense": 50,
+    "pos": 50
+  },
+  "questions": [
+    {
+      "id": "p003",
+      "sentence": "Her ______ of the market surprised everyone.",
+      "options": [
+        "analyze",
+        "analysis",
+        "analytical",
+        "analytically"
+      ],
+      "answer": "analysis",
+      "explanation": "所有格 Her 後接名詞，analysis 為名詞，故選 analysis。"
+    },
+    {
+      "id": "p018",
+      "sentence": "The new regulations will be ______ next quarter.",
+      "options": [
+        "implement",
+        "implements",
+        "implementing",
+        "implemented"
+      ],
+      "answer": "implemented",
+      "explanation": "will be + 過去分詞構成未來被動，故選 implemented。"
+    },
+    {
+      "id": "p045",
+      "sentence": "She ______ speaks English in the office.",
+      "options": [
+        "always",
+        "never always",
+        "always never",
+        "ever"
+      ],
+      "answer": "always",
+      "explanation": "頻率副詞 always 置於 be 動詞後、一般動詞前，此句 speaks 為一般動詞，always 放在動詞前正確。"
+    },
+    {
+      "id": "p020",
+      "sentence": "The team has been ______ on the proposal.",
+      "options": [
+        "work",
+        "works",
+        "worked",
+        "working"
+      ],
+      "answer": "working",
+      "explanation": "has been + V-ing 構成現在完成進行式，故選 working。"
+    },
+    {
+      "id": "p011",
+      "sentence": "The new policy will improve ______ in the workplace.",
+      "options": [
+        "safe",
+        "safely",
+        "safety",
+        "safeness"
+      ],
+      "answer": "safety",
+      "explanation": "improve 為動詞，後接名詞作受詞，safety 為名詞，故選 safety。"
+    },
+    {
+      "id": "p026",
+      "sentence": "This is the ______ solution we have found.",
+      "options": [
+        "good",
+        "better",
+        "best",
+        "well"
+      ],
+      "answer": "best",
+      "explanation": "the + 最高級，三者或以上比較用最高級 best。"
+    },
+    {
+      "id": "p004",
+      "sentence": "Please ______ the data before the meeting.",
+      "options": [
+        "analysis",
+        "analytical",
+        "analyze",
+        "analytically"
+      ],
+      "answer": "analyze",
+      "explanation": "Please 後接動詞原形（祈使句），analyze 為動詞，故選 analyze。"
+    },
+    {
+      "id": "t028",
+      "sentence": "The new branch ______ by the end of next year.",
+      "options": [
+        "opens",
+        "opened",
+        "will be opened",
+        "is opening"
+      ],
+      "answer": "will be opened",
+      "explanation": "by the end of next year 表未來，主詞為被動，用未來被動 will be opened。"
+    },
+    {
+      "id": "p041",
+      "sentence": "She received ______ promotion last month.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "a",
+      "explanation": "promotion 以子音音素開頭，用不定冠詞 a；表第一次提及的單數可數名詞。"
+    },
+    {
+      "id": "p047",
+      "sentence": "Please confirm ______ the report has been sent.",
+      "options": [
+        "whether",
+        "what",
+        "which",
+        "who"
+      ],
+      "answer": "whether",
+      "explanation": "confirm 後接名詞子句，表是否已送出，用 whether。"
+    },
+    {
+      "id": "p023",
+      "sentence": "The company is committed ______ environmental sustainability.",
+      "options": [
+        "for",
+        "with",
+        "to",
+        "at"
+      ],
+      "answer": "to",
+      "explanation": "committed to 為固定搭配，to 後接名詞或動名詞。"
+    },
+    {
+      "id": "p025",
+      "sentence": "The decision depends ______ the budget.",
+      "options": [
+        "of",
+        "to",
+        "for",
+        "on"
+      ],
+      "answer": "on",
+      "explanation": "depend on 為固定搭配，表示取決於。"
+    },
+    {
+      "id": "t003",
+      "sentence": "Water ______ at 100 degrees Celsius.",
+      "options": [
+        "boil",
+        "boils",
+        "boiled",
+        "is boiling"
+      ],
+      "answer": "boils",
+      "explanation": "科學事實用簡單現在式；主詞 Water 為第三人稱單數，故選 boils。"
+    },
+    {
+      "id": "p016",
+      "sentence": "The CEO is ______ a speech at the annual conference.",
+      "options": [
+        "give",
+        "gave",
+        "giving",
+        "given"
+      ],
+      "answer": "giving",
+      "explanation": "is + V-ing 構成現在進行式，故選 giving。"
+    },
+    {
+      "id": "p040",
+      "sentence": "Please inform us ______ you cannot attend the meeting.",
+      "options": [
+        "although",
+        "so that",
+        "if",
+        "since"
+      ],
+      "answer": "if",
+      "explanation": "表條件（如果無法出席），用 if；although 表讓步，so that 表目的，since 表原因，皆不符。"
+    },
+    {
+      "id": "p030",
+      "sentence": "The ______ the deadline approaches, the more pressure we feel.",
+      "options": [
+        "close",
+        "closer",
+        "closest",
+        "closely"
+      ],
+      "answer": "closer",
+      "explanation": "The + 比較級…the + 比較級 句型，故選比較級 closer。"
+    },
+    {
+      "id": "p024",
+      "sentence": "She is familiar ______ the new software.",
+      "options": [
+        "to",
+        "with",
+        "for",
+        "of"
+      ],
+      "answer": "with",
+      "explanation": "familiar with 為固定搭配，表示對…熟悉。"
+    },
+    {
+      "id": "p008",
+      "sentence": "The project was ______ completed ahead of schedule.",
+      "options": [
+        "successful",
+        "success",
+        "successfully",
+        "succeed"
+      ],
+      "answer": "successfully",
+      "explanation": "修飾動詞 completed，需用副詞，successfully 為副詞，故選 successfully。"
+    },
+    {
+      "id": "p002",
+      "sentence": "We need to ______ more in staff training.",
+      "options": [
+        "invest",
+        "investment",
+        "invested",
+        "investing"
+      ],
+      "answer": "invest",
+      "explanation": "need to 後接動詞原形，invest 為動詞，故選 invest。"
+    },
+    {
+      "id": "p001",
+      "sentence": "The company made a significant ______ in technology.",
+      "options": [
+        "invest",
+        "investing",
+        "investment",
+        "invested"
+      ],
+      "answer": "investment",
+      "explanation": "冠詞 a 後需接名詞，investment 為名詞，故選 investment。"
+    },
+    {
+      "id": "t037",
+      "sentence": "The package ______ arrive by Thursday at the latest.",
+      "options": [
+        "must",
+        "should",
+        "can",
+        "might"
+      ],
+      "answer": "should",
+      "explanation": "表預期或應該，用 should；might 可能性更低，must 為強制義務，can 為能力，皆不符。"
+    },
+    {
+      "id": "p027",
+      "sentence": "The new model is ______ than the previous one.",
+      "options": [
+        "efficient",
+        "more efficient",
+        "most efficient",
+        "efficiently"
+      ],
+      "answer": "more efficient",
+      "explanation": "two 個比較對象用比較級，多音節形容詞用 more + 原形，故選 more efficient。"
+    },
+    {
+      "id": "t041",
+      "sentence": "The manager decided ______ the meeting.",
+      "options": [
+        "canceling",
+        "cancel",
+        "canceled",
+        "to cancel"
+      ],
+      "answer": "to cancel",
+      "explanation": "decide 後接不定詞（to + V），故選 to cancel。"
+    },
+    {
+      "id": "t022",
+      "sentence": "By the end of this year, she ______ here for five years.",
+      "options": [
+        "works",
+        "worked",
+        "will have worked",
+        "is working"
+      ],
+      "answer": "will have worked",
+      "explanation": "by the end of this year 為未來時間點，表示屆時累積完成，用未來完成式 will have worked。"
+    },
+    {
+      "id": "p021",
+      "sentence": "We are responsible ______ the quality of our products.",
+      "options": [
+        "of",
+        "to",
+        "for",
+        "with"
+      ],
+      "answer": "for",
+      "explanation": "responsible for 為固定搭配，表示對…負責。"
+    },
+    {
+      "id": "t019",
+      "sentence": "By the time she arrived, the meeting ______.",
+      "options": [
+        "ends",
+        "ended",
+        "had ended",
+        "was ending"
+      ],
+      "answer": "had ended",
+      "explanation": "by the time 引導的時間子句（arrived）用過去式，主句用過去完成式表示更早發生的事，故選 had ended。"
+    },
+    {
+      "id": "t008",
+      "sentence": "We ______ the contract as soon as possible.",
+      "options": [
+        "sign",
+        "signed",
+        "will sign",
+        "have signed"
+      ],
+      "answer": "will sign",
+      "explanation": "表達未來意圖，用 will + 原形動詞 will sign。"
+    },
+    {
+      "id": "p050",
+      "sentence": "______ is essential to review the contract carefully.",
+      "options": [
+        "This",
+        "That",
+        "It",
+        "There"
+      ],
+      "answer": "It",
+      "explanation": "It is + 形容詞 + to V 為虛主詞句型，真正主詞為後面的不定詞，故用 It。"
+    },
+    {
+      "id": "p042",
+      "sentence": "He is ______ honest employee.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "an",
+      "explanation": "honest 以母音音素 /ɒ/ 開頭，用不定冠詞 an。"
+    },
+    {
+      "id": "t006",
+      "sentence": "The flight ______ two hours late yesterday.",
+      "options": [
+        "arrives",
+        "arrive",
+        "arrived",
+        "has arrived"
+      ],
+      "answer": "arrived",
+      "explanation": "yesterday 表示過去，用簡單過去式 arrived。"
+    },
+    {
+      "id": "t043",
+      "sentence": "The employee ______ won the award is from our department.",
+      "options": [
+        "who",
+        "which",
+        "whom",
+        "whose"
+      ],
+      "answer": "who",
+      "explanation": "先行詞為人（employee），且在關係子句中作主詞，用 who。"
+    },
+    {
+      "id": "p036",
+      "sentence": "The presentation was long ______ informative.",
+      "options": [
+        "or",
+        "but",
+        "so",
+        "for"
+      ],
+      "answer": "but",
+      "explanation": "表對比（長但有益），用對等連接詞 but。"
+    },
+    {
+      "id": "p032",
+      "sentence": "All ______ must be submitted by Friday.",
+      "options": [
+        "application",
+        "applications",
+        "applying",
+        "applied"
+      ],
+      "answer": "applications",
+      "explanation": "All 後接可數名詞複數，applications 為複數，故選 applications。"
+    },
+    {
+      "id": "t038",
+      "sentence": "She agreed ______ the project proposal.",
+      "options": [
+        "reviewing",
+        "review",
+        "to review",
+        "reviewed"
+      ],
+      "answer": "to review",
+      "explanation": "agree 後接不定詞（to + V），故選 to review。"
+    },
+    {
+      "id": "p043",
+      "sentence": "______ meeting we had yesterday was very productive.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "no article"
+      ],
+      "answer": "The",
+      "explanation": "the 用於雙方都知道的特定事物（昨天那場會議），故選 The。"
+    },
+    {
+      "id": "t047",
+      "sentence": "______ the meeting ends, please turn off the lights.",
+      "options": [
+        "Until",
+        "After",
+        "During",
+        "For"
+      ],
+      "answer": "After",
+      "explanation": "表示會議結束之後，用 After；until 表直到，during 表在期間，for 表一段時間，皆不符。"
+    },
+    {
+      "id": "t029",
+      "sentence": "All applications ______ by Tuesday.",
+      "options": [
+        "submit",
+        "submitted",
+        "must be submitted",
+        "are submitting"
+      ],
+      "answer": "must be submitted",
+      "explanation": "主詞 applications 為被動，加上語氣助動詞 must，用 must be submitted。"
+    },
+    {
+      "id": "t036",
+      "sentence": "You ______ bring a laptop to the training session if you have one.",
+      "options": [
+        "must",
+        "should",
+        "can't",
+        "will"
+      ],
+      "answer": "should",
+      "explanation": "表建議或建議性義務，用 should；must 為強制，過強；can't 為否定能力，不符。"
+    },
+    {
+      "id": "t015",
+      "sentence": "She ______ in this company for ten years.",
+      "options": [
+        "works",
+        "worked",
+        "has worked",
+        "is working"
+      ],
+      "answer": "has worked",
+      "explanation": "for ten years 表示從過去持續到現在，用現在完成式 has worked。"
+    },
+    {
+      "id": "t048",
+      "sentence": "She was promoted ______ she joined the company.",
+      "options": [
+        "after",
+        "before",
+        "since",
+        "during"
+      ],
+      "answer": "since",
+      "explanation": "表示從加入公司到現在（已晉升），用 since；after 表之後某時，before 表之前，during 表期間，皆不符。"
+    },
+    {
+      "id": "t030",
+      "sentence": "The machinery ______ since the accident.",
+      "options": [
+        "repairs",
+        "repaired",
+        "has been repaired",
+        "was repairing"
+      ],
+      "answer": "has been repaired",
+      "explanation": "since 表示從過去到現在，主詞為被動，用現在完成被動 has been repaired。"
+    },
+    {
+      "id": "p029",
+      "sentence": "This quarter's results are ______ than expected.",
+      "options": [
+        "well",
+        "good",
+        "better",
+        "best"
+      ],
+      "answer": "better",
+      "explanation": "than 引導比較，用比較級；good 的比較級為 better，故選 better。"
+    },
+    {
+      "id": "p015",
+      "sentence": "All employees are encouraged to ______ to team discussions.",
+      "options": [
+        "contribution",
+        "contributing",
+        "contribute",
+        "contributed"
+      ],
+      "answer": "contribute",
+      "explanation": "be encouraged to 後接動詞原形，contribute 為動詞，故選 contribute。"
+    },
+    {
+      "id": "t001",
+      "sentence": "She ______ to the office every day.",
+      "options": [
+        "go",
+        "goes",
+        "went",
+        "has gone"
+      ],
+      "answer": "goes",
+      "explanation": "主詞 She 為第三人稱單數，簡單現在式動詞需加 -s，故選 goes。"
+    },
+    {
+      "id": "t039",
+      "sentence": "They finished ______ the annual report.",
+      "options": [
+        "to prepare",
+        "prepare",
+        "prepared",
+        "preparing"
+      ],
+      "answer": "preparing",
+      "explanation": "finish 後接動名詞（V-ing），故選 preparing。"
+    },
+    {
+      "id": "p017",
+      "sentence": "The report has been ______ to all department heads.",
+      "options": [
+        "distribute",
+        "distributes",
+        "distributing",
+        "distributed"
+      ],
+      "answer": "distributed",
+      "explanation": "has been + 過去分詞構成現在完成被動，故選 distributed。"
+    },
+    {
+      "id": "t049",
+      "sentence": "______ the report, she found several errors.",
+      "options": [
+        "Reviewed",
+        "Reviewing",
+        "Having review",
+        "To reviewing"
+      ],
+      "answer": "Reviewing",
+      "explanation": "分詞構句主詞與主句相同，表示同時進行的動作，用現在分詞 Reviewing。"
+    },
+    {
+      "id": "p006",
+      "sentence": "She completed the task ______.",
+      "options": [
+        "efficient",
+        "efficiency",
+        "efficiently",
+        "efficiencies"
+      ],
+      "answer": "efficiently",
+      "explanation": "修飾動詞 completed，需用副詞，efficiently 為副詞，故選 efficiently。"
+    },
+    {
+      "id": "t021",
+      "sentence": "By next Friday, they ______ the project.",
+      "options": [
+        "finish",
+        "finished",
+        "will have finished",
+        "are finishing"
+      ],
+      "answer": "will have finished",
+      "explanation": "by next Friday 表示未來某時點之前動作已完成，用未來完成式 will have finished。"
+    },
+    {
+      "id": "t031",
+      "sentence": "If it ______ tomorrow, the event will be postponed.",
+      "options": [
+        "rains",
+        "rained",
+        "will rain",
+        "would rain"
+      ],
+      "answer": "rains",
+      "explanation": "第一條件句（真實條件）：if 子句用現在式，主句用 will，故 if 子句選 rains。"
+    },
+    {
+      "id": "p012",
+      "sentence": "Please ensure the ______ of all employees.",
+      "options": [
+        "safe",
+        "safely",
+        "safety",
+        "safest"
+      ],
+      "answer": "safety",
+      "explanation": "冠詞 the 後接名詞，safety 為名詞，故選 safety。"
+    },
+    {
+      "id": "t009",
+      "sentence": "The conference ______ place in Singapore next week.",
+      "options": [
+        "takes",
+        "took",
+        "will take",
+        "has taken"
+      ],
+      "answer": "will take",
+      "explanation": "next week 表示未來，用 will take。"
+    },
+    {
+      "id": "t045",
+      "sentence": "The manager ______ team won the award gave a speech.",
+      "options": [
+        "who",
+        "which",
+        "whom",
+        "whose"
+      ],
+      "answer": "whose",
+      "explanation": "表所有關係，先行詞為人（manager），用 whose。"
+    },
+    {
+      "id": "t020",
+      "sentence": "He ______ the report before the deadline passed.",
+      "options": [
+        "submits",
+        "submitted",
+        "had submitted",
+        "was submitting"
+      ],
+      "answer": "had submitted",
+      "explanation": "before 子句（deadline passed）為過去，主句動作發生更早，用過去完成式 had submitted。"
+    },
+    {
+      "id": "p022",
+      "sentence": "Please refer ______ the attached document.",
+      "options": [
+        "for",
+        "to",
+        "at",
+        "with"
+      ],
+      "answer": "to",
+      "explanation": "refer to 為固定搭配，表示參考；refer for/at/with 皆不正確。"
+    },
+    {
+      "id": "t033",
+      "sentence": "If they ______ the contract earlier, they would have saved money.",
+      "options": [
+        "sign",
+        "signed",
+        "had signed",
+        "will sign"
+      ],
+      "answer": "had signed",
+      "explanation": "第三條件句（與過去事實相反）：if 子句用過去完成式，主句用 would have，故選 had signed。"
+    },
+    {
+      "id": "t024",
+      "sentence": "They ______ for a solution all week.",
+      "options": [
+        "search",
+        "searched",
+        "have been searching",
+        "had searched"
+      ],
+      "answer": "have been searching",
+      "explanation": "all week 強調持續進行至今，用現在完成進行式 have been searching。"
+    },
+    {
+      "id": "t004",
+      "sentence": "The manager ______ the report yesterday.",
+      "options": [
+        "reviews",
+        "review",
+        "reviewed",
+        "has reviewed"
+      ],
+      "answer": "reviewed",
+      "explanation": "時間副詞 yesterday 表明過去時間，用簡單過去式 reviewed。"
+    },
+    {
+      "id": "t042",
+      "sentence": "We look forward to ______ from you soon.",
+      "options": [
+        "hear",
+        "heard",
+        "hearing",
+        "have heard"
+      ],
+      "answer": "hearing",
+      "explanation": "look forward to 中 to 為介系詞，後接動名詞，故選 hearing。"
+    },
+    {
+      "id": "p007",
+      "sentence": "He is an ______ worker.",
+      "options": [
+        "efficiency",
+        "efficient",
+        "efficiently",
+        "efficiencies"
+      ],
+      "answer": "efficient",
+      "explanation": "修飾名詞 worker，需用形容詞，efficient 為形容詞，故選 efficient。"
+    },
+    {
+      "id": "t017",
+      "sentence": "The company ______ its revenue three times since 2020.",
+      "options": [
+        "doubles",
+        "doubled",
+        "has doubled",
+        "was doubling"
+      ],
+      "answer": "has doubled",
+      "explanation": "since 2020 表示從過去到現在的時間段，用現在完成式 has doubled。"
+    },
+    {
+      "id": "p014",
+      "sentence": "We appreciate your ______ to this project.",
+      "options": [
+        "contribute",
+        "contributing",
+        "contribution",
+        "contributed"
+      ],
+      "answer": "contribution",
+      "explanation": "所有格 your 後接名詞，contribution 為名詞，故選 contribution。"
+    },
+    {
+      "id": "t012",
+      "sentence": "The engineers ______ the equipment currently.",
+      "options": [
+        "test",
+        "tested",
+        "are testing",
+        "have tested"
+      ],
+      "answer": "are testing",
+      "explanation": "currently 暗示此刻進行中，用現在進行式 are testing。"
+    },
+    {
+      "id": "p010",
+      "sentence": "The manager spoke ______ to the new employees.",
+      "options": [
+        "direct",
+        "direction",
+        "directly",
+        "directive"
+      ],
+      "answer": "directly",
+      "explanation": "修飾動詞 spoke，需用副詞，directly 為副詞，故選 directly。"
+    },
+    {
+      "id": "p005",
+      "sentence": "The team reached an ______ on the budget.",
+      "options": [
+        "agree",
+        "agreeing",
+        "agreement",
+        "agreed"
+      ],
+      "answer": "agreement",
+      "explanation": "冠詞 an 後接名詞，agreement 為名詞，故選 agreement。"
+    },
+    {
+      "id": "p037",
+      "sentence": "______ the weather was bad, the event continued.",
+      "options": [
+        "Because",
+        "Although",
+        "So",
+        "Since"
+      ],
+      "answer": "Although",
+      "explanation": "表讓步（儘管天氣不好），用 Although；because 和 since 表原因，so 表結果，皆不符。"
+    },
+    {
+      "id": "t026",
+      "sentence": "The new policy ______ last week.",
+      "options": [
+        "announces",
+        "announced",
+        "was announced",
+        "has announced"
+      ],
+      "answer": "was announced",
+      "explanation": "last week 表過去，且主詞為被動，用過去式被動 was announced。"
+    },
+    {
+      "id": "p048",
+      "sentence": "______ has the company achieved such remarkable growth.",
+      "options": [
+        "Never before",
+        "Ever before",
+        "Always",
+        "Sometimes"
+      ],
+      "answer": "Never before",
+      "explanation": "否定副詞 Never before 置於句首時，句子需倒裝（助動詞前移），Never before has... 為正確倒裝結構。"
+    },
+    {
+      "id": "t010",
+      "sentence": "The team ______ on a new project right now.",
+      "options": [
+        "works",
+        "worked",
+        "is working",
+        "has worked"
+      ],
+      "answer": "is working",
+      "explanation": "right now 表示此刻正在進行，用現在進行式 is working。"
+    },
+    {
+      "id": "t016",
+      "sentence": "We ______ the new software already.",
+      "options": [
+        "install",
+        "installed",
+        "have installed",
+        "are installing"
+      ],
+      "answer": "have installed",
+      "explanation": "already 與現在完成式連用，表示已完成的動作，故選 have installed。"
+    },
+    {
+      "id": "p013",
+      "sentence": "The working environment must be ______.",
+      "options": [
+        "safety",
+        "safely",
+        "safe",
+        "safeness"
+      ],
+      "answer": "safe",
+      "explanation": "連綴動詞 be 後接形容詞作主詞補語，safe 為形容詞，故選 safe。"
+    },
+    {
+      "id": "p044",
+      "sentence": "We need ______ new equipment for the lab.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "no article",
+      "explanation": "equipment 為不可數名詞，前面不加冠詞（或用 some）；選 no article。"
+    },
+    {
+      "id": "t018",
+      "sentence": "I ______ this movie before, so I know the ending.",
+      "options": [
+        "see",
+        "saw",
+        "have seen",
+        "was seeing"
+      ],
+      "answer": "have seen",
+      "explanation": "before 與現在完成式連用，表示過去某時有過此經歷且與現在相關，故選 have seen。"
+    },
+    {
+      "id": "p034",
+      "sentence": "Each employee must submit ______ own report.",
+      "options": [
+        "their",
+        "his or her",
+        "its",
+        "our"
+      ],
+      "answer": "their",
+      "explanation": "現代英文中 each employee 可用 their 指代，避免性別預設；his or her 雖正確但較繁瑣，their 為最常用選項。"
+    },
+    {
+      "id": "p035",
+      "sentence": "The team completed the project by ______.",
+      "options": [
+        "itself",
+        "themselves",
+        "himself",
+        "herself"
+      ],
+      "answer": "themselves",
+      "explanation": "The team 指整個團隊（複數概念），用反身代名詞 themselves。"
+    },
+    {
+      "id": "p039",
+      "sentence": "______ he is new, he handles tasks very professionally.",
+      "options": [
+        "Because",
+        "Although",
+        "So",
+        "Unless"
+      ],
+      "answer": "Although",
+      "explanation": "表讓步（雖然是新人但表現專業），用 Although。"
+    },
+    {
+      "id": "t046",
+      "sentence": "Please wait here ______ she returns.",
+      "options": [
+        "until",
+        "since",
+        "for",
+        "during"
+      ],
+      "answer": "until",
+      "explanation": "表示等到某事發生為止，用 until；since 表從某時起，for 表一段時間，during 表在某段期間內，皆不符。"
+    },
+    {
+      "id": "t044",
+      "sentence": "The document ______ you need is on the desk.",
+      "options": [
+        "who",
+        "which",
+        "whom",
+        "what"
+      ],
+      "answer": "which",
+      "explanation": "先行詞為物（document），在關係子句中作受詞，用 which（或 that）。"
+    },
+    {
+      "id": "t035",
+      "sentence": "She ______ be in the meeting right now; I just saw her in the lobby.",
+      "options": [
+        "must",
+        "can't",
+        "should",
+        "would"
+      ],
+      "answer": "can't",
+      "explanation": "從語境推斷（剛在大廳看到她）她不可能在開會，表否定推斷用 can't。"
+    },
+    {
+      "id": "t002",
+      "sentence": "The store ______ at 9 a.m. on weekdays.",
+      "options": [
+        "open",
+        "opens",
+        "opened",
+        "has opened"
+      ],
+      "answer": "opens",
+      "explanation": "描述固定習慣，用簡單現在式；The store 為第三人稱單數，故選 opens。"
+    },
+    {
+      "id": "t014",
+      "sentence": "They ______ a meeting when the power went out.",
+      "options": [
+        "have",
+        "had",
+        "were having",
+        "have had"
+      ],
+      "answer": "were having",
+      "explanation": "when 子句（went out）用簡單過去式，主句表示當時正在進行的動作，用過去進行式 were having。"
+    },
+    {
+      "id": "t032",
+      "sentence": "If she ______ harder, she would get a promotion.",
+      "options": [
+        "works",
+        "worked",
+        "will work",
+        "has worked"
+      ],
+      "answer": "worked",
+      "explanation": "第二條件句（假設與現實相反）：if 子句用過去式，主句用 would，故選 worked。"
+    },
+    {
+      "id": "p033",
+      "sentence": "The ______ provided in the report was inaccurate.",
+      "options": [
+        "informations",
+        "inform",
+        "information",
+        "informing"
+      ],
+      "answer": "information",
+      "explanation": "information 為不可數名詞，無複數形；且 the 後需接名詞，故選 information。"
+    },
+    {
+      "id": "t025",
+      "sentence": "The report ______ by the manager every Friday.",
+      "options": [
+        "reviews",
+        "review",
+        "is reviewed",
+        "reviewing"
+      ],
+      "answer": "is reviewed",
+      "explanation": "主詞 report 為被動接受者，且為固定習慣，用簡單現在式被動 is reviewed。"
+    },
+    {
+      "id": "t034",
+      "sentence": "You ______ submit the form before the deadline.",
+      "options": [
+        "can",
+        "must",
+        "might",
+        "would"
+      ],
+      "answer": "must",
+      "explanation": "表示義務或強制要求，用 must；can 表能力，might 表可能，would 表意願，皆不符。"
+    },
+    {
+      "id": "t013",
+      "sentence": "She ______ when the phone rang.",
+      "options": [
+        "sleeps",
+        "slept",
+        "was sleeping",
+        "has slept"
+      ],
+      "answer": "was sleeping",
+      "explanation": "when 子句用簡單過去式，主要子句用過去進行式表示當時正在進行的動作，故選 was sleeping。"
+    },
+    {
+      "id": "t007",
+      "sentence": "The new policy ______ effect next month.",
+      "options": [
+        "takes",
+        "took",
+        "will take",
+        "has taken"
+      ],
+      "answer": "will take",
+      "explanation": "next month 表示未來，用 will + 原形動詞，故選 will take。"
+    },
+    {
+      "id": "p009",
+      "sentence": "This was a ______ outcome for the team.",
+      "options": [
+        "success",
+        "successfully",
+        "successful",
+        "succeed"
+      ],
+      "answer": "successful",
+      "explanation": "修飾名詞 outcome，需用形容詞，successful 為形容詞，故選 successful。"
+    },
+    {
+      "id": "p049",
+      "sentence": "It was the new marketing strategy ______ boosted sales.",
+      "options": [
+        "who",
+        "which",
+        "that",
+        "what"
+      ],
+      "answer": "that",
+      "explanation": "It is/was…that… 為強調句型，強調主詞或受詞，固定用 that。"
+    },
+    {
+      "id": "p028",
+      "sentence": "She is ______ qualified for the position.",
+      "options": [
+        "high",
+        "higher",
+        "highly",
+        "highest"
+      ],
+      "answer": "highly",
+      "explanation": "修飾形容詞 qualified，需用副詞，highly 為副詞，故選 highly。"
+    },
+    {
+      "id": "p038",
+      "sentence": "She worked overtime ______ she could finish the report.",
+      "options": [
+        "although",
+        "because",
+        "so that",
+        "unless"
+      ],
+      "answer": "so that",
+      "explanation": "表目的（為了能完成），用 so that；although 表讓步，because 表原因，unless 表條件，皆不符。"
+    },
+    {
+      "id": "p019",
+      "sentence": "She was ______ employee of the month.",
+      "options": [
+        "name",
+        "names",
+        "naming",
+        "named"
+      ],
+      "answer": "named",
+      "explanation": "was + 過去分詞構成過去被動，named 表被命名，故選 named。"
+    },
+    {
+      "id": "t050",
+      "sentence": "______ all the data, the team submitted the findings.",
+      "options": [
+        "Analyzing",
+        "Analyzed",
+        "Having analyzed",
+        "To analyze"
+      ],
+      "answer": "Having analyzed",
+      "explanation": "分詞構句表示主句動作之前已完成的動作，用完成分詞 Having analyzed。"
+    },
+    {
+      "id": "t011",
+      "sentence": "She ______ a presentation at this moment.",
+      "options": [
+        "prepares",
+        "prepared",
+        "is preparing",
+        "has prepared"
+      ],
+      "answer": "is preparing",
+      "explanation": "at this moment 表示正在進行，用現在進行式 is preparing。"
+    },
+    {
+      "id": "p031",
+      "sentence": "The ______ of the meeting will be distributed tomorrow.",
+      "options": [
+        "minute",
+        "minutes",
+        "minuting",
+        "minuted"
+      ],
+      "answer": "minutes",
+      "explanation": "meeting minutes（會議記錄）為固定複數名詞用法，故選 minutes。"
+    },
+    {
+      "id": "t027",
+      "sentence": "The equipment ______ regularly to ensure safety.",
+      "options": [
+        "maintains",
+        "maintain",
+        "is maintained",
+        "maintaining"
+      ],
+      "answer": "is maintained",
+      "explanation": "主詞 equipment 為受詞，表習慣性動作，用現在式被動 is maintained。"
+    },
+    {
+      "id": "p046",
+      "sentence": "I am not sure ______ she will attend the conference.",
+      "options": [
+        "that",
+        "whether",
+        "what",
+        "which"
+      ],
+      "answer": "whether",
+      "explanation": "表不確定是否（yes/no 問題）的名詞子句用 whether；that 不帶疑問，what/which 需有對應受詞，皆不符。"
+    },
+    {
+      "id": "t023",
+      "sentence": "He ______ on this report since morning.",
+      "options": [
+        "works",
+        "worked",
+        "has been working",
+        "had worked"
+      ],
+      "answer": "has been working",
+      "explanation": "since morning 表示從過去一直持續到現在，強調動作持續進行，用現在完成進行式 has been working。"
+    },
+    {
+      "id": "t005",
+      "sentence": "They ______ a new branch office last year.",
+      "options": [
+        "open",
+        "opens",
+        "opened",
+        "have opened"
+      ],
+      "answer": "opened",
+      "explanation": "last year 為過去時間標記，用簡單過去式 opened。"
+    },
+    {
+      "id": "t040",
+      "sentence": "He suggested ______ a new supplier.",
+      "options": [
+        "to find",
+        "find",
+        "found",
+        "finding"
+      ],
+      "answer": "finding",
+      "explanation": "suggest 後接動名詞（V-ing），故選 finding。"
+    }
+  ]
+}
