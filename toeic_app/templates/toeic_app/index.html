@@ -330,7 +330,9 @@
       </button>
       <span class="app-title">TOEIC Vocab</span>
       <div style="display:flex;gap:8px;align-items:center;">
-        <button class="vocab-list-btn" onclick="openVocabModal()">📖 單字表</button>
+        <button class="vocab-list-btn" id="tabVocab" onclick="switchTab('vocab')" style="background:var(--blue);color:#fff;">📚 單字</button>
+        <button class="vocab-list-btn" id="tabGrammar" onclick="switchTab('grammar')">📝 文法</button>
+        <button class="vocab-list-btn" id="tabVocabList" onclick="openVocabModal()">📖 單字表</button>
         <span class="streak-badge" id="streakBadge">🔥 <span id="streakNum">0</span></span>
       </div>
     </div>
@@ -425,6 +427,38 @@
     <button class="main-btn blue"         id="btnStart" onclick="nextQuiz()">START !</button>
     <button class="main-btn green hidden" id="btnCheck" onclick="checkAns()">驗證答案 ✓</button>
     <button class="main-btn blue  hidden" id="btnNext"  onclick="nextQuiz()">下一題 →</button>
+  </div>
+
+  <!-- ════════ 文法測驗區 ════════ -->
+  <div id="grammarSection" style="display:none;">
+    <!-- 文法題目卡片 -->
+    <div class="quiz-card" id="gQuizCard">
+      <div class="quiz-meta">
+        <span class="quiz-instruction" id="gInstruction">選出正確的文法形式</span>
+        <span class="level-chip" id="gCategoryChip" style="background:#e8f4e8;color:#2d6a2d;">文法</span>
+      </div>
+      <div class="quiz-sentence" id="gSentence">點擊下方按鈕開始文法練習</div>
+    </div>
+
+    <!-- 文法選項 -->
+    <div class="options" id="gOptionsArea"></div>
+
+    <!-- 文法結果卡 -->
+    <div class="result-card" id="gResultCard" style="display:none;">
+      <div class="result-title" id="gResultTitle"></div>
+      <div class="result-divider"></div>
+      <div class="result-section-label">📖 詳解</div>
+      <div class="trans-text" id="gExplanation"></div>
+    </div>
+
+    <!-- 文法按鈕 -->
+    <div class="main-btn-area">
+      <button class="main-btn blue"        id="gBtnStart" onclick="gNextQuiz()">START !</button>
+      <button class="main-btn blue hidden" id="gBtnNext"  onclick="gNextQuiz()">下一題 →</button>
+    </div>
+
+    <!-- 文法進度 -->
+    <div style="text-align:center;margin-top:8px;color:var(--muted);font-size:13px;" id="gProgress"></div>
   </div>
 
   <!-- 單字表 Modal -->
@@ -946,6 +980,122 @@ function toggleVocabDetail(idx) {
   const open   = detail.style.display === 'none';
   detail.style.display = open ? 'block' : 'none';
   arrow.textContent    = open ? '▲' : '▼';
+}
+
+// ── 文法測驗 ──────────────────────────────────────────
+let gAllQuestions = [];
+let gQueue        = [];
+let gCurrent      = null;
+let gAnswered     = false;
+let gCorrect      = 0;
+let gTotal        = 0;
+
+async function loadGrammar() {
+  if (gAllQuestions.length > 0) return;
+  try {
+    const res  = await fetch('/static/grammar.json');
+    const data = await res.json();
+    gAllQuestions = data.questions || [];
+  } catch(e) {
+    console.error('無法載入文法題庫', e);
+  }
+}
+
+function gNextQuiz() {
+  if (gQueue.length === 0) {
+    gQueue = [...gAllQuestions].sort(() => Math.random() - 0.5);
+    gCorrect = 0;
+    gTotal   = 0;
+  }
+  gCurrent  = gQueue.pop();
+  gAnswered = false;
+  gTotal++;
+
+  document.getElementById('gSentence').textContent    = gCurrent.sentence;
+  document.getElementById('gResultCard').style.display = 'none';
+  document.getElementById('gCategoryChip').textContent =
+    gCurrent.id.startsWith('t') ? '時態' : '詞性';
+
+  // 建立選項
+  const area = document.getElementById('gOptionsArea');
+  area.innerHTML = '';
+  const opts = [...gCurrent.options].sort(() => Math.random() - 0.5);
+  opts.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.className      = 'option-btn';
+    btn.dataset.word   = opt;
+    btn.innerHTML      = `<span class="opt-word">${opt}</span>`;
+    btn.onclick        = () => gSelectOption(opt);
+    area.appendChild(btn);
+  });
+
+  document.getElementById('gBtnStart').classList.add('hidden');
+  document.getElementById('gBtnNext').classList.add('hidden');
+  updateGProgress();
+}
+
+function gSelectOption(chosen) {
+  if (gAnswered) return;
+  gAnswered = true;
+
+  const correct = gCurrent.answer;
+  const isRight = chosen === correct;
+  if (isRight) gCorrect++;
+
+  document.querySelectorAll('#gOptionsArea .option-btn').forEach(b => {
+    if (b.dataset.word === correct)             b.classList.add('correct');
+    else if (b.dataset.word === chosen && !isRight) b.classList.add('wrong');
+    b.onclick = null;
+  });
+
+  const card  = document.getElementById('gResultCard');
+  const title = document.getElementById('gResultTitle');
+  card.style.display = 'flex';
+  card.className = `result-card ${isRight ? 'correct-bg' : 'wrong-bg'} fade-up`;
+  title.className = `result-title ${isRight ? 'correct-text' : 'wrong-text'}`;
+  title.textContent = isRight ? `✅ 正確！  ${correct}` : `❌ 正確答案：${correct}`;
+  document.getElementById('gExplanation').textContent = gCurrent.explanation;
+
+  document.getElementById('gBtnNext').classList.remove('hidden');
+  setTimeout(() => card.classList.remove('fade-up'), 250);
+  setTimeout(() => card.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+  updateGProgress();
+}
+
+function updateGProgress() {
+  const el = document.getElementById('gProgress');
+  if (gTotal === 0) { el.textContent = ''; return; }
+  el.textContent = `本回合：${gCorrect} / ${gTotal} 題正確`;
+}
+
+// ── Tab 切換 ──────────────────────────────────────────
+const vocabEls = ['quizCard','optionsArea','fillArea','resultCard',
+                  '.main-btn-area:first-of-type','ttsArea'];
+
+function switchTab(tab) {
+  const isGrammar = tab === 'grammar';
+
+  // 切換 tab 按鈕樣式
+  document.getElementById('tabVocab').style.background   = isGrammar ? '' : 'var(--blue)';
+  document.getElementById('tabVocab').style.color        = isGrammar ? '' : '#fff';
+  document.getElementById('tabGrammar').style.background = isGrammar ? 'var(--blue)' : '';
+  document.getElementById('tabGrammar').style.color      = isGrammar ? '#fff' : '';
+
+  // 顯示/隱藏單字區
+  ['quizCard','optionsArea','fillArea','resultCard','ttsArea'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.style.display = isGrammar ? 'none' : '';
+  });
+  // 主按鈕區（單字）
+  const vocabBtnArea = document.querySelector('.main-btn-area');
+  if (vocabBtnArea) vocabBtnArea.style.display = isGrammar ? 'none' : '';
+
+  // 顯示/隱藏文法區
+  document.getElementById('grammarSection').style.display = isGrammar ? '' : 'none';
+
+  if (isGrammar && gAllQuestions.length === 0) {
+    loadGrammar();
+  }
 }
 
 // ── 初始化 ───────────────────────────────────────────
