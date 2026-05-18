@@ -109,6 +109,21 @@ LEVEL_WORDS  = {lv: [w['word'] for w in WORD_POOL if str(w['toeic_target']) == l
 LEVEL_COUNTS = {lv: len(LEVEL_WORDS[lv]) for lv in LEVEL_ORDER}
 VERB_POOL    = [w for w in WORD_POOL if re.search(r'\bv\.', str(w.get('translation', '')))]
 
+# ── 同義詞表 ──────────────────────────────────────────────────────
+SYNONYM_GROUPS: list = []
+_SYNONYM_LOOKUP: dict = {}  # word -> set of synonyms
+
+_SYNONYMS_PATH = os.path.join(BASE_DIR, 'synonyms.json')
+try:
+    with open(_SYNONYMS_PATH, encoding='utf-8') as _f:
+        SYNONYM_GROUPS = json.load(_f)
+    for _group in SYNONYM_GROUPS:
+        for _w in _group:
+            _SYNONYM_LOOKUP[_w] = set(_group) - {_w}
+    print(f"[INFO] 載入 {len(SYNONYM_GROUPS)} 組同義詞")
+except Exception as _e:
+    print(f"[WARNING] 無法載入 synonyms.json: {_e}")
+
 # ── 預建 surface → (base, tag) 對照表（純 Python）─────────────────
 _SURFACE_TO_BASE: dict = {}
 
@@ -258,8 +273,16 @@ def _get_question(difficulty, history, correct_counts):
     else:
         answer_display = re.sub(r'\(.*?\)', '', target['word'].split('/')[0]).strip()
 
+    # 排除同義詞當干擾選項
+    synonyms_of_target = set()
+    target_base = re.sub(r'\(.*?\)', '', target['word'].split('/')[0]).strip().lower()
+    if target_base in _SYNONYM_LOOKUP:
+        synonyms_of_target = _SYNONYM_LOOKUP[target_base]
+
     distractor_pool = [w for w in (VERB_POOL if is_verb else WORD_POOL)
-                       if w['word'] != target['word']]
+                       if w['word'] != target['word']
+                       and re.sub(r'\(.*?\)', '', w['word'].split('/')[0]).strip().lower()
+                       not in synonyms_of_target]
     distractors = random.sample(distractor_pool, min(3, len(distractor_pool)))
 
     options = []
