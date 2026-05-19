@@ -455,12 +455,11 @@
   </div>
 
   <!-- ════════ 文法測驗區 ════════ -->
-  <div id="grammarSection" style="display:none;">
+  <div id="grammarSection" style="display:none;flex-direction:column;gap:11px;">
     <!-- 文法題目卡片 -->
     <div class="quiz-card" id="gQuizCard">
       <div class="quiz-meta">
         <span class="quiz-instruction" id="gInstruction">選出正確的文法形式</span>
-        <span class="level-chip" id="gCategoryChip" style="background:#e8f4e8;color:#2d6a2d;">文法</span>
       </div>
       <div class="quiz-sentence" id="gSentence">點擊下方按鈕開始文法練習</div>
     </div>
@@ -696,6 +695,8 @@ async function nextQuiz() {
     const ta = document.getElementById('ttsArea');
     ta.appendChild(makeTtsBtn('聽發音', q.word));
     ta.style.display = 'flex';
+    // 自動朗讀題目
+    setTimeout(() => tts(q.word.split('/')[0]), 400);
 
   } else {
     // fill 模式
@@ -1073,7 +1074,6 @@ function gNextQuiz() {
   };
   document.getElementById('gSentence').textContent = gCurrent.sentence;
   document.getElementById('gResultCard').style.display = 'none';
-  document.getElementById('gCategoryChip').textContent = catLabels[gCurrent.cat] || '文法';
 
   // 建立選項
   const area = document.getElementById('gOptionsArea');
@@ -1156,7 +1156,7 @@ function switchTab(tab) {
   const vocabBtnArea = document.querySelector('.main-btn-area');
   if (vocabBtnArea) vocabBtnArea.style.display = isGrammar ? 'none' : '';
 
-  document.getElementById('grammarSection').style.display = isGrammar ? '' : 'none';
+  document.getElementById('grammarSection').style.display = isGrammar ? 'flex' : 'none';
 
   // 切換側邊欄面板
   document.getElementById('vocabSidePanel').style.display   = isGrammar ? 'none' : '';
