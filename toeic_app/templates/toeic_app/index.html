@@ -361,28 +361,53 @@
   <!-- 側邊欄 -->
   <div id="sidebar" style="position:fixed;top:0;left:-280px;width:260px;height:100%;background:var(--surface);z-index:201;transition:left .25s ease;padding:24px 20px;box-shadow:4px 0 20px rgba(0,0,0,0.12);overflow-y:auto;">
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
-      <span style="font-size:15px;font-weight:700;color:var(--text);">⚙️ 設定</span>
+      <span style="font-size:15px;font-weight:700;color:var(--text);" id="sidebarTitle">⚙️ 設定</span>
       <button onclick="closeSidebar()" style="background:none;border:none;font-size:20px;cursor:pointer;color:var(--muted);">✕</button>
     </div>
-    <div class="card-label">難度目標</div>
-    <div class="btn-group" id="levelBtns" style="margin-bottom:16px;">
-      <button class="seg-btn" data-level="初級" onclick="setLevel('初級')">初級</button>
-      <button class="seg-btn active-blue" data-level="中級" onclick="setLevel('中級')">中級</button>
-      <button class="seg-btn" data-level="高級" onclick="setLevel('高級')">高級</button>
+
+    <!-- 單字設定面板 -->
+    <div id="vocabSidePanel">
+      <div class="card-label">難度目標</div>
+      <div class="btn-group" id="levelBtns" style="margin-bottom:16px;">
+        <button class="seg-btn" data-level="初級" onclick="setLevel('初級')">初級</button>
+        <button class="seg-btn active-blue" data-level="中級" onclick="setLevel('中級')">中級</button>
+        <button class="seg-btn" data-level="高級" onclick="setLevel('高級')">高級</button>
+      </div>
+      <div class="divider"></div>
+      <div class="card-label">題目模式</div>
+      <div class="btn-group" id="modeBtns" style="margin-bottom:16px;flex-wrap:wrap;">
+        <button class="seg-btn active-blue" data-mode="choice" onclick="setMode('choice')">選擇題</button>
+        <button class="seg-btn" data-mode="fill" onclick="setMode('fill')">填充題</button>
+        <button class="seg-btn" data-mode="listen" onclick="setMode('listen')">🎧 聽力</button>
+        <button class="seg-btn" data-mode="zh2en" onclick="setMode('zh2en')">中→英</button>
+        <button class="seg-btn" data-mode="en2zh" onclick="setMode('en2zh')">英→中</button>
+      </div>
+      <div class="divider"></div>
+      <div class="reset-row">
+        <span class="reset-hint">進度儲存於此裝置瀏覽器</span>
+        <button class="reset-btn" onclick="resetProgress()">重置進度</button>
+      </div>
     </div>
-    <div class="divider"></div>
-    <div class="card-label">題目模式</div>
-    <div class="btn-group" id="modeBtns" style="margin-bottom:16px;flex-wrap:wrap;">
-      <button class="seg-btn active-blue" data-mode="choice" onclick="setMode('choice')">選擇題</button>
-      <button class="seg-btn" data-mode="fill" onclick="setMode('fill')">填充題</button>
-      <button class="seg-btn" data-mode="listen" onclick="setMode('listen')">🎧 聽力</button>
-      <button class="seg-btn" data-mode="zh2en" onclick="setMode('zh2en')">中→英</button>
-      <button class="seg-btn" data-mode="en2zh" onclick="setMode('en2zh')">英→中</button>
-    </div>
-    <div class="divider"></div>
-    <div class="reset-row">
-      <span class="reset-hint">進度儲存於此裝置瀏覽器</span>
-      <button class="reset-btn" onclick="resetProgress()">重置進度</button>
+
+    <!-- 文法設定面板 -->
+    <div id="grammarSidePanel" style="display:none;">
+      <div class="card-label">文法分類</div>
+      <div style="display:flex;flex-direction:column;gap:6px;margin-bottom:16px;" id="grammarCatBtns">
+        <button class="seg-btn active-blue" data-gcat="all" onclick="setGrammarCat('all')">🔀 全部隨機</button>
+        <button class="seg-btn" data-gcat="tense" onclick="setGrammarCat('tense')">⏱ 時態</button>
+        <button class="seg-btn" data-gcat="passive" onclick="setGrammarCat('passive')">🔄 被動語態</button>
+        <button class="seg-btn" data-gcat="modal" onclick="setGrammarCat('modal')">💬 助動詞</button>
+        <button class="seg-btn" data-gcat="conditional" onclick="setGrammarCat('conditional')">🔀 條件句</button>
+        <button class="seg-btn" data-gcat="relative" onclick="setGrammarCat('relative')">🔗 關係子句</button>
+        <button class="seg-btn" data-gcat="conjunction" onclick="setGrammarCat('conjunction')">🔁 連接詞</button>
+        <button class="seg-btn" data-gcat="article" onclick="setGrammarCat('article')">📌 冠詞</button>
+        <button class="seg-btn" data-gcat="infinitive" onclick="setGrammarCat('infinitive')">📎 不定詞/動名詞</button>
+        <button class="seg-btn" data-gcat="comparison" onclick="setGrammarCat('comparison')">📊 比較級</button>
+        <button class="seg-btn" data-gcat="preposition" onclick="setGrammarCat('preposition')">📍 介系詞</button>
+        <button class="seg-btn" data-gcat="pos" onclick="setGrammarCat('pos')">🔤 詞性</button>
+        <button class="seg-btn" data-gcat="inversion" onclick="setGrammarCat('inversion')">🔃 倒裝/強調</button>
+        <button class="seg-btn" data-gcat="clause" onclick="setGrammarCat('clause')">📝 名詞子句/分詞</button>
+      </div>
     </div>
   </div>
 
@@ -984,11 +1009,13 @@ function toggleVocabDetail(idx) {
 
 // ── 文法測驗 ──────────────────────────────────────────
 let gAllQuestions = [];
-let gQueue        = [];
+let gQueue        = [];   // 本回合剩餘題目
 let gCurrent      = null;
 let gAnswered     = false;
 let gCorrect      = 0;
-let gTotal        = 0;
+let gRoundTotal   = 0;    // 本回合題數（10題）
+let gRoundSize    = 10;
+let gCategory     = 'all';
 
 async function loadGrammar() {
   if (gAllQuestions.length > 0) return;
@@ -1001,20 +1028,52 @@ async function loadGrammar() {
   }
 }
 
+function setGrammarCat(cat) {
+  gCategory = cat;
+  document.querySelectorAll('#grammarCatBtns .seg-btn').forEach(b => {
+    b.className = 'seg-btn' + (b.dataset.gcat === cat ? ' active-blue' : '');
+  });
+  // 重置回合，讓下一次 START 用新分類
+  gQueue = [];
+  gRoundTotal = 0;
+  gCorrect = 0;
+  document.getElementById('gBtnStart').classList.remove('hidden');
+  document.getElementById('gBtnNext').classList.add('hidden');
+  document.getElementById('gResultCard').style.display = 'none';
+  document.getElementById('gOptionsArea').innerHTML = '';
+  document.getElementById('gSentence').textContent = '點擊 START 開始文法練習';
+  updateGProgress();
+  closeSidebar();
+}
+
+function _buildGQueue() {
+  const pool = gCategory === 'all'
+    ? [...gAllQuestions]
+    : gAllQuestions.filter(q => q.cat === gCategory);
+  const shuffled = pool.sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, Math.min(gRoundSize, shuffled.length));
+}
+
 function gNextQuiz() {
+  // 若回合結束或尚未開始，重新抽 10 題
   if (gQueue.length === 0) {
-    gQueue = [...gAllQuestions].sort(() => Math.random() - 0.5);
-    gCorrect = 0;
-    gTotal   = 0;
+    gQueue      = _buildGQueue();
+    gCorrect    = 0;
+    gRoundTotal = gQueue.length;
   }
+
   gCurrent  = gQueue.pop();
   gAnswered = false;
-  gTotal++;
 
-  document.getElementById('gSentence').textContent    = gCurrent.sentence;
+  const catLabels = {
+    tense:'時態', passive:'被動語態', modal:'助動詞', conditional:'條件句',
+    relative:'關係子句', conjunction:'連接詞', article:'冠詞',
+    infinitive:'不定詞/動名詞', comparison:'比較級', preposition:'介系詞',
+    pos:'詞性', inversion:'倒裝/強調', clause:'名詞子句/分詞'
+  };
+  document.getElementById('gSentence').textContent = gCurrent.sentence;
   document.getElementById('gResultCard').style.display = 'none';
-  document.getElementById('gCategoryChip').textContent =
-    gCurrent.id.startsWith('t') ? '時態' : '詞性';
+  document.getElementById('gCategoryChip').textContent = catLabels[gCurrent.cat] || '文法';
 
   // 建立選項
   const area = document.getElementById('gOptionsArea');
@@ -1022,10 +1081,10 @@ function gNextQuiz() {
   const opts = [...gCurrent.options].sort(() => Math.random() - 0.5);
   opts.forEach(opt => {
     const btn = document.createElement('button');
-    btn.className      = 'option-btn';
-    btn.dataset.word   = opt;
-    btn.innerHTML      = `<span class="opt-word">${opt}</span>`;
-    btn.onclick        = () => gSelectOption(opt);
+    btn.className    = 'option-btn';
+    btn.dataset.word = opt;
+    btn.innerHTML    = `<span class="opt-word">${opt}</span>`;
+    btn.onclick      = () => gSelectOption(opt);
     area.appendChild(btn);
   });
 
@@ -1043,7 +1102,7 @@ function gSelectOption(chosen) {
   if (isRight) gCorrect++;
 
   document.querySelectorAll('#gOptionsArea .option-btn').forEach(b => {
-    if (b.dataset.word === correct)             b.classList.add('correct');
+    if (b.dataset.word === correct)                 b.classList.add('correct');
     else if (b.dataset.word === chosen && !isRight) b.classList.add('wrong');
     b.onclick = null;
   });
@@ -1056,7 +1115,18 @@ function gSelectOption(chosen) {
   title.textContent = isRight ? `✅ 正確！  ${correct}` : `❌ 正確答案：${correct}`;
   document.getElementById('gExplanation').textContent = gCurrent.explanation;
 
-  document.getElementById('gBtnNext').classList.remove('hidden');
+  // 判斷本回合是否結束
+  const remaining = gQueue.length;
+  if (remaining === 0) {
+    // 回合結束，顯示總結
+    const nextBtn = document.getElementById('gBtnNext');
+    nextBtn.textContent = `再來一回合 🔄`;
+    nextBtn.classList.remove('hidden');
+  } else {
+    document.getElementById('gBtnNext').textContent = '下一題 →';
+    document.getElementById('gBtnNext').classList.remove('hidden');
+  }
+
   setTimeout(() => card.classList.remove('fade-up'), 250);
   setTimeout(() => card.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
   updateGProgress();
@@ -1064,38 +1134,36 @@ function gSelectOption(chosen) {
 
 function updateGProgress() {
   const el = document.getElementById('gProgress');
-  if (gTotal === 0) { el.textContent = ''; return; }
-  el.textContent = `本回合：${gCorrect} / ${gTotal} 題正確`;
+  if (gRoundTotal === 0) { el.textContent = ''; return; }
+  const done = gRoundTotal - gQueue.length - (gAnswered ? 0 : 1);
+  const answered = gAnswered ? gRoundTotal - gQueue.length : gRoundTotal - gQueue.length - 1;
+  el.textContent = `第 ${Math.max(1, gRoundTotal - gQueue.length)} / ${gRoundTotal} 題　正確 ${gCorrect} 題`;
 }
 
 // ── Tab 切換 ──────────────────────────────────────────
-const vocabEls = ['quizCard','optionsArea','fillArea','resultCard',
-                  '.main-btn-area:first-of-type','ttsArea'];
-
 function switchTab(tab) {
   const isGrammar = tab === 'grammar';
 
-  // 切換 tab 按鈕樣式
   document.getElementById('tabVocab').style.background   = isGrammar ? '' : 'var(--blue)';
   document.getElementById('tabVocab').style.color        = isGrammar ? '' : '#fff';
   document.getElementById('tabGrammar').style.background = isGrammar ? 'var(--blue)' : '';
   document.getElementById('tabGrammar').style.color      = isGrammar ? '#fff' : '';
 
-  // 顯示/隱藏單字區
   ['quizCard','optionsArea','fillArea','resultCard','ttsArea'].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.style.display = isGrammar ? 'none' : '';
   });
-  // 主按鈕區（單字）
   const vocabBtnArea = document.querySelector('.main-btn-area');
   if (vocabBtnArea) vocabBtnArea.style.display = isGrammar ? 'none' : '';
 
-  // 顯示/隱藏文法區
   document.getElementById('grammarSection').style.display = isGrammar ? '' : 'none';
 
-  if (isGrammar && gAllQuestions.length === 0) {
-    loadGrammar();
-  }
+  // 切換側邊欄面板
+  document.getElementById('vocabSidePanel').style.display   = isGrammar ? 'none' : '';
+  document.getElementById('grammarSidePanel').style.display = isGrammar ? '' : 'none';
+  document.getElementById('sidebarTitle').textContent       = isGrammar ? '📝 文法設定' : '⚙️ 設定';
+
+  if (isGrammar && gAllQuestions.length === 0) loadGrammar();
 }
 
 // ── 初始化 ───────────────────────────────────────────
