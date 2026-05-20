@@ -393,20 +393,74 @@
     <div id="grammarSidePanel" style="display:none;">
       <div class="card-label">文法分類</div>
       <div style="display:flex;flex-direction:column;gap:6px;margin-bottom:16px;" id="grammarCatBtns">
-        <button class="seg-btn active-blue" data-gcat="all" onclick="setGrammarCat('all')">🔀 全部隨機</button>
-        <button class="seg-btn" data-gcat="tense" onclick="setGrammarCat('tense')">⏱ 時態</button>
-        <button class="seg-btn" data-gcat="passive" onclick="setGrammarCat('passive')">🔄 被動語態</button>
-        <button class="seg-btn" data-gcat="modal" onclick="setGrammarCat('modal')">💬 助動詞</button>
-        <button class="seg-btn" data-gcat="conditional" onclick="setGrammarCat('conditional')">🔀 條件句</button>
-        <button class="seg-btn" data-gcat="relative" onclick="setGrammarCat('relative')">🔗 關係子句</button>
-        <button class="seg-btn" data-gcat="conjunction" onclick="setGrammarCat('conjunction')">🔁 連接詞</button>
-        <button class="seg-btn" data-gcat="article" onclick="setGrammarCat('article')">📌 冠詞</button>
-        <button class="seg-btn" data-gcat="infinitive" onclick="setGrammarCat('infinitive')">📎 不定詞/動名詞</button>
-        <button class="seg-btn" data-gcat="comparison" onclick="setGrammarCat('comparison')">📊 比較級</button>
-        <button class="seg-btn" data-gcat="preposition" onclick="setGrammarCat('preposition')">📍 介系詞</button>
-        <button class="seg-btn" data-gcat="pos" onclick="setGrammarCat('pos')">🔤 詞性</button>
-        <button class="seg-btn" data-gcat="inversion" onclick="setGrammarCat('inversion')">🔃 倒裝/強調</button>
-        <button class="seg-btn" data-gcat="clause" onclick="setGrammarCat('clause')">📝 名詞子句/分詞</button>
+        <div style="display:flex;gap:4px;align-items:center;">
+          <button class="seg-btn active-blue" data-gcat="all" onclick="setGrammarCat('all')" style="flex:1;">🔀 全部隨機</button>
+        </div>
+        <div style="display:flex;gap:4px;align-items:center;">
+          <button class="seg-btn" data-gcat="pos" onclick="setGrammarCat('pos')" style="flex:1;">🔤 詞性</button>
+          <button onclick="toggleCatList('pos')" style="background:none;border:1px solid var(--border);border-radius:6px;padding:2px 8px;cursor:pointer;font-size:11px;color:var(--muted);">題目</button>
+        </div>
+        <div id="catList-pos" style="display:none;background:#f5f0e4;border-radius:8px;padding:8px;max-height:200px;overflow-y:auto;font-size:12px;"></div>
+        <div style="display:flex;gap:4px;align-items:center;">
+          <button class="seg-btn" data-gcat="tense" onclick="setGrammarCat('tense')" style="flex:1;">⏱ 時態</button>
+          <button onclick="toggleCatList('tense')" style="background:none;border:1px solid var(--border);border-radius:6px;padding:2px 8px;cursor:pointer;font-size:11px;color:var(--muted);">題目</button>
+        </div>
+        <div id="catList-tense" style="display:none;background:#f5f0e4;border-radius:8px;padding:8px;max-height:200px;overflow-y:auto;font-size:12px;"></div>
+        <div style="display:flex;gap:4px;align-items:center;">
+          <button class="seg-btn" data-gcat="passive" onclick="setGrammarCat('passive')" style="flex:1;">🔄 被動語態</button>
+          <button onclick="toggleCatList('passive')" style="background:none;border:1px solid var(--border);border-radius:6px;padding:2px 8px;cursor:pointer;font-size:11px;color:var(--muted);">題目</button>
+        </div>
+        <div id="catList-passive" style="display:none;background:#f5f0e4;border-radius:8px;padding:8px;max-height:200px;overflow-y:auto;font-size:12px;"></div>
+        <div style="display:flex;gap:4px;align-items:center;">
+          <button class="seg-btn" data-gcat="modal" onclick="setGrammarCat('modal')" style="flex:1;">💬 助動詞</button>
+          <button onclick="toggleCatList('modal')" style="background:none;border:1px solid var(--border);border-radius:6px;padding:2px 8px;cursor:pointer;font-size:11px;color:var(--muted);">題目</button>
+        </div>
+        <div id="catList-modal" style="display:none;background:#f5f0e4;border-radius:8px;padding:8px;max-height:200px;overflow-y:auto;font-size:12px;"></div>
+        <div style="display:flex;gap:4px;align-items:center;">
+          <button class="seg-btn" data-gcat="conditional" onclick="setGrammarCat('conditional')" style="flex:1;">🔀 條件句</button>
+          <button onclick="toggleCatList('conditional')" style="background:none;border:1px solid var(--border);border-radius:6px;padding:2px 8px;cursor:pointer;font-size:11px;color:var(--muted);">題目</button>
+        </div>
+        <div id="catList-conditional" style="display:none;background:#f5f0e4;border-radius:8px;padding:8px;max-height:200px;overflow-y:auto;font-size:12px;"></div>
+        <div style="display:flex;gap:4px;align-items:center;">
+          <button class="seg-btn" data-gcat="relative" onclick="setGrammarCat('relative')" style="flex:1;">🔗 關係子句</button>
+          <button onclick="toggleCatList('relative')" style="background:none;border:1px solid var(--border);border-radius:6px;padding:2px 8px;cursor:pointer;font-size:11px;color:var(--muted);">題目</button>
+        </div>
+        <div id="catList-relative" style="display:none;background:#f5f0e4;border-radius:8px;padding:8px;max-height:200px;overflow-y:auto;font-size:12px;"></div>
+        <div style="display:flex;gap:4px;align-items:center;">
+          <button class="seg-btn" data-gcat="conjunction" onclick="setGrammarCat('conjunction')" style="flex:1;">🔁 連接詞</button>
+          <button onclick="toggleCatList('conjunction')" style="background:none;border:1px solid var(--border);border-radius:6px;padding:2px 8px;cursor:pointer;font-size:11px;color:var(--muted);">題目</button>
+        </div>
+        <div id="catList-conjunction" style="display:none;background:#f5f0e4;border-radius:8px;padding:8px;max-height:200px;overflow-y:auto;font-size:12px;"></div>
+        <div style="display:flex;gap:4px;align-items:center;">
+          <button class="seg-btn" data-gcat="article" onclick="setGrammarCat('article')" style="flex:1;">📌 冠詞</button>
+          <button onclick="toggleCatList('article')" style="background:none;border:1px solid var(--border);border-radius:6px;padding:2px 8px;cursor:pointer;font-size:11px;color:var(--muted);">題目</button>
+        </div>
+        <div id="catList-article" style="display:none;background:#f5f0e4;border-radius:8px;padding:8px;max-height:200px;overflow-y:auto;font-size:12px;"></div>
+        <div style="display:flex;gap:4px;align-items:center;">
+          <button class="seg-btn" data-gcat="infinitive" onclick="setGrammarCat('infinitive')" style="flex:1;">📎 不定詞/動名詞</button>
+          <button onclick="toggleCatList('infinitive')" style="background:none;border:1px solid var(--border);border-radius:6px;padding:2px 8px;cursor:pointer;font-size:11px;color:var(--muted);">題目</button>
+        </div>
+        <div id="catList-infinitive" style="display:none;background:#f5f0e4;border-radius:8px;padding:8px;max-height:200px;overflow-y:auto;font-size:12px;"></div>
+        <div style="display:flex;gap:4px;align-items:center;">
+          <button class="seg-btn" data-gcat="comparison" onclick="setGrammarCat('comparison')" style="flex:1;">📊 比較級</button>
+          <button onclick="toggleCatList('comparison')" style="background:none;border:1px solid var(--border);border-radius:6px;padding:2px 8px;cursor:pointer;font-size:11px;color:var(--muted);">題目</button>
+        </div>
+        <div id="catList-comparison" style="display:none;background:#f5f0e4;border-radius:8px;padding:8px;max-height:200px;overflow-y:auto;font-size:12px;"></div>
+        <div style="display:flex;gap:4px;align-items:center;">
+          <button class="seg-btn" data-gcat="preposition" onclick="setGrammarCat('preposition')" style="flex:1;">📍 介系詞</button>
+          <button onclick="toggleCatList('preposition')" style="background:none;border:1px solid var(--border);border-radius:6px;padding:2px 8px;cursor:pointer;font-size:11px;color:var(--muted);">題目</button>
+        </div>
+        <div id="catList-preposition" style="display:none;background:#f5f0e4;border-radius:8px;padding:8px;max-height:200px;overflow-y:auto;font-size:12px;"></div>
+        <div style="display:flex;gap:4px;align-items:center;">
+          <button class="seg-btn" data-gcat="inversion" onclick="setGrammarCat('inversion')" style="flex:1;">🔃 倒裝/強調</button>
+          <button onclick="toggleCatList('inversion')" style="background:none;border:1px solid var(--border);border-radius:6px;padding:2px 8px;cursor:pointer;font-size:11px;color:var(--muted);">題目</button>
+        </div>
+        <div id="catList-inversion" style="display:none;background:#f5f0e4;border-radius:8px;padding:8px;max-height:200px;overflow-y:auto;font-size:12px;"></div>
+        <div style="display:flex;gap:4px;align-items:center;">
+          <button class="seg-btn" data-gcat="clause" onclick="setGrammarCat('clause')" style="flex:1;">📝 名詞子句/分詞</button>
+          <button onclick="toggleCatList('clause')" style="background:none;border:1px solid var(--border);border-radius:6px;padding:2px 8px;cursor:pointer;font-size:11px;color:var(--muted);">題目</button>
+        </div>
+        <div id="catList-clause" style="display:none;background:#f5f0e4;border-radius:8px;padding:8px;max-height:200px;overflow-y:auto;font-size:12px;"></div>
       </div>
     </div>
   </div>
@@ -473,6 +527,9 @@
       <div class="result-divider"></div>
       <div class="result-section-label">📖 詳解</div>
       <div class="trans-text" id="gExplanation"></div>
+      <div class="result-divider" id="gTransDivider" style="display:none;"></div>
+      <div class="result-section-label" id="gTransLabel" style="display:none;">📝 例句翻譯</div>
+      <div class="trans-text" id="gTransText" style="color:#8a7d6a;font-size:13px;"></div>
     </div>
 
     <!-- 文法按鈕 -->
@@ -1024,9 +1081,33 @@ async function loadGrammar() {
     const res  = await fetch('/static/grammar.json');
     const data = await res.json();
     gAllQuestions = data.questions || [];
+    buildCatLists();
   } catch(e) {
     console.error('無法載入文法題庫', e);
   }
+}
+
+function buildCatLists() {
+  const cats = ['pos','tense','passive','modal','conditional','relative',
+                'conjunction','article','infinitive','comparison','preposition','inversion','clause'];
+  cats.forEach(cat => {
+    const el = document.getElementById(`catList-${cat}`);
+    if (!el) return;
+    const qs = gAllQuestions.filter(q => q.cat === cat);
+    el.innerHTML = qs.map((q, i) =>
+      `<div style="padding:5px 0;border-bottom:1px solid #d8d0bc;color:#2c2416;">
+        <span style="color:#8a7d6a;font-size:10px;margin-right:4px;">${i+1}.</span>
+        ${q.sentence}
+        ${q.zh ? `<div style="color:#8a7d6a;font-size:11px;margin-top:2px;">${q.zh}</div>` : ''}
+      </div>`
+    ).join('');
+  });
+}
+
+function toggleCatList(cat) {
+  const el = document.getElementById(`catList-${cat}`);
+  if (!el) return;
+  el.style.display = el.style.display === 'none' ? 'block' : 'none';
 }
 
 function setGrammarCat(cat) {
@@ -1114,6 +1195,13 @@ function gSelectOption(chosen) {
   title.className = `result-title ${isRight ? 'correct-text' : 'wrong-text'}`;
   title.textContent = isRight ? `✅ 正確！  ${correct}` : `❌ 正確答案：${correct}`;
   document.getElementById('gExplanation').textContent = gCurrent.explanation;
+
+  // 顯示中文例句翻譯（完整中文句子，不含英文）
+  if (gCurrent.zh) {
+    document.getElementById('gTransDivider').style.display = '';
+    document.getElementById('gTransLabel').style.display   = '';
+    document.getElementById('gTransText').textContent      = gCurrent.zh;
+  }
 
   // 判斷本回合是否結束
   const remaining = gQueue.length;
