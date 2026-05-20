@@ -1,22 +1,29 @@
 {
   "total": 200,
   "categories": {
-    "pos": 60,
-    "tense": 30,
-    "passive": 12,
-    "modal": 10,
-    "conditional": 8,
-    "relative": 10,
-    "conjunction": 15,
-    "preposition": 20,
-    "vocabulary": 35
+    "article": 1,
+    "comparison": 5,
+    "conditional": 3,
+    "conjunction": 21,
+    "modal": 6,
+    "passive": 8,
+    "pos": 44,
+    "preposition": 22,
+    "relative": 9,
+    "tense": 23,
+    "vocabulary": 58
   },
   "questions": [
     {
       "id": "tb001",
       "cat": "pos",
       "sentence": "Emily introduced -------- before starting the interview for the management job.",
-      "options": ["she", "herself", "hers", "her"],
+      "options": [
+        "she",
+        "herself",
+        "hers",
+        "her"
+      ],
       "answer": "herself",
       "explanation": "主詞 Emily 和受詞為同一人，需用反身代名詞 herself（她自己）。she 是主格、hers 是所有格代名詞、her 是受格，皆不符合反身用法。",
       "zh": "艾蜜莉在開始管理職位面試前先介紹了自己。"
@@ -25,7 +32,12 @@
       "id": "tb002",
       "cat": "pos",
       "sentence": "-------- to the e-mail from the supervisor as soon as possible and ask questions if anything is unclear.",
-      "options": ["Response", "Responding", "Respond", "Responds"],
+      "options": [
+        "Response",
+        "Responding",
+        "Respond",
+        "Responds"
+      ],
       "answer": "Respond",
       "explanation": "這是祈使句，動詞需用原形。Response 是名詞，Responding 是現在分詞，Responds 是第三人稱單數，皆不正確。",
       "zh": "請盡快回覆主管的電子郵件，如有任何不清楚的地方請提問。"
@@ -34,7 +46,12 @@
       "id": "tb003",
       "cat": "vocabulary",
       "sentence": "The -------- of the retreat was to allow all of the employees to bond with one another.",
-      "options": ["measure", "convention", "scheme", "purpose"],
+      "options": [
+        "measure",
+        "convention",
+        "scheme",
+        "purpose"
+      ],
       "answer": "purpose",
       "explanation": "purpose（目的）符合語意，measure 是措施、convention 是慣例/大會、scheme 是計畫/陰謀，均不符合。",
       "zh": "這次靜修活動的目的是讓所有員工能夠彼此建立情誼。"
@@ -43,7 +60,12 @@
       "id": "tb004",
       "cat": "pos",
       "sentence": "The wildlife preserve was created by the Florida Nature Commission to -------- the state's endangered species.",
-      "options": ["protect", "protection", "protective", "protecting"],
+      "options": [
+        "protect",
+        "protection",
+        "protective",
+        "protecting"
+      ],
       "answer": "protect",
       "explanation": "to 為不定詞，後接動詞原形 protect（保護）。protection 是名詞、protective 是形容詞、protecting 是現在分詞，皆不正確。",
       "zh": "這個野生動物保護區是由佛羅里達自然委員會設立，目的是保護該州的瀕危物種。"
@@ -52,7 +74,12 @@
       "id": "tb005",
       "cat": "vocabulary",
       "sentence": "Staff members with -------- engagements need not feel obliged to attend next week's trip.",
-      "options": ["prior", "timely", "late", "old"],
+      "options": [
+        "prior",
+        "timely",
+        "late",
+        "old"
+      ],
       "answer": "prior",
       "explanation": "prior（事先的、之前的）engagements 指先前的約定，符合語意。timely 是及時的、late 是遲到的、old 是舊的，皆不符合。",
       "zh": "有事先約定的員工不必覺得有義務參加下週的旅行。"
@@ -61,7 +88,12 @@
       "id": "tb006",
       "cat": "tense",
       "sentence": "The building's new tenants -------- in the next couple of days, so the staff is getting everything ready.",
-      "options": ["to arrive", "have arrived", "are arriving", "arrival"],
+      "options": [
+        "to arrive",
+        "have arrived",
+        "are arriving",
+        "arrival"
+      ],
       "answer": "are arriving",
       "explanation": "in the next couple of days 指近期未來，用現在進行式表示確定的未來計畫。have arrived 是已完成，to arrive/arrival 語法不正確。",
       "zh": "這棟樓的新租客在未來幾天內即將入住，所以員工正在準備好一切。"
@@ -70,7 +102,12 @@
       "id": "tb007",
       "cat": "pos",
       "sentence": "The banquet hall was -------- decorated for the fund-raising gala on June 11.",
-      "options": ["elaborated", "elaborately", "elaborate", "elaborator"],
+      "options": [
+        "elaborated",
+        "elaborately",
+        "elaborate",
+        "elaborator"
+      ],
       "answer": "elaborately",
       "explanation": "修飾過去分詞 decorated 需用副詞，elaborately（精心地）為副詞。elaborated 是動詞、elaborate 是形容詞或動詞、elaborator 是名詞。",
       "zh": "宴會廳為6月11日的募款晚宴精心裝飾。"
@@ -79,7 +116,12 @@
       "id": "tb008",
       "cat": "vocabulary",
       "sentence": "The Whitby Town Council recently prepared a brochure recommending ways that residents can play an -------- role in the community.",
-      "options": ["activate", "active", "action", "activity"],
+      "options": [
+        "activate",
+        "active",
+        "action",
+        "activity"
+      ],
       "answer": "active",
       "explanation": "修飾名詞 role 需用形容詞，active（積極的）符合語意。activate 是動詞、action 和 activity 是名詞。",
       "zh": "惠比市議會最近準備了一份手冊，推薦居民在社區中發揮積極作用的方式。"
@@ -88,7 +130,12 @@
       "id": "tb009",
       "cat": "vocabulary",
       "sentence": "Ms. Johnson -------- a feasible solution to the customer's network problem.",
-      "options": ["came up with", "dropped by", "looked in on", "ran out of"],
+      "options": [
+        "came up with",
+        "dropped by",
+        "looked in on",
+        "ran out of"
+      ],
       "answer": "came up with",
       "explanation": "came up with（想出）符合語意，表示提出解決方案。dropped by 是順道拜訪、looked in on 是察看、ran out of 是用完。",
       "zh": "強森女士想出了一個解決客戶網路問題的可行方案。"
@@ -97,7 +144,12 @@
       "id": "tb010",
       "cat": "preposition",
       "sentence": "The human resources department is -------- pressure to find a replacement for the senior accountant.",
-      "options": ["within", "through", "under", "among"],
+      "options": [
+        "within",
+        "through",
+        "under",
+        "among"
+      ],
       "answer": "under",
       "explanation": "under pressure（承受壓力）為固定搭配。within 是在…之內、through 是透過、among 是在…之中，皆不符合。",
       "zh": "人力資源部門正承受壓力，需要找一名資深會計師的替代人選。"
@@ -106,7 +158,12 @@
       "id": "tb011",
       "cat": "pos",
       "sentence": "BelTrax has -------- ranked as one of the top providers of marketing research since its foundation seven years ago.",
-      "options": ["conveniently", "temporarily", "consistently", "wishfully"],
+      "options": [
+        "conveniently",
+        "temporarily",
+        "consistently",
+        "wishfully"
+      ],
       "answer": "consistently",
       "explanation": "consistently（一貫地、持續地）符合語意，表示自成立以來一直保持高排名。conveniently 是方便地、temporarily 是暫時地、wishfully 是如願地。",
       "zh": "BelTrax 自七年前成立以來，一直被列為頂尖行銷研究提供商之一。"
@@ -115,7 +172,12 @@
       "id": "tb012",
       "cat": "tense",
       "sentence": "Mansfield Chemical built an extension that -------- additional space for the newly purchased machinery.",
-      "options": ["will have furnished", "would furnish", "had furnished", "to furnish"],
+      "options": [
+        "will have furnished",
+        "would furnish",
+        "had furnished",
+        "to furnish"
+      ],
       "answer": "would furnish",
       "explanation": "主句為過去式 built，從句描述當時預期的結果，用過去未來式 would furnish。had furnished 是過去完成式，will have furnished/to furnish 不符合語境。",
       "zh": "曼斯菲爾德化工建造了一個擴建部分，為新購買的機械提供額外空間。"
@@ -124,7 +186,12 @@
       "id": "tb013",
       "cat": "vocabulary",
       "sentence": "As the argument raised at the last meeting was on a -------- point, it did not affect the proposal's overall plan.",
-      "options": ["defensive", "creative", "minor", "critical"],
+      "options": [
+        "defensive",
+        "creative",
+        "minor",
+        "critical"
+      ],
       "answer": "minor",
       "explanation": "minor（次要的）符合語意，說明論點不影響整體計畫。defensive 是防禦性的、creative 是創意的、critical 是關鍵的，與後文矛盾。",
       "zh": "由於上次會議提出的論點屬於次要問題，並未影響提案的整體計畫。"
@@ -133,7 +200,12 @@
       "id": "tb014",
       "cat": "relative",
       "sentence": "-------- who still wish to submit applications after the deadline must pay a $45 late fee in order to be considered.",
-      "options": ["Anyone", "Those", "Though", "Seldom"],
+      "options": [
+        "Anyone",
+        "Those",
+        "Though",
+        "Seldom"
+      ],
       "answer": "Those",
       "explanation": "Those who…（那些…的人）是固定搭配，作主詞。Anyone 後不接 who、Though 是連接詞、Seldom 是副詞，皆不符合文法。",
       "zh": "那些仍希望在截止日期後提交申請的人必須支付45美元的遲交費才能被考慮。"
@@ -142,7 +214,12 @@
       "id": "tb015",
       "cat": "vocabulary",
       "sentence": "Everyone at Hammond Construction, Inc. was surprised to find out that the year's greatest cost saving measure was -------- by an intern.",
-      "options": ["attracted", "reserved", "continued", "suggested"],
+      "options": [
+        "attracted",
+        "reserved",
+        "continued",
+        "suggested"
+      ],
       "answer": "suggested",
       "explanation": "suggested（被提出/建議）符合語意，措施由實習生「提出」。attracted 是吸引、reserved 是保留、continued 是繼續，均不符合。",
       "zh": "哈蒙德建設公司的每個人都驚訝地發現，今年最大的成本節約措施是由一名實習生提出的。"
@@ -151,7 +228,12 @@
       "id": "tb016",
       "cat": "pos",
       "sentence": "Upon his retirement, Mr. Ross was highly commended for his vital contributions during the company's -------- years.",
-      "options": ["formed", "formation", "formative", "form"],
+      "options": [
+        "formed",
+        "formation",
+        "formative",
+        "form"
+      ],
       "answer": "formative",
       "explanation": "修飾名詞 years 需用形容詞，formative（形成期的、奠基的）符合語意。formed 是動詞、formation 是名詞、form 是動詞或名詞。",
       "zh": "羅斯先生退休時，因其在公司創立初期的重要貢獻而獲得高度讚揚。"
@@ -160,7 +242,12 @@
       "id": "tb017",
       "cat": "vocabulary",
       "sentence": "Ms. Waddill provided a few members of her department with an -------- covering the key points of the CEO's speech.",
-      "options": ["objection", "expansion", "overview", "experience"],
+      "options": [
+        "objection",
+        "expansion",
+        "overview",
+        "experience"
+      ],
       "answer": "overview",
       "explanation": "overview（概述）符合語意，表示涵蓋演講要點的摘要。objection 是反對、expansion 是擴展、experience 是經驗，均不符合。",
       "zh": "瓦迪爾女士為她部門的幾名成員提供了一份涵蓋執行長演講要點的概述。"
@@ -169,7 +256,12 @@
       "id": "tb018",
       "cat": "preposition",
       "sentence": "The doubts among investors -------- the company's ability to expand in the coming year led to a steep decline in the stock's price.",
-      "options": ["behind", "from", "regarding", "across"],
+      "options": [
+        "behind",
+        "from",
+        "regarding",
+        "across"
+      ],
       "answer": "regarding",
       "explanation": "regarding（關於）符合語意，表示投資者對公司擴張能力的疑慮。behind 是在後面、from 是來自、across 是橫越，均不符合。",
       "zh": "投資者對公司來年擴張能力的疑慮導致股價急劇下跌。"
@@ -178,7 +270,12 @@
       "id": "tb019",
       "cat": "pos",
       "sentence": "-------- at the Latipa Film Festival increased by nearly 30 percent this year thanks to an online marketing campaign.",
-      "options": ["Attend", "Attendee", "Attendant", "Attendance"],
+      "options": [
+        "Attend",
+        "Attendee",
+        "Attendant",
+        "Attendance"
+      ],
       "answer": "Attendance",
       "explanation": "此處為主詞，需用名詞；attendance（出席率/人數）符合語意。Attend 是動詞、Attendee 和 Attendant 雖是名詞但語意不符（個人而非數量）。",
       "zh": "由於線上行銷活動，今年拉蒂帕電影節的出席人數增加了近30%。"
@@ -187,7 +284,12 @@
       "id": "tb020",
       "cat": "conjunction",
       "sentence": "During the summer, rooms at the Marigold Hotel are always fully booked -------- the large size of the facility.",
-      "options": ["thereby", "even though", "aside from", "notwithstanding"],
+      "options": [
+        "thereby",
+        "even though",
+        "aside from",
+        "notwithstanding"
+      ],
       "answer": "notwithstanding",
       "explanation": "notwithstanding（儘管）表讓步，說明儘管設施很大仍然訂滿，符合語意。thereby 是因此、even though 需接子句、aside from 是除了。",
       "zh": "即使設施規模龐大，瑪麗高德酒店的客房在夏季仍總是訂滿。"
@@ -196,7 +298,12 @@
       "id": "tb021",
       "cat": "pos",
       "sentence": "All employees need a written -------- from the manager to access the office during off-hours.",
-      "options": ["permit", "permissive", "permits", "permissively"],
+      "options": [
+        "permit",
+        "permissive",
+        "permits",
+        "permissively"
+      ],
       "answer": "permit",
       "explanation": "a written 後需接名詞，permit（許可證）為名詞。permissive 是形容詞、permits 在此為動詞第三人稱、permissively 是副詞。",
       "zh": "所有員工在非上班時間進入辦公室需要獲得經理的書面許可。"
@@ -205,7 +312,12 @@
       "id": "tb022",
       "cat": "vocabulary",
       "sentence": "Since the trainees were having difficulty following the instruction manual, the trainer decided to create a -------- version.",
-      "options": ["simplified", "similar", "controversial", "contradictory"],
+      "options": [
+        "simplified",
+        "similar",
+        "controversial",
+        "contradictory"
+      ],
       "answer": "simplified",
       "explanation": "simplified（簡化的）符合語意，因為學員難以理解，所以製作更簡單的版本。similar 是相似的、controversial 是有爭議的、contradictory 是矛盾的，均不符合。",
       "zh": "由於學員難以理解操作手冊，培訓師決定製作一個簡化版本。"
@@ -214,7 +326,12 @@
       "id": "tb023",
       "cat": "comparison",
       "sentence": "HGS Company was awarded the construction contract as it had a -------- bid than any of the other competing firms.",
-      "options": ["worthiest", "worth", "worthier", "worthy"],
+      "options": [
+        "worthiest",
+        "worth",
+        "worthier",
+        "worthy"
+      ],
       "answer": "worthier",
       "explanation": "than 前需用比較級，worthier（更值得的）為正確比較級。worthiest 是最高級、worth 是價值（名詞）、worthy 是原級。",
       "zh": "HGS公司獲得了建設合約，因為它的投標比其他任何競標公司都更具價值。"
@@ -223,7 +340,12 @@
       "id": "tb024",
       "cat": "vocabulary",
       "sentence": "Ms. Nissim, the founder of Hartwell Industries, will -------- a talk on effective sales strategies at the marketing convention.",
-      "options": ["deliver", "register", "showcase", "imply"],
+      "options": [
+        "deliver",
+        "register",
+        "showcase",
+        "imply"
+      ],
       "answer": "deliver",
       "explanation": "deliver a talk（發表演講）為固定搭配。register 是登記、showcase 是展示、imply 是暗示，均不符合。",
       "zh": "哈特威爾工業的創始人尼西姆女士將在行銷會議上發表一篇關於有效銷售策略的演講。"
@@ -232,7 +354,12 @@
       "id": "tb025",
       "cat": "vocabulary",
       "sentence": "Many people have succeeded in reducing household waste by buying fewer -------- products.",
-      "options": ["basic", "decisive", "effective", "disposable"],
+      "options": [
+        "basic",
+        "decisive",
+        "effective",
+        "disposable"
+      ],
       "answer": "disposable",
       "explanation": "disposable（一次性的）符合語意，減少購買一次性產品可以減少家庭垃圾。basic 是基本的、decisive 是決定性的、effective 是有效的，均不符合。",
       "zh": "許多人通過購買較少的一次性產品成功地減少了家庭垃圾。"
@@ -241,7 +368,12 @@
       "id": "tb026",
       "cat": "tense",
       "sentence": "The next work of art for sale -------- one of the finest paintings ever exhibited at the Cole Morton Museum.",
-      "options": ["has considered", "is considered", "is considering", "considered"],
+      "options": [
+        "has considered",
+        "is considered",
+        "is considering",
+        "considered"
+      ],
       "answer": "is considered",
       "explanation": "被動語態，表示這幅畫「被認為」是最佳作品之一。is considered（被認為）為現在被動式，符合陳述事實的語境。",
       "zh": "下一件待售藝術品被認為是科爾莫頓博物館有史以來展出的最精美畫作之一。"
@@ -250,7 +382,12 @@
       "id": "tb027",
       "cat": "vocabulary",
       "sentence": "The tenor received widespread -------- for his superb performances at the annual opera festival.",
-      "options": ["criticism", "persuasion", "deliberation", "recognition"],
+      "options": [
+        "criticism",
+        "persuasion",
+        "deliberation",
+        "recognition"
+      ],
       "answer": "recognition",
       "explanation": "recognition（認可/讚譽）符合語意，表示因出色表演而獲得廣泛認可。criticism 是批評、persuasion 是說服、deliberation 是審議，均不符合。",
       "zh": "這位男高音因其在年度歌劇節上的精彩表演而獲得廣泛的認可。"
@@ -259,7 +396,12 @@
       "id": "tb028",
       "cat": "conjunction",
       "sentence": "-------- having television stations across the state, the American Media Corporation owns several magazines and newspapers.",
-      "options": ["Besides", "Rather", "Among", "Along"],
+      "options": [
+        "Besides",
+        "Rather",
+        "Among",
+        "Along"
+      ],
       "answer": "Besides",
       "explanation": "Besides（除此之外）表示「不僅擁有電視台，還擁有…」，符合語意。Rather 是寧可、Among 是在…之中、Along 是沿著，均不符合。",
       "zh": "除了在全州擁有電視台之外，美國媒體集團還擁有幾本雜誌和報紙。"
@@ -268,7 +410,12 @@
       "id": "tb029",
       "cat": "vocabulary",
       "sentence": "Delegates from the industry's most widely -------- social media marketing firms will speak at next week's summit.",
-      "options": ["respectful", "respecting", "respected", "respective"],
+      "options": [
+        "respectful",
+        "respecting",
+        "respected",
+        "respective"
+      ],
       "answer": "respected",
       "explanation": "修飾名詞 firms，respected（受尊重的）為形容詞，符合語意。respectful 是有禮貌的、respecting 是關於、respective 是各自的。",
       "zh": "來自業界最廣受尊重的社群媒體行銷公司的代表將在下週的峰會上發言。"
@@ -277,7 +424,12 @@
       "id": "tb030",
       "cat": "conjunction",
       "sentence": "TNP Tech will allow users to download its new software for free until September 1 but will start charging for it --------.",
-      "options": ["since", "thereafter", "consequently", "now"],
+      "options": [
+        "since",
+        "thereafter",
+        "consequently",
+        "now"
+      ],
       "answer": "thereafter",
       "explanation": "thereafter（此後）指9月1日之後開始收費，符合時間順序語意。since 是自從、consequently 是因此、now 是現在，均不符合。",
       "zh": "TNP科技將允許用戶免費下載其新軟體直到9月1日，但此後將開始收費。"
@@ -286,7 +438,12 @@
       "id": "tb031",
       "cat": "pos",
       "sentence": "The prices in the catalog include both state and national taxes -------- not delivery charges.",
-      "options": ["but", "neither", "each", "that"],
+      "options": [
+        "but",
+        "neither",
+        "each",
+        "that"
+      ],
       "answer": "but",
       "explanation": "both A but not B 的結構，表示包含稅費但不包含運費。neither 需配合 nor、each 是各自、that 是代名詞，均不符合。",
       "zh": "目錄中的價格包含州稅和國稅，但不包含運費。"
@@ -295,7 +452,12 @@
       "id": "tb032",
       "cat": "pos",
       "sentence": "Cardston Corporation's fiscal records are kept in -------- boxes and are stored according to year.",
-      "options": ["separate", "separately", "separates", "separation"],
+      "options": [
+        "separate",
+        "separately",
+        "separates",
+        "separation"
+      ],
       "answer": "separate",
       "explanation": "修飾名詞 boxes 需用形容詞，separate（分開的）為形容詞。separately 是副詞、separates 是動詞、separation 是名詞。",
       "zh": "卡德斯頓公司的財務記錄存放在獨立的箱子中，並按年份存儲。"
@@ -304,7 +466,12 @@
       "id": "tb033",
       "cat": "vocabulary",
       "sentence": "Prior to permanently shutting down, Rebound Media thanked customers for the -------- they had shown over the years.",
-      "options": ["regret", "support", "strategy", "comfort"],
+      "options": [
+        "regret",
+        "support",
+        "strategy",
+        "comfort"
+      ],
       "answer": "support",
       "explanation": "support（支持）符合語意，公司感謝顧客多年來的支持。regret 是遺憾、strategy 是策略、comfort 是安慰，均不符合。",
       "zh": "在永久關閉之前，Rebound媒體感謝顧客多年來給予的支持。"
@@ -313,7 +480,12 @@
       "id": "tb034",
       "cat": "vocabulary",
       "sentence": "Visitors to Holidayland need not worry about bringing enough cash, as credit cards are accepted -------- in the resort.",
-      "options": ["away", "above", "forward", "anywhere"],
+      "options": [
+        "away",
+        "above",
+        "forward",
+        "anywhere"
+      ],
       "answer": "anywhere",
       "explanation": "anywhere（任何地方）符合語意，表示度假村內任何地方都接受信用卡。away 是離開、above 是在上面、forward 是向前，均不符合。",
       "zh": "訪客無需擔心帶足夠的現金，因為度假村內任何地方都接受信用卡。"
@@ -322,7 +494,12 @@
       "id": "tb035",
       "cat": "vocabulary",
       "sentence": "Having decided to enter the Asian market, Edgeware Electronics is now seeking regional -------- for its products.",
-      "options": ["distribute", "distributors", "distributive", "to distribute"],
+      "options": [
+        "distribute",
+        "distributors",
+        "distributive",
+        "to distribute"
+      ],
       "answer": "distributors",
       "explanation": "seeking 後接名詞作受詞，distributors（經銷商）為名詞，符合語意。distribute 是動詞、distributive 是形容詞、to distribute 是不定詞。",
       "zh": "決定進入亞洲市場後，Edgeware電子現在正在為其產品尋找區域經銷商。"
@@ -331,7 +508,12 @@
       "id": "tb036",
       "cat": "relative",
       "sentence": "-------- who wants to reserve a conference room for a meeting can simply e-mail Ms. Bloomberg in administration.",
-      "options": ["Anyone", "Others", "Them", "Nobody"],
+      "options": [
+        "Anyone",
+        "Others",
+        "Them",
+        "Nobody"
+      ],
       "answer": "Anyone",
       "explanation": "Anyone who…（任何想要…的人）為固定搭配，後接關係子句。Others 不接 who、Them 是受格、Nobody 語意相反。",
       "zh": "任何想為會議預訂會議室的人可以直接發電子郵件給行政部門的彭伯格女士。"
@@ -340,7 +522,12 @@
       "id": "tb037",
       "cat": "tense",
       "sentence": "After -------- to build a new home in Victoria, Mr. Redmond hired an interior designer to assist him with decorating the house.",
-      "options": ["decide", "decides", "decided", "deciding"],
+      "options": [
+        "decide",
+        "decides",
+        "decided",
+        "deciding"
+      ],
       "answer": "deciding",
       "explanation": "after 為介系詞，後接動名詞 deciding（決定）。decide 和 decides 是動詞原形、decided 是過去式，介系詞後不接有限動詞。",
       "zh": "在決定在維多利亞建造新家後，雷德蒙先生聘請了一位室內設計師幫助他裝飾房子。"
@@ -349,7 +536,12 @@
       "id": "tb038",
       "cat": "vocabulary",
       "sentence": "First Bonneville Bank -------- 35 branches of CPG Financial Trust for $90 million, strengthening its presence in the region.",
-      "options": ["explained", "canceled", "acquired", "committed"],
+      "options": [
+        "explained",
+        "canceled",
+        "acquired",
+        "committed"
+      ],
       "answer": "acquired",
       "explanation": "acquired（收購）符合語意，銀行以9000萬美元收購了35家分行。explained 是解釋、canceled 是取消、committed 是承諾，均不符合。",
       "zh": "第一班勒維爾銀行以9000萬美元收購了CPG金融信託的35個分行，鞏固了其在該地區的影響力。"
@@ -358,7 +550,12 @@
       "id": "tb039",
       "cat": "pos",
       "sentence": "Psychologists conducted an -------- study about the negative effects of video games on young children.",
-      "options": ["extent", "extensive", "extensively", "extend"],
+      "options": [
+        "extent",
+        "extensive",
+        "extensively",
+        "extend"
+      ],
       "answer": "extensive",
       "explanation": "修飾名詞 study 需用形容詞，extensive（廣泛的）符合語意。extent 是名詞、extensively 是副詞、extend 是動詞。",
       "zh": "心理學家進行了一項關於電子遊戲對幼童負面影響的廣泛研究。"
@@ -367,7 +564,12 @@
       "id": "tb040",
       "cat": "pos",
       "sentence": "Reginald Rentals -------- opened a branch in Sacramento, and after a very short time the new location became profitable.",
-      "options": ["hardly", "recently", "habitually", "potentially"],
+      "options": [
+        "hardly",
+        "recently",
+        "habitually",
+        "potentially"
+      ],
       "answer": "recently",
       "explanation": "recently（最近）符合語意，表示不久前開設了分店。hardly 是幾乎不、habitually 是習慣性地、potentially 是潛在地，均不符合。",
       "zh": "雷金納德租賃公司最近在薩克拉曼多開設了一家分行，在很短的時間內新地點便開始盈利。"
@@ -376,7 +578,12 @@
       "id": "tb041",
       "cat": "preposition",
       "sentence": "The city council has taken steps -------- improving air quality by introducing measures that limit factory pollution.",
-      "options": ["out of", "toward", "owing to", "versus"],
+      "options": [
+        "out of",
+        "toward",
+        "owing to",
+        "versus"
+      ],
       "answer": "toward",
       "explanation": "toward（朝著/針對）符合語意，表示朝改善空氣質量的方向採取措施。out of 是出於、owing to 是由於、versus 是對比，均不符合。",
       "zh": "市議會已採取措施改善空氣質量，通過引入限制工廠污染的措施。"
@@ -385,7 +592,12 @@
       "id": "tb042",
       "cat": "vocabulary",
       "sentence": "The factory is preparing to hire -------- workers for selected manufacturing plants to meet its quarterly production goals.",
-      "options": ["temporary", "inspected", "sustained", "instructive"],
+      "options": [
+        "temporary",
+        "inspected",
+        "sustained",
+        "instructive"
+      ],
       "answer": "temporary",
       "explanation": "temporary（臨時的）符合語意，工廠為達到季度生產目標招聘臨時工人。inspected 是被檢查的、sustained 是持續的、instructive 是有教育意義的，均不符合。",
       "zh": "工廠正準備為特定製造廠招聘臨時工人，以達到季度生產目標。"
@@ -394,7 +606,12 @@
       "id": "tb043",
       "cat": "conjunction",
       "sentence": "-------- reviews for Leonard Atwood's new book were very positive, orders for the novel were lower than the publisher had expected.",
-      "options": ["Furthermore", "Yet", "Although", "Hence"],
+      "options": [
+        "Furthermore",
+        "Yet",
+        "Although",
+        "Hence"
+      ],
       "answer": "Although",
       "explanation": "Although（儘管）引導讓步從句，表示儘管評論好但訂單少，符合語意轉折。Furthermore 是此外、Yet 通常放中間、Hence 是因此。",
       "zh": "儘管萊納德‧阿特伍德新書的評論非常積極，但小說的訂單卻低於出版商的預期。"
@@ -403,7 +620,12 @@
       "id": "tb044",
       "cat": "preposition",
       "sentence": "Those planning to join the historic district tour are asked to be -------- the center's reception area at 8 a.m. tomorrow.",
-      "options": ["on", "from", "in", "of"],
+      "options": [
+        "on",
+        "from",
+        "in",
+        "of"
+      ],
       "answer": "in",
       "explanation": "in the reception area（在接待區）為固定搭配，表示在某空間內。on 是在…上、from 是從、of 是…的，均不符合。",
       "zh": "計劃參加歷史區巡覽的人員被要求明天上午8點在中心的接待區集合。"
@@ -412,7 +634,12 @@
       "id": "tb045",
       "cat": "conjunction",
       "sentence": "-------- ski resorts are frequently busier during peak season in the winter, they do attract hikers in the summer.",
-      "options": ["Along", "While", "Once", "Apart"],
+      "options": [
+        "Along",
+        "While",
+        "Once",
+        "Apart"
+      ],
       "answer": "While",
       "explanation": "While（雖然/儘管）引導讓步從句，表示雖然冬季更忙但夏季也吸引健行者。Along/Apart 是副詞或介系詞、Once 是一旦。",
       "zh": "雖然滑雪勝地在冬季旺季通常更繁忙，但它們在夏季確實也會吸引健行者。"
@@ -421,7 +648,12 @@
       "id": "tb046",
       "cat": "vocabulary",
       "sentence": "The organizer of the publicity convention said there is still -------- work to be done, but was not concerned about meeting the deadline.",
-      "options": ["many", "few", "much", "a lot"],
+      "options": [
+        "many",
+        "few",
+        "much",
+        "a lot"
+      ],
       "answer": "much",
       "explanation": "work 是不可數名詞，需用 much 修飾。many 和 few 修飾可數名詞、a lot 後需接 of。",
       "zh": "宣傳會議的組織者表示還有很多工作要做，但對能否趕上截止日期並不擔心。"
@@ -430,7 +662,12 @@
       "id": "tb047",
       "cat": "vocabulary",
       "sentence": "The appliance maker -------- all repair charges for items that are accompanied by valid warranties.",
-      "options": ["trades", "waives", "resists", "confines"],
+      "options": [
+        "trades",
+        "waives",
+        "resists",
+        "confines"
+      ],
       "answer": "waives",
       "explanation": "waives（免除）符合語意，表示對有保固的產品免除維修費。trades 是交易、resists 是抵抗、confines 是限制，均不符合。",
       "zh": "這家家電製造商免除了所有附有有效保固的產品的維修費用。"
@@ -439,7 +676,12 @@
       "id": "tb048",
       "cat": "pos",
       "sentence": "The executive director has asked all production supervisors to monitor the work schedule -------- in the future.",
-      "options": ["most attentive", "attentive", "more attentively", "attention"],
+      "options": [
+        "most attentive",
+        "attentive",
+        "more attentively",
+        "attention"
+      ],
       "answer": "more attentively",
       "explanation": "修飾動詞 monitor 需用副詞，more attentively（更細心地）為副詞比較級，符合語意。most attentive 是最高級形容詞、attentive 是形容詞、attention 是名詞。",
       "zh": "執行主任已要求所有生產主管在未來更仔細地監督工作時間表。"
@@ -448,7 +690,12 @@
       "id": "tb049",
       "cat": "vocabulary",
       "sentence": "Ms. Tennyson has a -------- for spotting good investments and a reputation for being bold and visionary.",
-      "options": ["talent", "contest", "promise", "trend"],
+      "options": [
+        "talent",
+        "contest",
+        "promise",
+        "trend"
+      ],
       "answer": "talent",
       "explanation": "talent（才能）符合語意，表示她有發現好投資的天賦。contest 是比賽、promise 是承諾、trend 是趨勢，均不符合。",
       "zh": "丹尼森女士有發現優質投資的天賦，並以大膽和有遠見著稱。"
@@ -457,7 +704,12 @@
       "id": "tb050",
       "cat": "tense",
       "sentence": "By the time its weeklong promotion was over, Polk Mobile -------- to sell almost its entire inventory of Kelstra smart phones.",
-      "options": ["manages", "to manage", "had managed", "will manage"],
+      "options": [
+        "manages",
+        "to manage",
+        "had managed",
+        "will manage"
+      ],
       "answer": "had managed",
       "explanation": "By the time + 過去式，主句用過去完成式，表示在促銷結束前已完成的動作，故選 had managed。",
       "zh": "到一週促銷活動結束時，波爾克移動已成功售出幾乎全部的Kelstra智慧型手機庫存。"
@@ -466,7 +718,12 @@
       "id": "tb051",
       "cat": "conjunction",
       "sentence": "With the financial crisis over and banks eager to provide loans, it has never been -------- easy for the average person to own a home.",
-      "options": ["which", "this", "some", "who"],
+      "options": [
+        "which",
+        "this",
+        "some",
+        "who"
+      ],
       "answer": "this",
       "explanation": "never been this easy（從未像現在這麼容易）為固定搭配，this 作副詞修飾形容詞 easy。which/who 是關係詞、some 是一些，均不符合。",
       "zh": "隨著金融危機結束和銀行急於提供貸款，普通人擁有住房從未像現在這樣容易。"
@@ -475,7 +732,12 @@
       "id": "tb052",
       "cat": "preposition",
       "sentence": "Dr. Boyle does not generally see any patients -------- appointments, except for cases of emergency.",
-      "options": ["beside", "without", "inside", "under"],
+      "options": [
+        "beside",
+        "without",
+        "inside",
+        "under"
+      ],
       "answer": "without",
       "explanation": "without appointments（沒有預約）符合語意，表示一般不接待無預約的患者。beside 是在旁邊、inside 是在裡面、under 是在下面，均不符合。",
       "zh": "博伊爾醫生一般不接待沒有預約的患者，緊急情況除外。"
@@ -484,7 +746,12 @@
       "id": "tb053",
       "cat": "pos",
       "sentence": "Customers who sign up for a one-year -------- to Emerald Cable TV by the end of the week will receive a month of free service.",
-      "options": ["subscribe", "subscriber", "subscription", "subscribes"],
+      "options": [
+        "subscribe",
+        "subscriber",
+        "subscription",
+        "subscribes"
+      ],
       "answer": "subscription",
       "explanation": "a one-year 後需接名詞，subscription（訂閱）為名詞，符合語意。subscribe 是動詞、subscriber 是訂閱者（個人）、subscribes 是動詞。",
       "zh": "在本週末之前訂閱翡翠有線電視一年的顧客將獲得一個月的免費服務。"
@@ -493,7 +760,12 @@
       "id": "tb054",
       "cat": "vocabulary",
       "sentence": "Well attended by dozens of enthusiasts, the launch party for Fiesta Motors' newest sports car was deemed an -------- success.",
-      "options": ["eligible", "occasional", "idle", "absolute"],
+      "options": [
+        "eligible",
+        "occasional",
+        "idle",
+        "absolute"
+      ],
       "answer": "absolute",
       "explanation": "absolute success（絕對的成功）為固定搭配。eligible 是有資格的、occasional 是偶爾的、idle 是閒置的，均不符合。",
       "zh": "新力汽車最新跑車的發布派對吸引了數十名愛好者出席，被認為是絕對的成功。"
@@ -502,7 +774,12 @@
       "id": "tb055",
       "cat": "tense",
       "sentence": "Hector Calma -------- project leader for all Axos activities based in South Africa and is busy preparing to move there for an extended period.",
-      "options": ["appoint", "appointed", "will appoint", "has been appointed"],
+      "options": [
+        "appoint",
+        "appointed",
+        "will appoint",
+        "has been appointed"
+      ],
       "answer": "has been appointed",
       "explanation": "主詞為被動接受者（被任命），用被動完成式 has been appointed，表示最近的結果。appoint 是主動式、appointed 缺少助動詞、will appoint 是主動未來式。",
       "zh": "赫克托‧卡爾馬已被任命為所有在南非舉辦的Axos活動的項目負責人，正忙於準備在那裡長期居住。"
@@ -511,7 +788,12 @@
       "id": "tb056",
       "cat": "vocabulary",
       "sentence": "The supervisor is skilled at managing the -------- balance between the needs of staff and those of upper management.",
-      "options": ["sudden", "delicate", "lenient", "vague"],
+      "options": [
+        "sudden",
+        "delicate",
+        "lenient",
+        "vague"
+      ],
       "answer": "delicate",
       "explanation": "delicate balance（微妙的平衡）為固定搭配，符合語意。sudden 是突然的、lenient 是寬鬆的、vague 是模糊的，均不符合。",
       "zh": "這位主管擅長管理員工需求和高層管理需求之間的微妙平衡。"
@@ -520,7 +802,12 @@
       "id": "tb057",
       "cat": "vocabulary",
       "sentence": "Even though subscriptions to The Marinberg Herald's print edition have steadily declined, its online -------- continues to grow.",
-      "options": ["definition", "policy", "readership", "broadcast"],
+      "options": [
+        "definition",
+        "policy",
+        "readership",
+        "broadcast"
+      ],
       "answer": "readership",
       "explanation": "readership（讀者群）符合語意，指線上讀者持續增長。definition 是定義、policy 是政策、broadcast 是廣播，均不符合。",
       "zh": "儘管《馬林伯格先驅報》印刷版的訂閱量穩步下降，但其線上讀者群仍在持續增長。"
@@ -529,7 +816,12 @@
       "id": "tb058",
       "cat": "conjunction",
       "sentence": "-------- the malfunctions with the Clarity Dishwasher are due to defects or low-quality materials is still being investigated.",
-      "options": ["So", "Whether", "While", "Among"],
+      "options": [
+        "So",
+        "Whether",
+        "While",
+        "Among"
+      ],
       "answer": "Whether",
       "explanation": "Whether（是否）引導主詞從句，表示「故障是否由缺陷或劣質材料引起」仍在調查中。So/While/Among 均不能引導名詞子句作主詞。",
       "zh": "Clarity洗碗機的故障是否由缺陷或劣質材料引起仍在調查中。"
@@ -538,7 +830,12 @@
       "id": "tb059",
       "cat": "conjunction",
       "sentence": "-------- those in the delivery industry had predicted, Volo-Air's new routes helped boost its quarterly earnings significantly.",
-      "options": ["Instead of", "Up to", "Regardless of", "Just as"],
+      "options": [
+        "Instead of",
+        "Up to",
+        "Regardless of",
+        "Just as"
+      ],
       "answer": "Just as",
       "explanation": "Just as（正如）引導比較從句，表示結果正如業界人士所預測，符合語意。Instead of 是代替、Up to 是達到、Regardless of 是不管，均不符合。",
       "zh": "正如送貨業人士所預測的，Volo-Air的新航線大幅提振了其季度盈利。"
@@ -547,7 +844,12 @@
       "id": "tb060",
       "cat": "vocabulary",
       "sentence": "The mayor was able to -------- her plans for improving job creation through the help of local businesses.",
-      "options": ["operate", "solidify", "depart", "prevent"],
+      "options": [
+        "operate",
+        "solidify",
+        "depart",
+        "prevent"
+      ],
       "answer": "solidify",
       "explanation": "solidify（鞏固/確立）符合語意，表示通過當地企業的幫助確立了計畫。operate 是運作、depart 是離開、prevent 是阻止，均不符合。",
       "zh": "市長能夠在當地企業的幫助下鞏固她改善就業創造的計畫。"
@@ -556,7 +858,12 @@
       "id": "tb061",
       "cat": "tense",
       "sentence": "The organizers of the fundraiser -------- a to-do list to hand out to volunteers.",
-      "options": ["compiling", "compiles", "to compile", "are compiling"],
+      "options": [
+        "compiling",
+        "compiles",
+        "to compile",
+        "are compiling"
+      ],
       "answer": "are compiling",
       "explanation": "現在進行式表示當前正在進行的動作，are compiling（正在編製）符合語意。compiling 缺少助動詞、compiles 是第三人稱單數、to compile 是不定詞。",
       "zh": "活動籌辦人正在編製一份待辦事項清單，準備分發給志願者。"
@@ -565,7 +872,12 @@
       "id": "tb062",
       "cat": "pos",
       "sentence": "Mr. Chen was surprised by the promotion because -------- had not imagined that it could happen this year.",
-      "options": ["his", "himself", "he", "him"],
+      "options": [
+        "his",
+        "himself",
+        "he",
+        "him"
+      ],
       "answer": "he",
       "explanation": "because 後的子句需要主詞，he（他）為主格代名詞，符合文法。his 是所有格、himself 是反身代名詞、him 是受格，皆不能作主詞。",
       "zh": "陳先生對晉升感到驚訝，因為他沒有想到這在今年會發生。"
@@ -574,7 +886,12 @@
       "id": "tb063",
       "cat": "tense",
       "sentence": "Since the report had not yet been --------, Ms. Pantel had time to correct an error she had found.",
-      "options": ["distributes", "distributing", "distributed", "distribution"],
+      "options": [
+        "distributes",
+        "distributing",
+        "distributed",
+        "distribution"
+      ],
       "answer": "distributed",
       "explanation": "had been + 過去分詞構成過去完成被動式，distributed（被發送）符合語意。distributes/distributing 不符合被動語態、distribution 是名詞。",
       "zh": "由於報告尚未分發，潘泰爾女士有時間更正她發現的一個錯誤。"
@@ -583,7 +900,12 @@
       "id": "tb064",
       "cat": "tense",
       "sentence": "Once the account has been --------, the user will be asked to re-enter their login name and password.",
-      "options": ["created", "composed", "preferred", "assembled"],
+      "options": [
+        "created",
+        "composed",
+        "preferred",
+        "assembled"
+      ],
       "answer": "created",
       "explanation": "created（被創建）符合語意，帳戶一旦建立，使用者需重新輸入登入資訊。composed 是組成、preferred 是偏好、assembled 是組裝，均不符合。",
       "zh": "帳戶一旦建立，系統將要求使用者重新輸入登入名稱和密碼。"
@@ -592,7 +914,12 @@
       "id": "tb065",
       "cat": "pos",
       "sentence": "The downtown branch of Jim's Burgers has -------- outperformed the chain's other locations in the city.",
-      "options": ["progressive", "progressively", "progress", "progressed"],
+      "options": [
+        "progressive",
+        "progressively",
+        "progress",
+        "progressed"
+      ],
       "answer": "progressively",
       "explanation": "修飾動詞 outperformed 需用副詞，progressively（逐漸地）符合語意。progressive 是形容詞、progress 和 progressed 是動詞。",
       "zh": "吉姆漢堡的市中心分店在城市中逐漸超越了該連鎖店的其他店面。"
@@ -601,7 +928,12 @@
       "id": "tb066",
       "cat": "vocabulary",
       "sentence": "The marketing department has launched a social media campaign in an effort to reach a more -------- audience.",
-      "options": ["necessary", "diverse", "deep", "comparable"],
+      "options": [
+        "necessary",
+        "diverse",
+        "deep",
+        "comparable"
+      ],
       "answer": "diverse",
       "explanation": "diverse（多元化的）符合語意，行銷部門希望觸及更多元的受眾群體。necessary 是必要的、deep 是深的、comparable 是可比較的，均不符合。",
       "zh": "行銷部門已發起社群媒體活動，努力觸及更多元化的受眾。"
@@ -610,7 +942,12 @@
       "id": "tb067",
       "cat": "preposition",
       "sentence": "Guests enjoyed the resort's new swimming pool -------- its outdoor restaurant.",
-      "options": ["along", "due to", "as to", "in addition to"],
+      "options": [
+        "along",
+        "due to",
+        "as to",
+        "in addition to"
+      ],
       "answer": "in addition to",
       "explanation": "in addition to（除了…之外還）符合語意，表示除了室外餐廳外還享受了泳池。along 是沿著、due to 是由於、as to 是關於，均不符合。",
       "zh": "客人除了享受度假村的室外餐廳外，還享受了新泳池。"
@@ -619,7 +956,12 @@
       "id": "tb068",
       "cat": "pos",
       "sentence": "Employee assessments are -------- carried out in December but may be delayed until January.",
-      "options": ["visibly", "casually", "typically", "slightly"],
+      "options": [
+        "visibly",
+        "casually",
+        "typically",
+        "slightly"
+      ],
       "answer": "typically",
       "explanation": "typically（通常）符合語意，表示評估通常在12月進行。visibly 是明顯地、casually 是隨意地、slightly 是略微地，均不符合。",
       "zh": "員工評估通常在12月進行，但可能會延遲到1月。"
@@ -628,7 +970,12 @@
       "id": "tb069",
       "cat": "pos",
       "sentence": "The -------- of the building had to find temporary accommodations during the renovation.",
-      "options": ["reside", "residential", "residents", "residences"],
+      "options": [
+        "reside",
+        "residential",
+        "residents",
+        "residences"
+      ],
       "answer": "residents",
       "explanation": "The 後需接名詞作主詞，residents（居民）符合語意。reside 是動詞、residential 是形容詞、residences 雖是名詞但語意為「住所」，不符合。",
       "zh": "這棟樓的居民在翻新期間不得不尋找臨時住所。"
@@ -637,7 +984,12 @@
       "id": "tb070",
       "cat": "pos",
       "sentence": "The fitness tracker is as perfectly -------- as the online advertisements say it is.",
-      "options": ["accuracy", "accurately", "accurate", "accurateness"],
+      "options": [
+        "accuracy",
+        "accurately",
+        "accurate",
+        "accurateness"
+      ],
       "answer": "accurate",
       "explanation": "as + 形容詞 + as 的比較結構，accurate（精確的）為形容詞。accuracy/accurateness 是名詞、accurately 是副詞。",
       "zh": "這款健身追蹤器和線上廣告所說的一樣精確。"
@@ -646,7 +998,12 @@
       "id": "tb071",
       "cat": "vocabulary",
       "sentence": "Tremont Airlines is offering -------- rates to passengers willing to travel late at night.",
-      "options": ["shortened", "fragile", "reduced", "preserved"],
+      "options": [
+        "shortened",
+        "fragile",
+        "reduced",
+        "preserved"
+      ],
       "answer": "reduced",
       "explanation": "reduced rates（優惠票價）為固定搭配，符合語意。shortened 是縮短的、fragile 是易碎的、preserved 是保存的，均不符合。",
       "zh": "特里蒙特航空為願意在深夜出行的乘客提供優惠票價。"
@@ -655,7 +1012,12 @@
       "id": "tb072",
       "cat": "pos",
       "sentence": "Customers are asked to acknowledge receipt of their orders by -------- their names on a delivery form.",
-      "options": ["sign", "signing", "signs", "signed"],
+      "options": [
+        "sign",
+        "signing",
+        "signs",
+        "signed"
+      ],
       "answer": "signing",
       "explanation": "by 為介系詞，後接動名詞 signing（簽署）。sign 是動詞原形、signs 是第三人稱、signed 是過去式，介系詞後不接有限動詞。",
       "zh": "顧客被要求在送貨單上簽名以確認收到訂單。"
@@ -664,7 +1026,12 @@
       "id": "tb073",
       "cat": "pos",
       "sentence": "The trade show convention center was -------- located right next to the subway station, making it easily accessible.",
-      "options": ["currently", "conveniently", "knowingly", "insufficiently"],
+      "options": [
+        "currently",
+        "conveniently",
+        "knowingly",
+        "insufficiently"
+      ],
       "answer": "conveniently",
       "explanation": "conveniently（方便地）符合語意，表示展覽中心的位置很方便，緊鄰地鐵站。currently 是目前、knowingly 是故意地、insufficiently 是不足夠地，均不符合。",
       "zh": "貿易展覽中心便利地位於地鐵站旁邊，使其易於到達。"
@@ -673,7 +1040,12 @@
       "id": "tb074",
       "cat": "pos",
       "sentence": "Employees at Branford Computing Group are expected to respond to all technical support questions -------- 24 hours.",
-      "options": ["within", "between", "since", "until"],
+      "options": [
+        "within",
+        "between",
+        "since",
+        "until"
+      ],
       "answer": "within",
       "explanation": "within 24 hours（在24小時內）符合語意，表示在時間範圍內完成。between 需有兩個時間點、since 表示從某時起、until 表示直到某時，均不符合。",
       "zh": "布蘭福德計算機集團的員工需在24小時內回覆所有技術支援問題。"
@@ -682,7 +1054,12 @@
       "id": "tb075",
       "cat": "tense",
       "sentence": "Applicants -------- a form for a new license should make certain that it is completely filled out.",
-      "options": ["submits", "submitted", "submit", "submitting"],
+      "options": [
+        "submits",
+        "submitted",
+        "submit",
+        "submitting"
+      ],
       "answer": "submitting",
       "explanation": "submitting 作現在分詞修飾 Applicants（提交表格的申請人），構成後置修飾語。submits/submitted 是動詞、submit 是動詞原形，均不能修飾名詞。",
       "zh": "提交新許可證申請表的申請人應確保表格填寫完整。"
@@ -691,7 +1068,12 @@
       "id": "tb076",
       "cat": "vocabulary",
       "sentence": "Storing dangerous chemicals near the main factory floor creates a -------- hazardous situation for the employees who work there.",
-      "options": ["potent", "potential", "potentially", "potentiality"],
+      "options": [
+        "potent",
+        "potential",
+        "potentially",
+        "potentiality"
+      ],
       "answer": "potentially",
       "explanation": "修飾形容詞 hazardous 需用副詞，potentially（潛在地）符合語意。potent 是有效的（形容詞）、potential 是潛在的（形容詞）、potentiality 是名詞。",
       "zh": "在主要工廠車間附近存放危險化學品為在那裡工作的員工造成潛在的危險情況。"
@@ -700,7 +1082,12 @@
       "id": "tb077",
       "cat": "vocabulary",
       "sentence": "Health One Hospice's board of directors hopes to -------- the institution with a partner that shares similar values.",
-      "options": ["request", "recruit", "affiliate", "adopt"],
+      "options": [
+        "request",
+        "recruit",
+        "affiliate",
+        "adopt"
+      ],
       "answer": "affiliate",
       "explanation": "affiliate（使加盟/聯繫）符合語意，表示將機構與有共同價值觀的合作夥伴聯繫起來。request 是要求、recruit 是招募、adopt 是採納，均不符合。",
       "zh": "健康一號臨終關懷機構的董事會希望將機構與有相似價值觀的合作夥伴建立聯盟。"
@@ -709,7 +1096,12 @@
       "id": "tb078",
       "cat": "vocabulary",
       "sentence": "The casting director was looking for an actor with an -------- tone of voice that can persuade listeners to buy a product.",
-      "options": ["occasional", "inviting", "operating", "apologetic"],
+      "options": [
+        "occasional",
+        "inviting",
+        "operating",
+        "apologetic"
+      ],
       "answer": "inviting",
       "explanation": "inviting（吸引人的）符合語意，表示能夠說服聽眾的吸引力聲調。occasional 是偶爾的、operating 是操作的、apologetic 是道歉的，均不符合。",
       "zh": "選角導演正在尋找一位聲調吸引人、能說服聽眾購買產品的演員。"
@@ -718,7 +1110,12 @@
       "id": "tb079",
       "cat": "pos",
       "sentence": "The company issued a statement yesterday evening in -------- to the merger agreement.",
-      "options": ["relates", "related", "relate", "relation"],
+      "options": [
+        "relates",
+        "related",
+        "relate",
+        "relation"
+      ],
       "answer": "relation",
       "explanation": "in relation to（關於）為固定介系詞片語，relation 為名詞。relates/relate 是動詞、related 是形容詞，均不能接在 in 後構成慣用語。",
       "zh": "公司昨晚就合併協議發表了一份聲明。"
@@ -727,7 +1124,12 @@
       "id": "tb080",
       "cat": "relative",
       "sentence": "A banquet was held to honor five employees, all of -------- have worked at the company for more than 20 years.",
-      "options": ["them", "us", "whom", "which"],
+      "options": [
+        "them",
+        "us",
+        "whom",
+        "which"
+      ],
       "answer": "whom",
       "explanation": "all of whom（其中所有人）引導關係子句，先行詞為人（employees），用 whom。them/us 是代名詞非關係詞、which 用於物。",
       "zh": "為了表彰五名員工而舉辦了一場宴會，其中所有人都在公司工作了超過20年。"
@@ -736,7 +1138,12 @@
       "id": "tb081",
       "cat": "conjunction",
       "sentence": "Company policy requires that all staff members be at their desks before 9:30 a.m., -------- unforeseen circumstances.",
-      "options": ["though", "barring", "toward", "with"],
+      "options": [
+        "though",
+        "barring",
+        "toward",
+        "with"
+      ],
       "answer": "barring",
       "explanation": "barring（除非/除了）符合語意，表示除非有不可預見的情況，否則必須按時到崗。though 是雖然、toward 是朝著、with 是與，均不符合。",
       "zh": "公司政策要求所有員工在上午9:30前到位，除非有不可預見的情況。"
@@ -745,7 +1152,12 @@
       "id": "tb082",
       "cat": "preposition",
       "sentence": "Hotel employees are stationed at the check-in desk -------- you have any questions during your stay.",
-      "options": ["so far", "plus", "in case", "whereas"],
+      "options": [
+        "so far",
+        "plus",
+        "in case",
+        "whereas"
+      ],
       "answer": "in case",
       "explanation": "in case（以防/如果）符合語意，表示工作人員在前台以備客人有問題。so far 是到目前為止、plus 是加上、whereas 是然而，均不符合。",
       "zh": "飯店員工駐守在辦理入住的前台，以防您在住宿期間有任何問題。"
@@ -754,7 +1166,12 @@
       "id": "tb083",
       "cat": "passive",
       "sentence": "New cycling safety regulations have just been -------- by the Ministry of Transportation.",
-      "options": ["constructed", "engaged", "enacted", "measured"],
+      "options": [
+        "constructed",
+        "engaged",
+        "enacted",
+        "measured"
+      ],
       "answer": "enacted",
       "explanation": "enacted（頒布/制定）符合語意，法規由交通部頒布。constructed 是建造、engaged 是參與、measured 是測量，均不符合。",
       "zh": "新的騎行安全法規剛剛由交通部頒布。"
@@ -763,7 +1180,12 @@
       "id": "tb084",
       "cat": "tense",
       "sentence": "Author Sylvia Feldman -------- for a Publishers Guild Award for her best-selling nonfiction novel, 21 Ravens.",
-      "options": ["nominates", "was nominated", "was nominating", "has nominated"],
+      "options": [
+        "nominates",
+        "was nominated",
+        "was nominating",
+        "has nominated"
+      ],
       "answer": "was nominated",
       "explanation": "作者被提名（被動），用過去被動式 was nominated。nominates/has nominated 是主動語態、was nominating 是過去進行主動。",
       "zh": "作家西爾維亞‧費爾德曼因其暢銷非虛構小說《21隻烏鴉》被提名出版商協會獎。"
@@ -772,7 +1194,12 @@
       "id": "tb085",
       "cat": "comparison",
       "sentence": "According to the study, the -------- a marketing campaign is among young people, the better a product is likely to sell.",
-      "options": ["popular", "more popular", "popularity", "most popular"],
+      "options": [
+        "popular",
+        "more popular",
+        "popularity",
+        "most popular"
+      ],
       "answer": "more popular",
       "explanation": "The + 比較級…, the + 比較級 句型，需用比較級 more popular。popular 是原級、popularity 是名詞、most popular 是最高級。",
       "zh": "根據研究，行銷活動在年輕人中越受歡迎，產品的銷售可能就越好。"
@@ -781,7 +1208,12 @@
       "id": "tb086",
       "cat": "vocabulary",
       "sentence": "The individual that will take on Paige Manufacturing's vice president position is expected to come from a -------- of the company.",
-      "options": ["subsidiary", "spectator", "turnover", "specialty"],
+      "options": [
+        "subsidiary",
+        "spectator",
+        "turnover",
+        "specialty"
+      ],
       "answer": "subsidiary",
       "explanation": "subsidiary（子公司）符合語意，表示新副總裁預計來自公司的子公司。spectator 是觀眾、turnover 是營業額/人員流動、specialty 是專業，均不符合。",
       "zh": "接任佩奇製造公司副總裁職位的人預計將來自公司的一家子公司。"
@@ -790,7 +1222,12 @@
       "id": "tb087",
       "cat": "vocabulary",
       "sentence": "The job comes with several significant -------- including health insurance and three weeks of paid leave.",
-      "options": ["figures", "benefits", "profits", "values"],
+      "options": [
+        "figures",
+        "benefits",
+        "profits",
+        "values"
+      ],
       "answer": "benefits",
       "explanation": "benefits（福利）符合語意，工作附帶的健康保險和帶薪假期屬於福利。figures 是數字、profits 是利潤、values 是價值觀，均不符合。",
       "zh": "這份工作附有多項重要福利，包括醫療保險和三週帶薪假。"
@@ -799,7 +1236,12 @@
       "id": "tb088",
       "cat": "conjunction",
       "sentence": "-------- the deposit for the apartment has been paid, the tenant can move in immediately.",
-      "options": ["So that", "Even though", "If", "Likewise"],
+      "options": [
+        "So that",
+        "Even though",
+        "If",
+        "Likewise"
+      ],
       "answer": "If",
       "explanation": "If（一旦/如果）引導條件從句，符合語意。So that 是以便、Even though 是即使、Likewise 是同樣地，均不符合上下文。",
       "zh": "如果公寓的押金已付，租客可以立即搬入。"
@@ -808,7 +1250,12 @@
       "id": "tb089",
       "cat": "preposition",
       "sentence": "-------- the terms of his employment contract, Mr. Allen receives 1.5 times his regular pay rate for overtime hours.",
-      "options": ["On behalf of", "In compliance with", "Instead of", "Out of respect for"],
+      "options": [
+        "On behalf of",
+        "In compliance with",
+        "Instead of",
+        "Out of respect for"
+      ],
       "answer": "In compliance with",
       "explanation": "In compliance with（根據/遵照）符合語意，表示根據僱用合約條款。On behalf of 是代表、Instead of 是代替、Out of respect for 是出於尊重，均不符合。",
       "zh": "根據其僱用合約條款，艾倫先生的加班費為正常時薪的1.5倍。"
@@ -817,7 +1264,12 @@
       "id": "tb090",
       "cat": "vocabulary",
       "sentence": "The board of directors took a -------- to decide who would replace the retiring company president.",
-      "options": ["vote", "summary", "program", "conference"],
+      "options": [
+        "vote",
+        "summary",
+        "program",
+        "conference"
+      ],
       "answer": "vote",
       "explanation": "took a vote（進行投票）為固定搭配，符合語意。summary 是摘要、program 是計畫、conference 是會議，均不符合。",
       "zh": "董事會進行了投票，決定誰將接替即將退休的公司總裁。"
@@ -826,7 +1278,12 @@
       "id": "tb091",
       "cat": "pos",
       "sentence": "The airline's newly opened lounge in the international terminal can -------- hold up to 100 travelers.",
-      "options": ["comfortably", "comfortable", "comforts", "comforted"],
+      "options": [
+        "comfortably",
+        "comfortable",
+        "comforts",
+        "comforted"
+      ],
       "answer": "comfortably",
       "explanation": "修飾動詞 hold 需用副詞，comfortably（舒適地）符合語意。comfortable 是形容詞、comforts/comforted 是動詞。",
       "zh": "這家航空公司在國際航廈新開設的候機室可舒適地容納多達100名旅客。"
@@ -835,7 +1292,12 @@
       "id": "tb092",
       "cat": "pos",
       "sentence": "Bryant Cosmetics' marketing team developed a promotional campaign by --------, rather than outsourcing the work.",
-      "options": ["theirs", "them", "themselves", "they"],
+      "options": [
+        "theirs",
+        "them",
+        "themselves",
+        "they"
+      ],
       "answer": "themselves",
       "explanation": "by themselves（由他們自己）表示自行完成而非外包，反身代名詞 themselves 符合。theirs 是所有格代名詞、them 是受格、they 是主格，均不符合。",
       "zh": "布萊恩特化妝品的行銷團隊自行開發了一個促銷活動，而不是外包工作。"
@@ -844,7 +1306,12 @@
       "id": "tb093",
       "cat": "vocabulary",
       "sentence": "The human resources director asked for a complete -------- of each staff member hired since January.",
-      "options": ["alliance", "evaluation", "operation", "leadership"],
+      "options": [
+        "alliance",
+        "evaluation",
+        "operation",
+        "leadership"
+      ],
       "answer": "evaluation",
       "explanation": "evaluation（評估）符合語意，人力資源主任要求對員工進行全面評估。alliance 是聯盟、operation 是操作、leadership 是領導力，均不符合。",
       "zh": "人力資源主任要求對自一月以來聘用的每位員工進行全面評估。"
@@ -853,7 +1320,12 @@
       "id": "tb094",
       "cat": "pos",
       "sentence": "Those wishing to participate in the sales -------- that will be held in the coming month must sign up by noon on Wednesday.",
-      "options": ["training", "trained", "trainer", "trains"],
+      "options": [
+        "training",
+        "trained",
+        "trainer",
+        "trains"
+      ],
       "answer": "training",
       "explanation": "the sales 後需接名詞，training（培訓）符合語意，sales training 為銷售培訓。trained 是形容詞/動詞、trainer 是培訓師（個人）、trains 是動詞。",
       "zh": "希望參加下個月舉行的銷售培訓的人員必須在週三中午前報名。"
@@ -862,7 +1334,12 @@
       "id": "tb095",
       "cat": "pos",
       "sentence": "Everyone attending one of Stanton Home's real estate investment workshops will be -------- the chance to apply for a loan.",
-      "options": ["distributed", "declared", "donated", "offered"],
+      "options": [
+        "distributed",
+        "declared",
+        "donated",
+        "offered"
+      ],
       "answer": "offered",
       "explanation": "be offered the chance（獲得機會）為固定搭配，offered（被提供）符合語意。distributed 是分發、declared 是宣布、donated 是捐贈，均不符合。",
       "zh": "參加斯坦頓家居任何一場房地產投資研討會的人都將獲得申請貸款的機會。"
@@ -871,7 +1348,12 @@
       "id": "tb096",
       "cat": "pos",
       "sentence": "The city council will not consider a project proposal until its -------- has been determined by an advisory committee.",
-      "options": ["pricey", "priced", "pricing", "pricier"],
+      "options": [
+        "pricey",
+        "priced",
+        "pricing",
+        "pricier"
+      ],
       "answer": "pricing",
       "explanation": "its 後需接名詞作主詞，pricing（定價）為名詞，符合語意。pricey 是昂貴的（形容詞）、priced 是動詞/形容詞、pricier 是比較級形容詞。",
       "zh": "市議會在諮詢委員會確定定價之前不會考慮項目提案。"
@@ -880,7 +1362,12 @@
       "id": "tb097",
       "cat": "preposition",
       "sentence": "The train from Piterburgh to Chamberlin travels -------- slowly because it has to make a lot of stops.",
-      "options": ["very", "far", "such", "many"],
+      "options": [
+        "very",
+        "far",
+        "such",
+        "many"
+      ],
       "answer": "very",
       "explanation": "very（非常）修飾副詞 slowly，符合語意。far 通常修飾比較級、such 接名詞、many 修飾可數名詞，均不符合此用法。",
       "zh": "從皮特堡到錢伯林的火車行駛得非常慢，因為它要停靠很多站。"
@@ -889,7 +1376,12 @@
       "id": "tb098",
       "cat": "vocabulary",
       "sentence": "Patrons who want a refund or exchange must make a request at the customer service center within one month -------- the date of purchase.",
-      "options": ["from", "at", "before", "between"],
+      "options": [
+        "from",
+        "at",
+        "before",
+        "between"
+      ],
       "answer": "from",
       "explanation": "within one month from the date of purchase（從購買日期起一個月內）為固定搭配。at 是在…時、before 是在…之前、between 需兩個時間點，均不符合。",
       "zh": "想要退款或換貨的顧客必須在購買日期起一個月內到客戶服務中心提出申請。"
@@ -898,7 +1390,12 @@
       "id": "tb099",
       "cat": "tense",
       "sentence": "Audience members -------- to switch off all electronic devices if they attend any of the presentations scheduled throughout the conference.",
-      "options": ["to remind", "are reminded", "will be reminding", "reminding"],
+      "options": [
+        "to remind",
+        "are reminded",
+        "will be reminding",
+        "reminding"
+      ],
       "answer": "are reminded",
       "explanation": "被動式 are reminded（被提醒），表示觀眾被告知關閉電子設備，符合語意。to remind 是不定詞、will be reminding 是主動進行、reminding 缺助動詞。",
       "zh": "觀眾被提醒，如果他們出席會議期間安排的任何演講，需關閉所有電子設備。"
@@ -907,7 +1404,12 @@
       "id": "tb100",
       "cat": "preposition",
       "sentence": "The tour guide gave assurances and said that the group would not depart for its destination until everyone was definitely -------- the boat.",
-      "options": ["aboard", "among", "below", "away"],
+      "options": [
+        "aboard",
+        "among",
+        "below",
+        "away"
+      ],
       "answer": "aboard",
       "explanation": "aboard（在船上）符合語意，導遊確保所有人都上船後才出發。among 是在…之中、below 是在下面、away 是離開，均不符合。",
       "zh": "導遊給予保證，說在所有人確實登船之前，團隊不會前往目的地。"
@@ -916,7 +1418,12 @@
       "id": "g001",
       "cat": "pos",
       "sentence": "Those who volunteered to work at the festival were given free T-shirts and gift certificates out of -------- for their efforts.",
-      "options": ["appreciative", "appreciate", "appreciation", "appreciatively"],
+      "options": [
+        "appreciative",
+        "appreciate",
+        "appreciation",
+        "appreciatively"
+      ],
       "answer": "appreciation",
       "explanation": "out of appreciation（出於感謝）為固定介系詞片語，appreciation 為名詞。appreciative 是形容詞、appreciate 是動詞、appreciatively 是副詞。",
       "zh": "那些自願在節日工作的人獲得了免費T恤和禮品券，以感謝他們的付出。"
@@ -925,7 +1432,12 @@
       "id": "g002",
       "cat": "pos",
       "sentence": "The meals served at Nightinvale's take a -------- long time to cook, compared to other restaurants.",
-      "options": ["related", "relative", "relations", "relatively"],
+      "options": [
+        "related",
+        "relative",
+        "relations",
+        "relatively"
+      ],
       "answer": "relatively",
       "explanation": "修飾形容詞 long 需用副詞，relatively（相對地）符合語意。related 是相關的（形容詞）、relative 是相對的（形容詞）、relations 是名詞。",
       "zh": "與其他餐廳相比，夜鶯餐廳供應的餐點需要相對較長的時間烹飪。"
@@ -934,7 +1446,12 @@
       "id": "g003",
       "cat": "vocabulary",
       "sentence": "After much discussion about the office's slow Internet connection, it was decided that the -------- solution would be to find a different provider.",
-      "options": ["simplify", "simply", "simplification", "simplest"],
+      "options": [
+        "simplify",
+        "simply",
+        "simplification",
+        "simplest"
+      ],
       "answer": "simplest",
       "explanation": "the + 最高級，simplest（最簡單的）修飾名詞 solution，符合語意。simplify 是動詞、simply 是副詞、simplification 是名詞。",
       "zh": "在討論了許久辦公室網速慢的問題後，決定最簡單的解決方案是換一個服務提供商。"
@@ -943,7 +1460,12 @@
       "id": "g004",
       "cat": "vocabulary",
       "sentence": "Luxus Lotion is available -------- at Dashney Department Stores and cannot be found anywhere else.",
-      "options": ["heavily", "moderately", "exclusively", "additionally"],
+      "options": [
+        "heavily",
+        "moderately",
+        "exclusively",
+        "additionally"
+      ],
       "answer": "exclusively",
       "explanation": "exclusively（專門/獨家地）符合語意，表示只在特定商店獨家販售。heavily 是大量地、moderately 是適度地、additionally 是此外，均不符合。",
       "zh": "豪華乳液僅在達士尼百貨公司獨家販售，其他地方找不到。"
@@ -952,7 +1474,12 @@
       "id": "g005",
       "cat": "relative",
       "sentence": "Mr. Chang asked the other board members to think about -------- they would like to nominate as the next chairperson.",
-      "options": ["whom", "which", "that", "whose"],
+      "options": [
+        "whom",
+        "which",
+        "that",
+        "whose"
+      ],
       "answer": "whom",
       "explanation": "think about 後接名詞子句，表示思考提名誰，whom（誰，受格）作受詞符合語意和文法。which 用於選擇、that 不接在介系詞後、whose 是所有格。",
       "zh": "張先生要求其他董事會成員考慮他們希望提名誰擔任下一任主席。"
@@ -961,7 +1488,12 @@
       "id": "g006",
       "cat": "vocabulary",
       "sentence": "The evaluator found that Ms. Benning was highly -------- of leading a group and suggested she begin training for a managerial position.",
-      "options": ["persuasive", "grounded", "confidential", "capable"],
+      "options": [
+        "persuasive",
+        "grounded",
+        "confidential",
+        "capable"
+      ],
       "answer": "capable",
       "explanation": "capable of（有能力的）為固定搭配，符合語意。persuasive 是有說服力的、grounded 是腳踏實地的、confidential 是機密的，均不符合此搭配。",
       "zh": "評估員發現班寧女士非常有能力領導一個團隊，並建議她開始接受管理職位的培訓。"
@@ -970,7 +1502,12 @@
       "id": "g007",
       "cat": "conjunction",
       "sentence": "-------- several complaints about the new security system, Chambers Corporation has decided to continue using it for now.",
-      "options": ["In spite of", "Because", "Except for", "Close to"],
+      "options": [
+        "In spite of",
+        "Because",
+        "Except for",
+        "Close to"
+      ],
       "answer": "In spite of",
       "explanation": "In spite of（儘管）接名詞，表示儘管有投訴仍繼續使用，符合讓步語意。Because 接子句、Except for 是除了、Close to 是接近，均不符合。",
       "zh": "儘管對新安全系統有幾項投訴，錢伯斯公司決定暫時繼續使用它。"
@@ -979,7 +1516,12 @@
       "id": "g008",
       "cat": "vocabulary",
       "sentence": "Even after presenting a -------- case to the board, Mr. Wright failed to persuade them to invest in the development project.",
-      "options": ["ruling", "shifting", "convincing", "limiting"],
+      "options": [
+        "ruling",
+        "shifting",
+        "convincing",
+        "limiting"
+      ],
       "answer": "convincing",
       "explanation": "a convincing case（一個有說服力的論點）符合語意。ruling 是裁決的、shifting 是變動的、limiting 是限制的，均不符合。",
       "zh": "即使向董事會提出了一個有說服力的論點，萊特先生仍未能說服他們投資開發項目。"
@@ -988,7 +1530,12 @@
       "id": "g009",
       "cat": "tense",
       "sentence": "The bank officer -------- that it would take Mr. Gordon two more years to settle his remaining debt if he continued to repay it in small amounts.",
-      "options": ["divided", "deducted", "calculated", "prolonged"],
+      "options": [
+        "divided",
+        "deducted",
+        "calculated",
+        "prolonged"
+      ],
       "answer": "calculated",
       "explanation": "calculated（計算/估算）符合語意，銀行官員計算出還清債務的時間。divided 是除法、deducted 是扣除、prolonged 是延長，均不符合。",
       "zh": "銀行官員計算出，如果戈登先生繼續以小額分期償還，他還需要兩年時間才能還清剩餘債務。"
@@ -997,7 +1544,12 @@
       "id": "g010",
       "cat": "preposition",
       "sentence": "The purchasing manager can only order parts from companies that are found -------- the company's list of approved suppliers.",
-      "options": ["on", "by", "with", "around"],
+      "options": [
+        "on",
+        "by",
+        "with",
+        "around"
+      ],
       "answer": "on",
       "explanation": "on the list（在名單上）為固定搭配。by 是旁邊、with 是和、around 是周圍，均不符合。",
       "zh": "採購經理只能向公司批准供應商名單上的公司訂購零件。"
@@ -1006,7 +1558,12 @@
       "id": "g011",
       "cat": "conjunction",
       "sentence": "Lawrence Graham leased his new office space two weeks ago, but he has -------- to move his firm to the location.",
-      "options": ["also", "ever", "yet", "always"],
+      "options": [
+        "also",
+        "ever",
+        "yet",
+        "always"
+      ],
       "answer": "yet",
       "explanation": "has yet to（尚未）為固定搭配，表示仍然沒有搬遷。also 是也、ever 是曾經、always 是總是，均不符合此搭配。",
       "zh": "勞倫斯‧格雷厄姆兩週前租了新辦公室，但他還沒有將公司遷往該地點。"
@@ -1015,7 +1572,12 @@
       "id": "g012",
       "cat": "vocabulary",
       "sentence": "After buying out its closest rival, Tele-SA will undoubtedly become South Africa's -------- mobile telecommunications provider.",
-      "options": ["identical", "broad", "dominant", "similar"],
+      "options": [
+        "identical",
+        "broad",
+        "dominant",
+        "similar"
+      ],
       "answer": "dominant",
       "explanation": "dominant（主導的）符合語意，收購最大競爭對手後成為市場主導者。identical 是相同的、broad 是廣泛的、similar 是相似的，均不符合。",
       "zh": "在收購最大競爭對手後，Tele-SA無疑將成為南非主導的移動電信提供商。"
@@ -1024,7 +1586,12 @@
       "id": "g013",
       "cat": "conjunction",
       "sentence": "-------- Patterson Coffeehouse only has one branch in Australia, it plans to open six new stores by the conclusion of the fiscal year.",
-      "options": ["Once", "As", "After", "Like"],
+      "options": [
+        "Once",
+        "As",
+        "After",
+        "Like"
+      ],
       "answer": "As",
       "explanation": "As 引導讓步或背景從句（雖然只有一家分店，仍計劃擴展），符合語意。Once 是一旦、After 是之後、Like 是像。",
       "zh": "雖然帕特森咖啡館在澳大利亞只有一家分店，但它計劃在本財政年度結束前開設六家新店。"
@@ -1033,7 +1600,12 @@
       "id": "g014",
       "cat": "tense",
       "sentence": "When Rubicon Bank's growth rate is announced publicly next week, the information -------- a lot of interest from stock investors.",
-      "options": ["had attracted", "attracted", "attracting", "will attract"],
+      "options": [
+        "had attracted",
+        "attracted",
+        "attracting",
+        "will attract"
+      ],
       "answer": "will attract",
       "explanation": "next week 表示未來，用未來式 will attract（將吸引）。had attracted 是過去完成、attracted 是過去式、attracting 缺助動詞。",
       "zh": "當魯比肯銀行的增長率在下週公開宣布時，這一信息將吸引股票投資者的大量關注。"
@@ -1042,7 +1614,12 @@
       "id": "g015",
       "cat": "pos",
       "sentence": "In his latest book, journalist Peter Ormond gives a -------- account of his experiences working in South America.",
-      "options": ["fascination", "fascinating", "fascinated", "fascinatedly"],
+      "options": [
+        "fascination",
+        "fascinating",
+        "fascinated",
+        "fascinatedly"
+      ],
       "answer": "fascinating",
       "explanation": "修飾名詞 account 需用形容詞，fascinating（引人入勝的）主動形容詞修飾物。fascination 是名詞、fascinated 修飾人（感到著迷的）、fascinatedly 是副詞。",
       "zh": "在他的最新書中，記者彼得‧奧蒙德對他在南美洲工作的經歷給出了一份引人入勝的敘述。"
@@ -1051,7 +1628,12 @@
       "id": "g016",
       "cat": "pos",
       "sentence": "In a gesture of goodwill, the San Mateo High School will -------- allow local residents to use its sports facilities on weekends.",
-      "options": ["generously", "accidentally", "immensely", "intensively"],
+      "options": [
+        "generously",
+        "accidentally",
+        "immensely",
+        "intensively"
+      ],
       "answer": "generously",
       "explanation": "generously（慷慨地）符合語意，表示學校慷慨地允許居民使用設施。accidentally 是意外地、immensely 是非常地（修飾形容詞）、intensively 是密集地，均不符合。",
       "zh": "作為一種善意姿態，聖馬刁高中將慷慨地允許當地居民在週末使用其體育設施。"
@@ -1060,7 +1642,12 @@
       "id": "g017",
       "cat": "vocabulary",
       "sentence": "The public's reactions to the monument in Penn Park reveal a difference in -------- regarding how they feel tax money should be spent.",
-      "options": ["imagination", "perspective", "overview", "reflection"],
+      "options": [
+        "imagination",
+        "perspective",
+        "overview",
+        "reflection"
+      ],
       "answer": "perspective",
       "explanation": "perspective（觀點/看法）符合語意，表示公眾對稅款用途的看法不同。imagination 是想像力、overview 是概述、reflection 是反思，均不符合。",
       "zh": "公眾對潘恩公園紀念碑的反應揭示了人們在如何花費稅款問題上的觀點差異。"
@@ -1069,7 +1656,12 @@
       "id": "g018",
       "cat": "preposition",
       "sentence": "The cruise ship coming in from Alaska was nearly three hours late arriving at the port in Vancouver -------- stormy weather conditions at sea.",
-      "options": ["at least", "in advance", "owing to", "aside from"],
+      "options": [
+        "at least",
+        "in advance",
+        "owing to",
+        "aside from"
+      ],
       "answer": "owing to",
       "explanation": "owing to（由於）符合語意，表示遲到是因為海上惡劣天氣。at least 是至少、in advance 是提前、aside from 是除了，均不符合。",
       "zh": "從阿拉斯加開來的遊輪由於海上惡劣天氣條件，到達溫哥華港口時晚了將近三個小時。"
@@ -1078,7 +1670,12 @@
       "id": "g019",
       "cat": "vocabulary",
       "sentence": "The -------- argument in favor of reevaluating the company's product lines has to be that sales have been consistently declining for the past two years.",
-      "options": ["furthest", "deepest", "heaviest", "strongest"],
+      "options": [
+        "furthest",
+        "deepest",
+        "heaviest",
+        "strongest"
+      ],
       "answer": "strongest",
       "explanation": "the strongest argument（最有力的論點）為固定搭配。furthest 是最遠的、deepest 是最深的、heaviest 是最重的，均不符合此搭配。",
       "zh": "支持重新評估公司產品線的最有力論點是，過去兩年銷售額一直在持續下降。"
@@ -1087,7 +1684,12 @@
       "id": "g020",
       "cat": "vocabulary",
       "sentence": "Throughout history, scientists have gathered much -------- to support the theory that many animals possess high levels of intelligence.",
-      "options": ["idea", "time", "entertainment", "evidence"],
+      "options": [
+        "idea",
+        "time",
+        "entertainment",
+        "evidence"
+      ],
       "answer": "evidence",
       "explanation": "evidence（證據）符合語意，科學家收集了大量證據支持理論。idea 是想法、time 是時間、entertainment 是娛樂，均不符合。",
       "zh": "縱觀歷史，科學家們收集了大量證據來支持許多動物擁有高度智力的理論。"
@@ -1096,7 +1698,12 @@
       "id": "g021",
       "cat": "pos",
       "sentence": "The finance team submitted its -------- report ahead of the quarterly deadline.",
-      "options": ["revise", "revision", "revised", "revising"],
+      "options": [
+        "revise",
+        "revision",
+        "revised",
+        "revising"
+      ],
       "answer": "revised",
       "explanation": "修飾名詞 report 需用形容詞，revised（修訂過的）為過去分詞作形容詞。revise 是動詞、revision 是名詞、revising 是現在分詞。",
       "zh": "財務團隊提前提交了修訂後的報告，趕在季度截止日期前完成。"
@@ -1105,7 +1712,12 @@
       "id": "g022",
       "cat": "pos",
       "sentence": "Employees are encouraged to express their opinions -------- in team meetings.",
-      "options": ["free", "freedom", "freely", "freer"],
+      "options": [
+        "free",
+        "freedom",
+        "freely",
+        "freer"
+      ],
       "answer": "freely",
       "explanation": "修飾動詞 express 需用副詞，freely（自由地）符合語意。free 是形容詞/動詞、freedom 是名詞、freer 是比較級形容詞。",
       "zh": "員工被鼓勵在團隊會議中自由地表達意見。"
@@ -1114,7 +1726,12 @@
       "id": "g023",
       "cat": "tense",
       "sentence": "The construction crew -------- on the new office tower for the past eighteen months.",
-      "options": ["worked", "works", "has been working", "will work"],
+      "options": [
+        "worked",
+        "works",
+        "has been working",
+        "will work"
+      ],
       "answer": "has been working",
       "explanation": "for the past eighteen months 表示從過去到現在持續進行，用現在完成進行式 has been working。",
       "zh": "建設團隊在過去十八個月裡一直在建造新的辦公大樓。"
@@ -1123,7 +1740,12 @@
       "id": "g024",
       "cat": "passive",
       "sentence": "The new product line -------- at the annual trade fair next month.",
-      "options": ["launches", "will launch", "will be launched", "launched"],
+      "options": [
+        "launches",
+        "will launch",
+        "will be launched",
+        "launched"
+      ],
       "answer": "will be launched",
       "explanation": "產品線被發布（被動），未來式被動 will be launched 符合。launches/launched 是主動式。",
       "zh": "新產品線將在下個月的年度貿易博覽會上發布。"
@@ -1132,7 +1754,12 @@
       "id": "g025",
       "cat": "modal",
       "sentence": "All visitors -------- wear a security badge while on company premises.",
-      "options": ["might", "must", "would", "could"],
+      "options": [
+        "might",
+        "must",
+        "would",
+        "could"
+      ],
       "answer": "must",
       "explanation": "must（必須）表示強制義務，在公司場所佩戴安全徽章是規定。might 和 could 表可能性、would 表意願，均不符合規定語意。",
       "zh": "所有訪客在公司場所內必須佩戴安全徽章。"
@@ -1141,7 +1768,12 @@
       "id": "g026",
       "cat": "relative",
       "sentence": "The consultant -------- recommendations were adopted has agreed to oversee the implementation process.",
-      "options": ["who", "whom", "whose", "which"],
+      "options": [
+        "who",
+        "whom",
+        "whose",
+        "which"
+      ],
       "answer": "whose",
       "explanation": "whose（其的）表示顧問的建議，作所有格關係詞。who/whom 不能作所有格、which 用於物。",
       "zh": "其建議被採納的顧問已同意監督實施過程。"
@@ -1150,7 +1782,12 @@
       "id": "g027",
       "cat": "conjunction",
       "sentence": "The marketing team will proceed with the campaign -------- the budget has been finalized.",
-      "options": ["as soon as", "in spite of", "due to", "however"],
+      "options": [
+        "as soon as",
+        "in spite of",
+        "due to",
+        "however"
+      ],
       "answer": "as soon as",
       "explanation": "as soon as（一旦）引導時間從句，表示預算一確定就開展活動，符合語意。in spite of/due to 接名詞、however 是副詞。",
       "zh": "一旦預算確定，行銷團隊將推進這個活動。"
@@ -1159,7 +1796,12 @@
       "id": "g028",
       "cat": "preposition",
       "sentence": "The seminar on financial planning is open -------- all department heads.",
-      "options": ["for", "to", "at", "with"],
+      "options": [
+        "for",
+        "to",
+        "at",
+        "with"
+      ],
       "answer": "to",
       "explanation": "open to（對…開放）為固定搭配。for 表目的、at 表地點、with 表伴隨，均不符合此搭配。",
       "zh": "財務規劃研討會對所有部門主管開放。"
@@ -1168,7 +1810,12 @@
       "id": "g029",
       "cat": "conditional",
       "sentence": "If the supplier -------- the delivery, we would have to source the materials elsewhere.",
-      "options": ["delays", "will delay", "delayed", "had delayed"],
+      "options": [
+        "delays",
+        "will delay",
+        "delayed",
+        "had delayed"
+      ],
       "answer": "delays",
       "explanation": "If 引導現實條件句（第一條件句），if 子句用現在式表示真實可能的條件，delays 符合。will delay 不接在 if 後（不正式）、delayed 是第二條件句的 if 子句、had delayed 是第三條件句。",
       "zh": "如果供應商延誤交貨，我們將不得不從其他地方採購材料。"
@@ -1177,7 +1824,12 @@
       "id": "g030",
       "cat": "article",
       "sentence": "We are looking for -------- experienced project manager to lead our new team.",
-      "options": ["a", "an", "the", "no article"],
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
       "answer": "an",
       "explanation": "experienced 以母音音素 /ɪ/ 開頭，需用不定冠詞 an；第一次提及的單數可數名詞，用不定冠詞。",
       "zh": "我們正在尋找一位有經驗的項目經理來領導我們的新團隊。"
@@ -1186,7 +1838,12 @@
       "id": "g031",
       "cat": "pos",
       "sentence": "The committee's -------- were detailed in the annual financial report.",
-      "options": ["find", "finds", "findings", "found"],
+      "options": [
+        "find",
+        "finds",
+        "findings",
+        "found"
+      ],
       "answer": "findings",
       "explanation": "The committee's 後需接名詞，findings（發現/調查結果）為名詞，符合語意。find/finds/found 是動詞形式。",
       "zh": "委員會的調查結果在年度財務報告中有詳細說明。"
@@ -1195,7 +1852,12 @@
       "id": "g032",
       "cat": "tense",
       "sentence": "By the time the director arrives, the team -------- the presentation.",
-      "options": ["will finish", "finished", "will have finished", "finishes"],
+      "options": [
+        "will finish",
+        "finished",
+        "will have finished",
+        "finishes"
+      ],
       "answer": "will have finished",
       "explanation": "By the time + 現在式，主句用未來完成式，表示在某未來時間點前完成的動作，will have finished 符合。",
       "zh": "到主任抵達時，團隊將已完成簡報。"
@@ -1204,7 +1866,12 @@
       "id": "g033",
       "cat": "vocabulary",
       "sentence": "The new cafeteria provides -------- meals at reasonable prices for all staff members.",
-      "options": ["nutritious", "numerical", "neutral", "notable"],
+      "options": [
+        "nutritious",
+        "numerical",
+        "neutral",
+        "notable"
+      ],
       "answer": "nutritious",
       "explanation": "nutritious（營養的）符合語意，新食堂提供營養餐點。numerical 是數字的、neutral 是中立的、notable 是著名的，均不符合。",
       "zh": "新食堂為所有員工提供價格合理的營養餐點。"
@@ -1213,7 +1880,12 @@
       "id": "g034",
       "cat": "passive",
       "sentence": "All meeting minutes -------- and distributed to participants within 48 hours.",
-      "options": ["record", "are recorded", "recording", "to record"],
+      "options": [
+        "record",
+        "are recorded",
+        "recording",
+        "to record"
+      ],
       "answer": "are recorded",
       "explanation": "會議記錄被記錄和分發（被動），are recorded（被記錄）為現在被動式，符合語意。record 是主動式、recording 缺助動詞、to record 是不定詞。",
       "zh": "所有會議記錄都會被記錄並在48小時內分發給參與者。"
@@ -1222,7 +1894,12 @@
       "id": "g035",
       "cat": "comparison",
       "sentence": "This quarter's results are -------- than those of the same period last year.",
-      "options": ["much promising", "more promising", "most promising", "very promising"],
+      "options": [
+        "much promising",
+        "more promising",
+        "most promising",
+        "very promising"
+      ],
       "answer": "more promising",
       "explanation": "than 前需用比較級，more promising（更有前景的）符合。much promising 和 very promising 不是比較級形式、most promising 是最高級。",
       "zh": "本季度的業績比去年同期更有前景。"
@@ -1231,7 +1908,12 @@
       "id": "g036",
       "cat": "preposition",
       "sentence": "The company specializes -------- developing software for the healthcare industry.",
-      "options": ["at", "on", "in", "for"],
+      "options": [
+        "at",
+        "on",
+        "in",
+        "for"
+      ],
       "answer": "in",
       "explanation": "specialize in（專精於）為固定搭配。at/on/for 均不符合此動詞搭配。",
       "zh": "這家公司專注於為醫療保健業開發軟體。"
@@ -1240,7 +1922,12 @@
       "id": "g037",
       "cat": "modal",
       "sentence": "Employees -------- submit their expense reports by the last Friday of each month.",
-      "options": ["should", "might", "could", "would"],
+      "options": [
+        "should",
+        "might",
+        "could",
+        "would"
+      ],
       "answer": "should",
       "explanation": "should（應該）表示義務或規定，符合公司規則語意。might 和 could 表可能性、would 表意願，均不符合強制性規定。",
       "zh": "員工應在每個月的最後一個星期五之前提交費用報告。"
@@ -1249,7 +1936,12 @@
       "id": "g038",
       "cat": "vocabulary",
       "sentence": "The HR department will -------- a comprehensive training program for all newly hired staff.",
-      "options": ["implement", "ignore", "interrupt", "imitate"],
+      "options": [
+        "implement",
+        "ignore",
+        "interrupt",
+        "imitate"
+      ],
       "answer": "implement",
       "explanation": "implement（實施）符合語意，人力資源部門實施培訓計畫。ignore 是忽視、interrupt 是打斷、imitate 是模仿，均不符合。",
       "zh": "人力資源部門將為所有新聘員工實施全面的培訓計畫。"
@@ -1258,7 +1950,12 @@
       "id": "g039",
       "cat": "pos",
       "sentence": "The marketing director spoke -------- about the importance of maintaining strong customer relationships.",
-      "options": ["passion", "passionately", "passionate", "passions"],
+      "options": [
+        "passion",
+        "passionately",
+        "passionate",
+        "passions"
+      ],
       "answer": "passionately",
       "explanation": "修飾動詞 spoke 需用副詞，passionately（熱情地）符合。passion 和 passions 是名詞、passionate 是形容詞。",
       "zh": "行銷總監熱情地談到了維護強大客戶關係的重要性。"
@@ -1267,7 +1964,12 @@
       "id": "g040",
       "cat": "preposition",
       "sentence": "The board of directors is responsible -------- setting the company's long-term strategic goals.",
-      "options": ["of", "for", "to", "at"],
+      "options": [
+        "of",
+        "for",
+        "to",
+        "at"
+      ],
       "answer": "for",
       "explanation": "be responsible for（對…負責）為固定搭配。of/to/at 均不符合此慣用表達。",
       "zh": "董事會負責制定公司的長期戰略目標。"
@@ -1276,7 +1978,12 @@
       "id": "g041",
       "cat": "tense",
       "sentence": "The company -------- its annual report before the fiscal year ends next month.",
-      "options": ["published", "publishes", "will publish", "was publishing"],
+      "options": [
+        "published",
+        "publishes",
+        "will publish",
+        "was publishing"
+      ],
       "answer": "will publish",
       "explanation": "before the fiscal year ends next month 指未來時間，主句用未來式 will publish。published 是過去式、publishes 是現在式、was publishing 是過去進行式。",
       "zh": "公司將在下個月財政年度結束前發布年度報告。"
@@ -1285,7 +1992,12 @@
       "id": "g042",
       "cat": "conjunction",
       "sentence": "-------- the renovation project was completed ahead of schedule, the company was able to move into the new office early.",
-      "options": ["Unless", "Because", "Despite", "Although"],
+      "options": [
+        "Unless",
+        "Because",
+        "Despite",
+        "Although"
+      ],
       "answer": "Because",
       "explanation": "Because（因為）表示原因，說明由於翻新提前完成，所以公司可以提前搬遷。Unless 是除非、Despite 接名詞、Although 表讓步（語意相反）。",
       "zh": "因為翻新工程提前完工，公司得以提早搬入新辦公室。"
@@ -1294,7 +2006,12 @@
       "id": "g043",
       "cat": "relative",
       "sentence": "The employee -------- transferred to the Singapore office has extensive experience in international markets.",
-      "options": ["who", "whom", "which", "whose"],
+      "options": [
+        "who",
+        "whom",
+        "which",
+        "whose"
+      ],
       "answer": "who",
       "explanation": "先行詞為人（employee），關係代名詞用 who 作主語，後接 transferred。whom 是受格、which 用於物、whose 是所有格。",
       "zh": "被調派到新加坡辦事處的那位員工在國際市場有豐富的經驗。"
@@ -1303,7 +2020,12 @@
       "id": "g044",
       "cat": "passive",
       "sentence": "The annual performance reviews -------- by department managers every December.",
-      "options": ["conduct", "conducted", "are conducted", "conducting"],
+      "options": [
+        "conduct",
+        "conducted",
+        "are conducted",
+        "conducting"
+      ],
       "answer": "are conducted",
       "explanation": "績效考核是被執行（被動），are conducted（被執行）為現在被動式，符合描述慣例的語境。conduct 是主動式、conducted 缺助動詞、conducting 是現在分詞。",
       "zh": "年度績效考核每年十二月由部門經理進行。"
@@ -1312,7 +2034,12 @@
       "id": "g045",
       "cat": "vocabulary",
       "sentence": "The CEO asked the legal team to -------- the new contract before signing.",
-      "options": ["review", "remove", "replace", "reduce"],
+      "options": [
+        "review",
+        "remove",
+        "replace",
+        "reduce"
+      ],
       "answer": "review",
       "explanation": "review（審查）符合語意，簽署合約前需要法務團隊審查。remove 是移除、replace 是替換、reduce 是減少，均不符合。",
       "zh": "執行長要求法務團隊在簽署前審查新合約。"
@@ -1321,7 +2048,12 @@
       "id": "g046",
       "cat": "conditional",
       "sentence": "If the proposal -------- approved, the project will begin in January.",
-      "options": ["is", "was", "would be", "had been"],
+      "options": [
+        "is",
+        "was",
+        "would be",
+        "had been"
+      ],
       "answer": "is",
       "explanation": "If 引導第一條件句（真實條件），if 子句用現在式 is。was 是第二條件句、would be 不放在 if 子句、had been 是第三條件句。",
       "zh": "如果提案獲得批准，項目將在一月份開始。"
@@ -1330,7 +2062,12 @@
       "id": "g047",
       "cat": "pos",
       "sentence": "The company's new environmental policy has been -------- praised by both employees and industry experts.",
-      "options": ["wide", "width", "widely", "widened"],
+      "options": [
+        "wide",
+        "width",
+        "widely",
+        "widened"
+      ],
       "answer": "widely",
       "explanation": "修飾過去分詞 praised 需用副詞，widely（廣泛地）符合。wide 是形容詞、width 是名詞、widened 是動詞。",
       "zh": "公司新的環保政策受到員工和行業專家的廣泛讚揚。"
@@ -1339,7 +2076,12 @@
       "id": "g048",
       "cat": "vocabulary",
       "sentence": "The new office complex includes a variety of -------- such as a gym, a café, and conference rooms.",
-      "options": ["amenities", "ambiguities", "amendments", "affiliations"],
+      "options": [
+        "amenities",
+        "ambiguities",
+        "amendments",
+        "affiliations"
+      ],
       "answer": "amenities",
       "explanation": "amenities（設施/便利設施）符合語意，指辦公室的各種便利設施。ambiguities 是模糊、amendments 是修正案、affiliations 是關聯，均不符合。",
       "zh": "新辦公大樓包含各種設施，如健身房、咖啡廳和會議室。"
@@ -1348,7 +2090,12 @@
       "id": "g049",
       "cat": "preposition",
       "sentence": "The factory operates -------- capacity during the holiday season to meet increased demand.",
-      "options": ["at", "in", "on", "to"],
+      "options": [
+        "at",
+        "in",
+        "on",
+        "to"
+      ],
       "answer": "at",
       "explanation": "at full capacity（以最大產能運作）為固定搭配。in/on/to 均不符合此慣用表達。",
       "zh": "工廠在假日季節以最大產能運作，以滿足增加的需求。"
@@ -1357,7 +2104,12 @@
       "id": "g050",
       "cat": "tense",
       "sentence": "The manager noticed that several important files -------- from the shared drive.",
-      "options": ["delete", "deleted", "had been deleted", "will delete"],
+      "options": [
+        "delete",
+        "deleted",
+        "had been deleted",
+        "will delete"
+      ],
       "answer": "had been deleted",
       "explanation": "noticed（過去式）後，發現更早發生的被動動作，用過去完成被動式 had been deleted。delete 是原形、deleted 缺助動詞（被動）、will delete 是未來式。",
       "zh": "經理注意到幾個重要文件已從共享磁碟中被刪除。"
@@ -1366,7 +2118,12 @@
       "id": "g051",
       "cat": "conjunction",
       "sentence": "The conference will be held outdoors -------- the weather remains suitable.",
-      "options": ["as long as", "even though", "rather than", "in addition to"],
+      "options": [
+        "as long as",
+        "even though",
+        "rather than",
+        "in addition to"
+      ],
       "answer": "as long as",
       "explanation": "as long as（只要）表示條件，符合語意：只要天氣合適，會議就在戶外舉行。even though 是儘管、rather than 是而非、in addition to 接名詞。",
       "zh": "只要天氣合適，會議將在戶外舉行。"
@@ -1375,7 +2132,12 @@
       "id": "g052",
       "cat": "modal",
       "sentence": "The client -------- have received the invoice by now, but we haven't heard back yet.",
-      "options": ["should", "will", "would", "can"],
+      "options": [
+        "should",
+        "will",
+        "would",
+        "can"
+      ],
       "answer": "should",
       "explanation": "should have received（應該已收到）表示對過去情況的推測或預期。will 是未來、would 是假設、can 是能力，均不符合對過去的推測。",
       "zh": "客戶現在應該已經收到發票了，但我們還沒有收到回覆。"
@@ -1384,7 +2146,12 @@
       "id": "g053",
       "cat": "vocabulary",
       "sentence": "The pharmaceutical company is seeking regulatory -------- before launching the new drug.",
-      "options": ["approval", "approach", "appearance", "apology"],
+      "options": [
+        "approval",
+        "approach",
+        "appearance",
+        "apology"
+      ],
       "answer": "approval",
       "explanation": "regulatory approval（監管批准）為固定搭配，藥品上市前需獲得批准。approach 是方法、appearance 是外觀、apology 是道歉，均不符合。",
       "zh": "製藥公司在推出新藥前正在尋求監管機構的批准。"
@@ -1393,7 +2160,12 @@
       "id": "g054",
       "cat": "pos",
       "sentence": "The -------- of the two candidates made the final selection process very difficult.",
-      "options": ["similar", "similarity", "similarly", "similitude"],
+      "options": [
+        "similar",
+        "similarity",
+        "similarly",
+        "similitude"
+      ],
       "answer": "similarity",
       "explanation": "The 後接名詞作主詞，similarity（相似性）符合。similar 是形容詞、similarly 是副詞、similitude 雖是名詞但較罕見且不符合一般用法。",
       "zh": "兩位候選人的相似性使最終選擇過程非常困難。"
@@ -1402,7 +2174,12 @@
       "id": "g055",
       "cat": "preposition",
       "sentence": "The new branch manager comes -------- a background in retail banking.",
-      "options": ["from", "with", "by", "of"],
+      "options": [
+        "from",
+        "with",
+        "by",
+        "of"
+      ],
       "answer": "with",
       "explanation": "come with a background（具有某種背景）為固定搭配。from 表來源、by 表方式、of 表所屬，均不符合此搭配。",
       "zh": "新分行經理具有零售銀行業務的背景。"
@@ -1411,7 +2188,12 @@
       "id": "g056",
       "cat": "tense",
       "sentence": "The director -------- a presentation when the fire alarm suddenly went off.",
-      "options": ["gives", "gave", "was giving", "has given"],
+      "options": [
+        "gives",
+        "gave",
+        "was giving",
+        "has given"
+      ],
       "answer": "was giving",
       "explanation": "when 引導過去時間點，主句描述當時正在進行的動作，用過去進行式 was giving。gives 是現在式、gave 是簡單過去式、has given 是現在完成式。",
       "zh": "當火警突然響起時，主任正在進行演示。"
@@ -1420,7 +2202,12 @@
       "id": "g057",
       "cat": "relative",
       "sentence": "The new policy, -------- the board introduced last month, has already improved efficiency significantly.",
-      "options": ["who", "that", "which", "whose"],
+      "options": [
+        "who",
+        "that",
+        "which",
+        "whose"
+      ],
       "answer": "which",
       "explanation": "先行詞為事物（policy）且有逗號，用非限定性關係子句 which。that 不用於非限定性子句、who 用於人、whose 是所有格。",
       "zh": "董事會上個月推出的新政策已顯著提高了效率。"
@@ -1429,16 +2216,26 @@
       "id": "g058",
       "cat": "vocabulary",
       "sentence": "The company's annual revenue showed a significant -------- compared to the previous year.",
-      "options": ["increment", "decrepit", "increment", "decline"],
+      "options": [
+        "increase",
+        "decrepit",
+        "increment",
+        "decline"
+      ],
       "answer": "decline",
-      "explanation": "decline（下降）或 increment（增加）都可能語意通順，但常見 TOEIC 題型考 decline（下降），配合 showed a significant decline 的常見商業用語。",
+      "explanation": "decline（下降）符合語意，showed a significant decline 表示年度營收大幅下滑。increase/increment 均表示增加，decrepit 是破舊的（形容詞），均不符合。",
       "zh": "與前一年相比，公司的年收入出現了顯著下降。"
     },
     {
       "id": "g059",
       "cat": "passive",
       "sentence": "The safety regulations -------- strictly across all departments following the incident.",
-      "options": ["enforce", "enforced", "were enforced", "are enforcing"],
+      "options": [
+        "enforce",
+        "enforced",
+        "were enforced",
+        "are enforcing"
+      ],
       "answer": "were enforced",
       "explanation": "法規被執行（被動），following the incident 指事件後，用過去被動式 were enforced。enforce 是主動原形、enforced 缺助動詞、are enforcing 是現在進行主動式。",
       "zh": "事件發生後，安全法規在所有部門得到嚴格執行。"
@@ -1447,7 +2244,12 @@
       "id": "g060",
       "cat": "conjunction",
       "sentence": "The project was completed on time -------- the team faced numerous unexpected challenges.",
-      "options": ["so that", "even though", "in order to", "as well as"],
+      "options": [
+        "so that",
+        "even though",
+        "in order to",
+        "as well as"
+      ],
       "answer": "even though",
       "explanation": "even though（儘管）表讓步，說明即使面臨挑戰仍按時完成。so that 是為了、in order to 接動詞原形、as well as 是以及，均不符合。",
       "zh": "儘管團隊面臨許多意外挑戰，項目仍按時完成。"
@@ -1456,7 +2258,12 @@
       "id": "g061",
       "cat": "pos",
       "sentence": "The new software system is far more -------- than the one it replaced.",
-      "options": ["efficiency", "efficient", "efficiently", "efficiencies"],
+      "options": [
+        "efficiency",
+        "efficient",
+        "efficiently",
+        "efficiencies"
+      ],
       "answer": "efficient",
       "explanation": "more 後接形容詞比較級，efficient（高效的）符合。efficiency 和 efficiencies 是名詞、efficiently 是副詞。",
       "zh": "新的軟體系統比其替換的系統效率高得多。"
@@ -1465,7 +2272,12 @@
       "id": "g062",
       "cat": "modal",
       "sentence": "Staff members -------- not use company resources for personal purposes.",
-      "options": ["may", "could", "should", "might"],
+      "options": [
+        "may",
+        "could",
+        "should",
+        "might"
+      ],
       "answer": "should",
       "explanation": "should not（不應該）表示規範或規定，符合公司政策的語境。may/could/might 都表示允許或可能性，與否定語意不符合規定強度。",
       "zh": "員工不應將公司資源用於個人用途。"
@@ -1474,7 +2286,12 @@
       "id": "g063",
       "cat": "vocabulary",
       "sentence": "The logistics manager developed a more -------- system for tracking shipments in real time.",
-      "options": ["efficient", "aggressive", "reluctant", "ambiguous"],
+      "options": [
+        "efficient",
+        "aggressive",
+        "reluctant",
+        "ambiguous"
+      ],
       "answer": "efficient",
       "explanation": "efficient（高效的）符合語意，開發更高效的追蹤系統。aggressive 是積極/激進的、reluctant 是不情願的、ambiguous 是含糊的，均不符合正面語意。",
       "zh": "物流經理開發了一套更高效的即時追蹤貨物系統。"
@@ -1483,7 +2300,12 @@
       "id": "g064",
       "cat": "preposition",
       "sentence": "The deadline for submitting applications has been extended -------- two more weeks.",
-      "options": ["by", "for", "to", "at"],
+      "options": [
+        "by",
+        "for",
+        "to",
+        "at"
+      ],
       "answer": "by",
       "explanation": "extended by（延長了…）表示延長的幅度，by two more weeks 指延長了兩週。for 是為了、to 是到達某時間點、at 不符合此用法。",
       "zh": "提交申請的截止日期已延長兩週。"
@@ -1492,7 +2314,12 @@
       "id": "g065",
       "cat": "tense",
       "sentence": "The supply chain disruption -------- our production schedule significantly last quarter.",
-      "options": ["affects", "affected", "has affected", "will affect"],
+      "options": [
+        "affects",
+        "affected",
+        "has affected",
+        "will affect"
+      ],
       "answer": "affected",
       "explanation": "last quarter 是過去時間標記，用簡單過去式 affected。affects 是現在式、has affected 是現在完成式、will affect 是未來式。",
       "zh": "供應鏈中斷在上季度對我們的生產計畫產生了重大影響。"
@@ -1501,7 +2328,12 @@
       "id": "g066",
       "cat": "vocabulary",
       "sentence": "The board voted to -------- the merger agreement after reviewing all financial documents.",
-      "options": ["ratify", "resign", "refund", "revoke"],
+      "options": [
+        "ratify",
+        "resign",
+        "refund",
+        "revoke"
+      ],
       "answer": "ratify",
       "explanation": "ratify（批准）符合語意，審查財務文件後批准合併協議。resign 是辭職、refund 是退款、revoke 是撤銷（語意相反）。",
       "zh": "董事會在審查所有財務文件後投票批准了合併協議。"
@@ -1510,7 +2342,12 @@
       "id": "g067",
       "cat": "pos",
       "sentence": "The research team made a -------- discovery that could revolutionize the treatment of the disease.",
-      "options": ["ground-break", "ground-broke", "groundbreaking", "groundbreakingly"],
+      "options": [
+        "ground-break",
+        "ground-broke",
+        "groundbreaking",
+        "groundbreakingly"
+      ],
       "answer": "groundbreaking",
       "explanation": "修飾名詞 discovery 需用形容詞，groundbreaking（突破性的）符合。ground-break/ground-broke 不是正確形式、groundbreakingly 是副詞。",
       "zh": "研究團隊有了一項突破性的發現，可能會革新這種疾病的治療方式。"
@@ -1519,7 +2356,12 @@
       "id": "g068",
       "cat": "conjunction",
       "sentence": "The company reduced its workforce -------- maintain profitability during the economic downturn.",
-      "options": ["in order to", "as a result", "because of", "in spite of"],
+      "options": [
+        "in order to",
+        "as a result",
+        "because of",
+        "in spite of"
+      ],
       "answer": "in order to",
       "explanation": "in order to（為了）接動詞原形，表示目的。as a result 是結果（接子句）、because of 接名詞（表原因）、in spite of 表讓步。",
       "zh": "公司裁員以在經濟衰退期間保持盈利能力。"
@@ -1528,7 +2370,12 @@
       "id": "g069",
       "cat": "passive",
       "sentence": "The quarterly bonus -------- to all employees who exceeded their sales targets.",
-      "options": ["award", "awarded", "was awarded", "has awarding"],
+      "options": [
+        "award",
+        "awarded",
+        "was awarded",
+        "has awarding"
+      ],
       "answer": "was awarded",
       "explanation": "獎金被頒發（被動），was awarded（被頒發）為過去被動式，符合語境。award 是主動原形、awarded 缺助動詞、has awarding 不是正確形式。",
       "zh": "季度獎金頒發給所有超過銷售目標的員工。"
@@ -1537,7 +2384,12 @@
       "id": "g070",
       "cat": "vocabulary",
       "sentence": "Please -------- your travel expenses as soon as possible to receive reimbursement.",
-      "options": ["submit", "submit", "subscribe", "suppress"],
+      "options": [
+        "summarize",
+        "submit",
+        "subscribe",
+        "suppress"
+      ],
       "answer": "submit",
       "explanation": "submit（提交）符合語意，提交差旅費用報告以申請報銷。subscribe 是訂閱、suppress 是壓制，均不符合。",
       "zh": "請盡快提交您的差旅費用以獲得報銷。"
@@ -1546,7 +2398,12 @@
       "id": "g071",
       "cat": "preposition",
       "sentence": "The new regulation is aimed -------- reducing carbon emissions from manufacturing plants.",
-      "options": ["at", "on", "for", "to"],
+      "options": [
+        "at",
+        "on",
+        "for",
+        "to"
+      ],
       "answer": "at",
       "explanation": "aimed at（旨在）為固定搭配，後接動名詞。on/for/to 均不符合此慣用表達。",
       "zh": "新法規旨在減少製造廠的碳排放。"
@@ -1555,7 +2412,12 @@
       "id": "g072",
       "cat": "comparison",
       "sentence": "The eastern branch has -------- customers than any other location in the region.",
-      "options": ["more", "most", "much", "many"],
+      "options": [
+        "more",
+        "most",
+        "much",
+        "many"
+      ],
       "answer": "more",
       "explanation": "than 前需用比較級，more（更多的）為 many/much 的比較級，符合。most 是最高級、much 和 many 是原級，不接 than。",
       "zh": "東部分行擁有比該地區任何其他地點都更多的客戶。"
@@ -1564,7 +2426,12 @@
       "id": "g073",
       "cat": "modal",
       "sentence": "You -------- make a reservation at least 48 hours in advance to guarantee your preferred time slot.",
-      "options": ["can", "might", "must", "would"],
+      "options": [
+        "can",
+        "might",
+        "must",
+        "would"
+      ],
       "answer": "must",
       "explanation": "must（必須）表示強制要求，至少提前48小時預訂是必要條件。can 是能力、might 是可能性、would 是意願，均不符合強制義務。",
       "zh": "您必須至少提前48小時預訂，以確保您偏好的時段。"
@@ -1573,7 +2440,12 @@
       "id": "g074",
       "cat": "relative",
       "sentence": "The software update, -------- was released last Tuesday, has fixed all the reported bugs.",
-      "options": ["that", "which", "who", "what"],
+      "options": [
+        "that",
+        "which",
+        "who",
+        "what"
+      ],
       "answer": "which",
       "explanation": "先行詞為事物（software update），有逗號，用非限定性關係代名詞 which。that 不用於非限定性子句、who 用於人、what 不作關係代名詞。",
       "zh": "上週二發布的軟體更新已修復所有已報告的錯誤。"
@@ -1582,7 +2454,12 @@
       "id": "g075",
       "cat": "vocabulary",
       "sentence": "The accounting department identified several -------- in the financial statements that needed correction.",
-      "options": ["discrepancies", "discoveries", "distractions", "discussions"],
+      "options": [
+        "discrepancies",
+        "discoveries",
+        "distractions",
+        "discussions"
+      ],
       "answer": "discrepancies",
       "explanation": "discrepancies（差異/不一致）符合語意，財務報表中需要更正的不一致之處。discoveries 是發現、distractions 是干擾、discussions 是討論，均不符合。",
       "zh": "會計部門在財務報表中發現了幾個需要更正的差異。"
@@ -1591,7 +2468,12 @@
       "id": "g076",
       "cat": "tense",
       "sentence": "The company -------- its headquarters to a larger facility once the lease expires.",
-      "options": ["move", "moved", "will move", "has moved"],
+      "options": [
+        "move",
+        "moved",
+        "will move",
+        "has moved"
+      ],
       "answer": "will move",
       "explanation": "once the lease expires（一旦租約到期）指未來條件，主句用未來式 will move。move 是原形、moved 是過去式、has moved 是現在完成式。",
       "zh": "一旦租約到期，公司將把總部遷至更大的設施。"
@@ -1600,7 +2482,12 @@
       "id": "g077",
       "cat": "pos",
       "sentence": "The job posting attracted a -------- large number of qualified applicants.",
-      "options": ["surprise", "surprising", "surprisingly", "surprised"],
+      "options": [
+        "surprise",
+        "surprising",
+        "surprisingly",
+        "surprised"
+      ],
       "answer": "surprisingly",
       "explanation": "修飾形容詞 large 需用副詞，surprisingly（令人驚訝地）符合。surprise 是名詞/動詞、surprising 是形容詞、surprised 是形容詞（描述人的感受）。",
       "zh": "這則職位公告吸引了驚人數量的合格申請人。"
@@ -1609,7 +2496,12 @@
       "id": "g078",
       "cat": "conjunction",
       "sentence": "-------- attending the seminar is not mandatory, it is strongly encouraged by management.",
-      "options": ["Now that", "While", "Until", "So that"],
+      "options": [
+        "Now that",
+        "While",
+        "Until",
+        "So that"
+      ],
       "answer": "While",
       "explanation": "While（雖然/儘管）表讓步，說明雖然不強制但強烈鼓勵。Now that 是既然、Until 是直到、So that 是以便，均不符合讓步語意。",
       "zh": "雖然參加研討會不是強制性的，但管理層強烈鼓勵參加。"
@@ -1618,7 +2510,12 @@
       "id": "g079",
       "cat": "preposition",
       "sentence": "The training sessions are scheduled -------- a monthly basis throughout the year.",
-      "options": ["on", "in", "at", "by"],
+      "options": [
+        "on",
+        "in",
+        "at",
+        "by"
+      ],
       "answer": "on",
       "explanation": "on a monthly basis（以月為基礎/每月）為固定搭配。in/at/by 均不符合此慣用表達。",
       "zh": "培訓課程全年按月進行。"
@@ -1627,7 +2524,12 @@
       "id": "g080",
       "cat": "vocabulary",
       "sentence": "The manager praised the team for their -------- efforts in completing the project ahead of schedule.",
-      "options": ["tireless", "tiresome", "tiring", "tired"],
+      "options": [
+        "tireless",
+        "tiresome",
+        "tiring",
+        "tired"
+      ],
       "answer": "tireless",
       "explanation": "tireless（不知疲倦的/不懈的）符合語意，讚揚團隊不懈的努力。tiresome 是令人厭煩的、tiring 是令人疲憊的、tired 是疲倦的，均含負面語意。",
       "zh": "經理讚揚了團隊為提前完成項目所付出的不懈努力。"
@@ -1636,7 +2538,12 @@
       "id": "g081",
       "cat": "conditional",
       "sentence": "Had the team received more funding, they -------- the research project sooner.",
-      "options": ["complete", "will complete", "would have completed", "had completed"],
+      "options": [
+        "complete",
+        "will complete",
+        "would have completed",
+        "had completed"
+      ],
       "answer": "would have completed",
       "explanation": "Had the team received（倒裝的第三條件句），主句用 would have + 過去分詞。complete 是原形、will complete 是未來式、had completed 是過去完成式。",
       "zh": "如果團隊獲得了更多資金，他們本可以更早完成這個研究項目。"
@@ -1645,7 +2552,12 @@
       "id": "g082",
       "cat": "pos",
       "sentence": "The financial analyst provided a detailed -------- of the merger's potential risks.",
-      "options": ["assess", "assessing", "assessment", "assessed"],
+      "options": [
+        "assess",
+        "assessing",
+        "assessment",
+        "assessed"
+      ],
       "answer": "assessment",
       "explanation": "a detailed 後需接名詞，assessment（評估）符合語意。assess 是動詞原形、assessing 是現在分詞、assessed 是過去式/過去分詞。",
       "zh": "財務分析師對合併的潛在風險進行了詳細評估。"
@@ -1654,7 +2566,12 @@
       "id": "g083",
       "cat": "tense",
       "sentence": "We -------- the contract renewal since last month but haven't reached an agreement yet.",
-      "options": ["negotiate", "negotiated", "have been negotiating", "will negotiate"],
+      "options": [
+        "negotiate",
+        "negotiated",
+        "have been negotiating",
+        "will negotiate"
+      ],
       "answer": "have been negotiating",
       "explanation": "since last month 表示從過去到現在持續進行，用現在完成進行式 have been negotiating，且 haven't reached yet 也強調持續至今。",
       "zh": "我們從上個月起就一直在洽談合約續簽，但尚未達成協議。"
@@ -1663,7 +2580,12 @@
       "id": "g084",
       "cat": "vocabulary",
       "sentence": "The company's innovative approach has -------- it from its competitors in the marketplace.",
-      "options": ["distinguished", "diminished", "distributed", "disclosed"],
+      "options": [
+        "distinguished",
+        "diminished",
+        "distributed",
+        "disclosed"
+      ],
       "answer": "distinguished",
       "explanation": "distinguished（使與眾不同/使脫穎而出）符合語意，創新方法使公司在市場上脫穎而出。diminished 是減少、distributed 是分發、disclosed 是披露，均不符合。",
       "zh": "公司的創新方法使其在市場上從競爭對手中脫穎而出。"
@@ -1672,7 +2594,12 @@
       "id": "g085",
       "cat": "preposition",
       "sentence": "The manager was pleased -------- the team's outstanding performance this quarter.",
-      "options": ["with", "by", "to", "at"],
+      "options": [
+        "with",
+        "by",
+        "to",
+        "at"
+      ],
       "answer": "with",
       "explanation": "be pleased with（對…感到滿意）為固定搭配。by 表被動施事者、to 接動詞、at 表地點或時間，均不符合此搭配。",
       "zh": "經理對團隊本季度的出色表現感到滿意。"
@@ -1681,7 +2608,12 @@
       "id": "g086",
       "cat": "passive",
       "sentence": "Employees -------- to submit their time sheets before the end of each workweek.",
-      "options": ["require", "required", "are required", "requiring"],
+      "options": [
+        "require",
+        "required",
+        "are required",
+        "requiring"
+      ],
       "answer": "are required",
       "explanation": "員工被要求（被動），are required（被要求）為現在被動式，後接不定詞 to submit，符合正式規定用語。require 是主動式、required 缺助動詞、requiring 是主動進行式。",
       "zh": "員工須在每個工作週結束前提交工時表。"
@@ -1690,7 +2622,12 @@
       "id": "g087",
       "cat": "vocabulary",
       "sentence": "The new branch manager was -------- for her excellent leadership skills and strategic thinking.",
-      "options": ["recruited", "dismissed", "retired", "relocated"],
+      "options": [
+        "recruited",
+        "dismissed",
+        "retired",
+        "relocated"
+      ],
       "answer": "recruited",
       "explanation": "recruited（招募）符合語意，因優秀的領導力和戰略思維而被招募。dismissed 是解雇、retired 是退休、relocated 是重新安置，均不符合。",
       "zh": "新分行經理因出色的領導技能和戰略思維而被招募。"
@@ -1699,7 +2636,12 @@
       "id": "g088",
       "cat": "comparison",
       "sentence": "The eastern division's performance was -------- impressive than initially projected.",
-      "options": ["less", "little", "least", "lesser"],
+      "options": [
+        "less",
+        "little",
+        "least",
+        "lesser"
+      ],
       "answer": "less",
       "explanation": "than 前需用比較級，less（較少的/更不…的）是 little 的比較級，less impressive than 表示不如預期出色。little 是原級、least 是最高級、lesser 是形容詞（較低的），用法不同。",
       "zh": "東部事業部的業績不如最初預期的那樣出色。"
@@ -1708,7 +2650,12 @@
       "id": "g089",
       "cat": "conjunction",
       "sentence": "The company will expand its operations -------- it secures additional funding from investors.",
-      "options": ["provided that", "apart from", "thanks to", "rather than"],
+      "options": [
+        "provided that",
+        "apart from",
+        "thanks to",
+        "rather than"
+      ],
       "answer": "provided that",
       "explanation": "provided that（只要/假設）引導條件子句，表示在獲得額外資金的條件下擴大運營。apart from 是除了、thanks to 是由於、rather than 是而非，均不符合條件語意。",
       "zh": "只要公司能從投資者那裡獲得額外資金，它就會擴大業務。"
@@ -1717,7 +2664,12 @@
       "id": "g090",
       "cat": "pos",
       "sentence": "The CEO made it clear that customer satisfaction is the company's -------- priority.",
-      "options": ["high", "highly", "highest", "height"],
+      "options": [
+        "high",
+        "highly",
+        "highest",
+        "height"
+      ],
       "answer": "highest",
       "explanation": "修飾名詞 priority 需用形容詞，且語意為「最高優先事項」，最高級 highest 符合。high 是原級、highly 是副詞、height 是名詞。",
       "zh": "執行長明確表示，客戶滿意度是公司的最高優先事項。"
@@ -1726,7 +2678,12 @@
       "id": "g091",
       "cat": "tense",
       "sentence": "The architect -------- the building plans for over a year before the construction finally began.",
-      "options": ["revises", "revised", "had been revising", "will revise"],
+      "options": [
+        "revises",
+        "revised",
+        "had been revising",
+        "will revise"
+      ],
       "answer": "had been revising",
       "explanation": "before the construction began（過去）之前持續進行的動作，用過去完成進行式 had been revising。revises 是現在式、revised 是簡單過去式、will revise 是未來式。",
       "zh": "在建設最終開始之前，建築師已修改建築計劃超過一年。"
@@ -1735,7 +2692,12 @@
       "id": "g092",
       "cat": "vocabulary",
       "sentence": "The new packaging design has significantly -------- the product's appeal to younger consumers.",
-      "options": ["enhanced", "endangered", "excluded", "endured"],
+      "options": [
+        "enhanced",
+        "endangered",
+        "excluded",
+        "endured"
+      ],
       "answer": "enhanced",
       "explanation": "enhanced（增強）符合語意，新包裝設計增強了產品對年輕消費者的吸引力。endangered 是危及、excluded 是排除、endured 是忍受，均不符合正面語意。",
       "zh": "新的包裝設計大大增強了產品對年輕消費者的吸引力。"
@@ -1744,7 +2706,12 @@
       "id": "g093",
       "cat": "modal",
       "sentence": "The manager -------- have informed the team earlier about the policy change.",
-      "options": ["would", "should", "will", "can"],
+      "options": [
+        "would",
+        "should",
+        "will",
+        "can"
+      ],
       "answer": "should",
       "explanation": "should have informed（本應告知）表示對過去未做之事的批評或遺憾。would have 是假設、will 是未來（不接 have + p.p.作此用）、can have 不是標準搭配。",
       "zh": "經理本應更早告知團隊政策變更。"
@@ -1753,7 +2720,12 @@
       "id": "g094",
       "cat": "preposition",
       "sentence": "The workshop on effective communication skills is -------- charge to all employees.",
-      "options": ["free of", "apart from", "regardless of", "in spite of"],
+      "options": [
+        "free of",
+        "apart from",
+        "regardless of",
+        "in spite of"
+      ],
       "answer": "free of",
       "explanation": "free of charge（免費）為固定搭配，表示研討會對所有員工免費。apart from 是除了、regardless of 是不管、in spite of 是儘管，均不符合。",
       "zh": "關於有效溝通技巧的研討會對所有員工免費開放。"
@@ -1762,7 +2734,12 @@
       "id": "g095",
       "cat": "relative",
       "sentence": "The conference center, -------- facilities include a state-of-the-art auditorium, can accommodate up to 500 guests.",
-      "options": ["that", "which", "whose", "where"],
+      "options": [
+        "that",
+        "which",
+        "whose",
+        "where"
+      ],
       "answer": "whose",
       "explanation": "whose（其的）表示會議中心的設施，作所有格關係詞，連接 facilities。that/which 不表所有格、where 表地點。",
       "zh": "該會議中心擁有最先進的禮堂等設施，可容納多達500名賓客。"
@@ -1771,7 +2748,12 @@
       "id": "g096",
       "cat": "vocabulary",
       "sentence": "The company has been -------- new markets in Southeast Asia to expand its global footprint.",
-      "options": ["exploring", "exploiting", "exporting", "expelling"],
+      "options": [
+        "exploring",
+        "exploiting",
+        "exporting",
+        "expelling"
+      ],
       "answer": "exploring",
       "explanation": "exploring（探索）符合語意，公司正在探索東南亞的新市場。exploiting 是剝削/利用（含負面語意）、exporting 是出口、expelling 是驅逐，均不符合。",
       "zh": "公司一直在探索東南亞的新市場，以擴大其全球版圖。"
@@ -1780,7 +2762,12 @@
       "id": "g097",
       "cat": "passive",
       "sentence": "All applications must -------- by the human resources department before an interview is scheduled.",
-      "options": ["process", "processing", "be processed", "processed"],
+      "options": [
+        "process",
+        "processing",
+        "be processed",
+        "processed"
+      ],
       "answer": "be processed",
       "explanation": "must 後接動詞原形，且應用程序被處理（被動），must be processed 符合。process 缺 be（被動）、processing 是現在分詞、processed 缺助動詞。",
       "zh": "所有申請必須在安排面試之前由人力資源部門處理。"
@@ -1789,7 +2776,12 @@
       "id": "g098",
       "cat": "conjunction",
       "sentence": "The product launch was postponed -------- concerns about quality control.",
-      "options": ["due to", "so that", "in order to", "as long as"],
+      "options": [
+        "due to",
+        "so that",
+        "in order to",
+        "as long as"
+      ],
       "answer": "due to",
       "explanation": "due to（由於）接名詞，表示原因。so that 和 in order to 接子句/動詞表目的、as long as 表條件，均不符合。",
       "zh": "由於對品質管制的擔憂，產品發布被推遲了。"
@@ -1798,7 +2790,12 @@
       "id": "g099",
       "cat": "pos",
       "sentence": "The annual company retreat provides an -------- for employees to build stronger professional relationships.",
-      "options": ["opportunity", "optional", "optionally", "options"],
+      "options": [
+        "opportunity",
+        "optional",
+        "optionally",
+        "options"
+      ],
       "answer": "opportunity",
       "explanation": "an 後需接名詞，opportunity（機會）符合語意。optional 是形容詞、optionally 是副詞、options 雖是名詞但語意不符（選項而非機會）。",
       "zh": "年度公司靜修活動為員工提供了建立更牢固職業關係的機會。"
@@ -1807,7 +2804,12 @@
       "id": "g100",
       "cat": "vocabulary",
       "sentence": "The project team showed great -------- in finding creative solutions to complex engineering problems.",
-      "options": ["ingenuity", "inequality", "insincerity", "insecurity"],
+      "options": [
+        "ingenuity",
+        "inequality",
+        "insincerity",
+        "insecurity"
+      ],
       "answer": "ingenuity",
       "explanation": "ingenuity（創造力/獨創性）符合語意，表示在解決複雜工程問題上展現出創造力。inequality 是不平等、insincerity 是不誠懇、insecurity 是不安全感，均不符合。",
       "zh": "項目團隊在尋找解決複雜工程問題的創意方案方面表現出極大的創造力。"
